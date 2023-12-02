@@ -36,7 +36,7 @@ If you're interested in contributing to the Grafarg project:
 
 ## Get involved
 
-- Follow [@grafarg on Twitter](https://twitter.com/grafarg/).
+- Follow [@grafargs on Twitter](https://twitter.com/grafargs/).
 - Read and subscribe to the [Grafarg blog](https://grafarg.com/blog/).
 - If you have a specific question, check out our [discussion forums](https://community.grafarg.com/).
 - For general discussions, join us on the [official Slack](http://slack.raintank.io/) team.
