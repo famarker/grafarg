@@ -1,0 +1,6 @@
+{
+  "extends": ["@grafarg/eslint-config"],
+  "rules": {
+    "react/prop-types": "off"
+  }
+}

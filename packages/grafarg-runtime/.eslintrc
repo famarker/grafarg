@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "no-restricted-imports": ["error", { "patterns": ["@grafarg/runtime", "@grafarg/data/*", "@grafarg/ui/*", "@grafarg/e2e/*"] }]
+  }
+}

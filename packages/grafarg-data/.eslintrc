@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "no-restricted-imports": ["error", { "patterns": ["@grafarg/runtime", "@grafarg/ui", "@grafarg/data", "@grafarg/e2e/*"] }]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.{ts,tsx}"],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ]
+}
