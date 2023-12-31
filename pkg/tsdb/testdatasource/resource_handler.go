@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/infra/log"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend/resource/httpadapter"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend/resource/httpadapter"
 )
 
 func (p *testDataPlugin) registerRoutes(mux *http.ServeMux) {

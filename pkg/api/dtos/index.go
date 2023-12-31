@@ -1,7 +1,7 @@
 package dtos
 
 import (
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 
 	"html/template"
 )

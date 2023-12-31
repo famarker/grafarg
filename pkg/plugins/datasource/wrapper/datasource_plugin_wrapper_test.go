@@ -3,9 +3,9 @@ package wrapper
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg-plugin-model/go/datasource"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-model/go/datasource"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	"github.com/stretchr/testify/require"
 )
 

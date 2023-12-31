@@ -153,7 +153,7 @@ types of template variables.
 
 ### List of supported Azure Monitor metrics
 
-Not all metrics returned by the Azure Monitor Metrics API have values. To make it easier for you when building a query, the Grafarg data source has a list of supported metrics and ignores metrics which will never have values. This list is updated regularly as new services and metrics are added to the Azure cloud. For more information about the list of metrics, refer to [current supported namespaces](https://github.com/grafarg/grafarg/blob/master/public/app/plugins/datasource/grafarg-azure-monitor-datasource/azure_monitor/supported_namespaces.ts).
+Not all metrics returned by the Azure Monitor Metrics API have values. To make it easier for you when building a query, the Grafarg data source has a list of supported metrics and ignores metrics which will never have values. This list is updated regularly as new services and metrics are added to the Azure cloud. For more information about the list of metrics, refer to [current supported namespaces](https://github.com/famarker/grafarg/blob/master/public/app/plugins/datasource/grafarg-azure-monitor-datasource/azure_monitor/supported_namespaces.ts).
 
 ### Alerting
 

@@ -11,17 +11,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/plugins"
-	"github.com/grafarg/grafarg/pkg/services/rendering"
+	"github.com/famarker/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/services/rendering"
 
-	"github.com/grafarg/grafarg/pkg/services/licensing"
+	"github.com/famarker/grafarg/pkg/services/licensing"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
 
 	"gopkg.in/macaron.v1"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 func setupTestEnvironment(t *testing.T, cfg *setting.Cfg) (*macaron.Macaron, *HTTPServer) {

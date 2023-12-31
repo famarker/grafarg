@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/services/annotations"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/services/annotations"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

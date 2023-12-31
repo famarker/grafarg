@@ -11,7 +11,7 @@ It's written for:
 - Plugin authors who want to migrate their plugins to Grafarg 7.0+.
 - Plugin users who are using custom plugins and want to know whether they can upgrade to Grafarg 7.0 without losing functionality.
 
-> If you've successfully migrated your plugin from Angular to React, please [submit an issue on GitHub](https://github.com/grafarg/grafarg/issues/new?title=Docs%20feedback:%20/developers/plugins/migration-guide.md) and share your experiences with us so that we can improve this guide!
+> If you've successfully migrated your plugin from Angular to React, please [submit an issue on GitHub](https://github.com/famarker/grafarg/issues/new?title=Docs%20feedback:%20/developers/plugins/migration-guide.md) and share your experiences with us so that we can improve this guide!
 
 ## What's new in Grafarg 7.0?
 

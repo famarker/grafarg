@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

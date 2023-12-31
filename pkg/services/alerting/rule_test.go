@@ -3,9 +3,9 @@ package alerting
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

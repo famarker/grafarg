@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/components/null"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	es "github.com/grafarg/grafarg/pkg/tsdb/elasticsearch/client"
+	"github.com/famarker/grafarg/pkg/components/null"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	es "github.com/famarker/grafarg/pkg/tsdb/elasticsearch/client"
 
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

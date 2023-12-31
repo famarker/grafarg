@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/events"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/events"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 var mailTemplates *template.Template

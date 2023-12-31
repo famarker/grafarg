@@ -9,7 +9,7 @@ There’s a physical wire protocol that Grafarg server uses to communicate with 
 
 We advise for backend plugins to not be implemented directly against this protocol. Instead, prefer to use the [Grafarg Plugin SDK for Go]({{< relref "grafarg-plugin-sdk-for-go.md" >}}) that implements this protocol and provides higher level APIs.
 
-The plugin protocol is available in the [GitHub repository](https://github.com/grafarg/grafarg-plugin-sdk-go/blob/master/proto/backend.proto). The plugin protocol lives in the [Grafarg Plugin SDK for Go]({{< relref "grafarg-plugin-sdk-for-go.md" >}}) since Grafarg itself uses parts of the SDK as a dependency.
+The plugin protocol is available in the [GitHub repository](https://github.com/famarker/grafarg-plugin-sdk-go/blob/master/proto/backend.proto). The plugin protocol lives in the [Grafarg Plugin SDK for Go]({{< relref "grafarg-plugin-sdk-for-go.md" >}}) since Grafarg itself uses parts of the SDK as a dependency.
 
 ## Versioning
 

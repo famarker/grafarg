@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"

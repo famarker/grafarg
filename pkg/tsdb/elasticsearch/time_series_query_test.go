@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	es "github.com/grafarg/grafarg/pkg/tsdb/elasticsearch/client"
+	es "github.com/famarker/grafarg/pkg/tsdb/elasticsearch/client"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

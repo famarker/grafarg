@@ -3,7 +3,7 @@ package classic
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 	"github.com/stretchr/testify/require"
 	ptr "github.com/xorcare/pointer"
 )

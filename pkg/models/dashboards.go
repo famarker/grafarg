@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/gosimple/slug"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 const RootFolderName = "General"

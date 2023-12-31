@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )
@@ -96,7 +96,7 @@ func runnerFromDataSource(dsInfo *models.DataSource) (*runner, error) {
 
 // backendDataResponseToTSDBResponse takes the SDK's style response and changes it into a
 // tsdb.QueryResult. This is a wrapper so less of existing code needs to be changed. This should
-// be able to be removed in the near future https://github.com/grafarg/grafarg/pull/25472.
+// be able to be removed in the near future https://github.com/famarker/grafarg/pull/25472.
 func backendDataResponseToTSDBResponse(dr *backend.DataResponse, refID string) *tsdb.QueryResult {
 	qr := &tsdb.QueryResult{RefId: refID}
 

@@ -3,10 +3,10 @@ package alerting
 import (
 	"sync"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 type ruleReader interface {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // Resample turns the Series into a Number based on the given reduction function

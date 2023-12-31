@@ -6,11 +6,11 @@ import (
 	"path"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/api/dtos"
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/api/dtos"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 // createShortURL handles requests to create short URLs.

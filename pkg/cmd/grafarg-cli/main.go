@@ -6,10 +6,10 @@ import (
 	"runtime"
 
 	"github.com/fatih/color"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/commands"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/commands"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 	"github.com/urfave/cli/v2"
 )
 

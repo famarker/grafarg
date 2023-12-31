@@ -19,9 +19,9 @@ For more ways to contribute, check out the [Open Source Guides](https://opensour
 
 ### Report bugs
 
-Before submitting a new issue, try to make sure someone hasn't already reported the problem. Look through the [existing issues](https://github.com/grafarg/grafarg/issues) for similar issues.
+Before submitting a new issue, try to make sure someone hasn't already reported the problem. Look through the [existing issues](https://github.com/famarker/grafarg/issues) for similar issues.
 
-Report a bug by submitting a [bug report](https://github.com/grafarg/grafarg/issues/new?labels=type%3A+bug&template=1-bug_report.md). Make sure that you provide as much information as possible on how to reproduce the bug.
+Report a bug by submitting a [bug report](https://github.com/famarker/grafarg/issues/new?labels=type%3A+bug&template=1-bug_report.md). Make sure that you provide as much information as possible on how to reproduce the bug.
 
 Follow the issue template and add additional information that will help us replicate the problem.
 
@@ -36,13 +36,13 @@ For authentication and alerting Grafarg server logs are useful.
 
 #### Security issues
 
-If you believe you've found a security vulnerability, please read our [security policy](https://github.com/grafarg/grafarg/security/policy) for more details.
+If you believe you've found a security vulnerability, please read our [security policy](https://github.com/famarker/grafarg/security/policy) for more details.
 
 ### Suggest enhancements
 
-If you have an idea of how to improve Grafarg, submit an [enhancement request](https://github.com/grafarg/grafarg/issues/new?labels=type%3A+feature+request&template=2-feature_request.md).
+If you have an idea of how to improve Grafarg, submit an [enhancement request](https://github.com/famarker/grafarg/issues/new?labels=type%3A+feature+request&template=2-feature_request.md).
 
-We want to make Grafarg accessible to even more people. Submit an [accessibility issue](https://github.com/grafarg/grafarg/issues/new?labels=type%3A+accessibility&template=3-accessibility.md) to help us understand what we can improve.
+We want to make Grafarg accessible to even more people. Submit an [accessibility issue](https://github.com/famarker/grafarg/issues/new?labels=type%3A+accessibility&template=3-accessibility.md) to help us understand what we can improve.
 
 ### Triage issues
 
@@ -60,8 +60,8 @@ It's important to us to help these users, and we'd love your help. Sign up to ou
 
 Unsure where to begin contributing to Grafarg? Start by browsing issues labeled `beginner friendly` or `help wanted`.
 
-- [Beginner-friendly](https://github.com/grafarg/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22) issues are generally straightforward to complete.
-- [Help wanted](https://github.com/grafarg/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) issues are problems we would like the community to help us with regardless of complexity.
+- [Beginner-friendly](https://github.com/famarker/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22) issues are generally straightforward to complete.
+- [Help wanted](https://github.com/famarker/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) issues are problems we would like the community to help us with regardless of complexity.
 
 If you're looking to make a code change, see how to set up your environment for [local development](contribute/developer-guide.md).
 
@@ -76,4 +76,4 @@ Before we can accept your pull request, you need to [sign our CLA](https://grafa
 - Set up your [development environment](contribute/developer-guide.md).
 - Learn how to [contribute documentation](contribute/documentation.md).
 - Get started [developing plugins](https://grafarg.com/docs/grafarg/latest/developers/plugins/) for Grafarg.
-- Look through the resources in the [contribute](https://github.com/grafarg/grafarg/tree/master/contribute) folder.
+- Look through the resources in the [contribute](https://github.com/famarker/grafarg/tree/master/contribute) folder.

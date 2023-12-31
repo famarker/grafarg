@@ -3,7 +3,7 @@ package mathexp
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 	"github.com/stretchr/testify/assert"
 )
 

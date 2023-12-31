@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 func Sum(v *data.Field) *float64 {

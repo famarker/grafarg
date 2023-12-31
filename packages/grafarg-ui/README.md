@@ -2,11 +2,11 @@
 
 > **@grafarg/ui is currently in BETA**.
 
-@grafarg/ui is a collection of components used by [Grafarg](https://github.com/grafarg/grafarg)
+@grafarg/ui is a collection of components used by [Grafarg](https://github.com/famarker/grafarg)
 
 Our goal is to deliver Grafarg's common UI elements for plugins developers and contributors.
 
-See [package source](https://github.com/grafarg/grafarg/tree/master/packages/grafarg-ui) for more details.
+See [package source](https://github.com/famarker/grafarg/tree/master/packages/grafarg-ui) for more details.
 
 ## Installation
 
@@ -20,4 +20,4 @@ For development purposes we suggest using `yarn link` that will create symlink t
 
 ### Storybook 6.x migration
 
-We've upgraded Storybook to version 6 and with that we will convert to using [controls](https://storybook.js.org/docs/react/essentials/controls) instead of knobs for manipulating components. Controls will not require as much coding as knobs do. Please refer to the [storybook style-guide](https://github.com/grafarg/grafarg/blob/master/contribute/style-guides/storybook.md#contrls) for further information.
+We've upgraded Storybook to version 6 and with that we will convert to using [controls](https://storybook.js.org/docs/react/essentials/controls) instead of knobs for manipulating components. Controls will not require as much coding as knobs do. Please refer to the [storybook style-guide](https://github.com/famarker/grafarg/blob/master/contribute/style-guides/storybook.md#contrls) for further information.

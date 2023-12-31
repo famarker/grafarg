@@ -11,21 +11,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/api/datasource"
-	"github.com/grafarg/grafarg/pkg/components/securejsondata"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/api/datasource"
+	"github.com/famarker/grafarg/pkg/components/securejsondata"
+	"github.com/famarker/grafarg/pkg/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	"golang.org/x/oauth2"
 	macaron "gopkg.in/macaron.v1"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/login/social"
-	"github.com/grafarg/grafarg/pkg/plugins"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/login/social"
+	"github.com/famarker/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 func TestDataSourceProxy_routeRule(t *testing.T) {

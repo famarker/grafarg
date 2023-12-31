@@ -3,14 +3,14 @@ package librarypanels
 import (
 	"fmt"
 
-	"github.com/grafarg/grafarg/pkg/api/routing"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/api/routing"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 // LibraryPanelService is the service for the Panel Library feature.

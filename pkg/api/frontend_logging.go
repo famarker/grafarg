@@ -2,10 +2,10 @@ package api
 
 import (
 	"github.com/getsentry/sentry-go"
-	"github.com/grafarg/grafarg/pkg/api/frontendlogging"
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/api/frontendlogging"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 var frontendLogger = log.New("frontend")

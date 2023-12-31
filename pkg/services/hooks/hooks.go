@@ -1,9 +1,9 @@
 package hooks
 
 import (
-	"github.com/grafarg/grafarg/pkg/api/dtos"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/api/dtos"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/registry"
 )
 
 type IndexDataHook func(indexData *dtos.IndexViewData, req *models.ReqContext)

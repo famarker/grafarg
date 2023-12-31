@@ -5,14 +5,14 @@ import (
 	"sync"
 
 	"github.com/centrifugal/centrifuge"
-	"github.com/grafarg/grafarg/pkg/api/routing"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins"
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/services/live/features"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/tsdb/cloudwatch"
+	"github.com/famarker/grafarg/pkg/api/routing"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/services/live/features"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/tsdb/cloudwatch"
 )
 
 var (

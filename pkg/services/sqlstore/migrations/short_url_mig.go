@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	. "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+	. "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 )
 
 func addShortURLMigrations(mg *Migrator) {

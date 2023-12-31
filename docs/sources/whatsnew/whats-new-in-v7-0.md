@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v7.0
 
-This topic includes the release notes for Grafarg v7.0. For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+This topic includes the release notes for Grafarg v7.0. For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 This major release of Grafarg is the next step in our Observability story. It includes powerful new features for manipulating, transforming, and doing math on data. Grafarg Enterprise has the first version of Usage analytics, which will help Grafarg Admins better manage large, corporate Grafarg ecosystems.
 
@@ -226,4 +226,4 @@ See [upgrade notes]({{< relref "../installation/upgrading/#upgrading-to-v7-0" >}
 
 ## Changelog
 
-Check out [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
+Check out [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.

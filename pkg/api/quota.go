@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 func GetOrgQuotas(c *models.ReqContext) response.Response {

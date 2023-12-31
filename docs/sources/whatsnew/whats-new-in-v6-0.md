@@ -31,7 +31,7 @@ The main highlights are:
 
 Grafarg's dashboard UI is all about building dashboards for visualization. **Explore** strips away all the dashboard and panel options so that you can focus on the query and metric exploration. Iterate until you have a working query and then think about building a dashboard. You can also jump from a dashboard panel into **Explore** and from there do some ad-hoc query exploration with the panel queries as a starting point.
 
-For infrastructure monitoring and incident response, you no longer need to switch to other tools to debug what went wrong. **Explore** allows you to dig deeper into your metrics and logs to find the cause. Grafarg's new logging data source, [Loki](https://github.com/grafarg/loki) is tightly integrated into Explore and allows you to correlate metrics and logs by viewing them side-by-side.
+For infrastructure monitoring and incident response, you no longer need to switch to other tools to debug what went wrong. **Explore** allows you to dig deeper into your metrics and logs to find the cause. Grafarg's new logging data source, [Loki](https://github.com/famarker/loki) is tightly integrated into Explore and allows you to correlate metrics and logs by viewing them side-by-side.
 
 **Explore** is a new paradigm for Grafarg. It creates a new interactive debugging workflow that integrates two pillars
 of observability—metrics and logs. Explore works with every data source but for Prometheus we have customized the
@@ -55,11 +55,11 @@ Explore supports splitting the view so you can compare different queries, differ
 ### Explore and Grafarg Loki
 
 The log exploration and visualization features in Explore are available to any data source but are currently only implemented by the new open source log
-aggregation system from Grafarg Lab called [Grafarg Loki](https://github.com/grafarg/loki).
+aggregation system from Grafarg Lab called [Grafarg Loki](https://github.com/famarker/loki).
 
 Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective, as it does not index the contents of the logs, but rather a set of labels for each log stream. The logs from Loki are queried in a similar way to querying with label selectors in Prometheus. It uses labels to group log streams which can be made to match up with your Prometheus labels.
 
-For more information about Grafarg Loki, refer to [Github Grafarg Loki](https://github.com/grafarg/loki) or [Grafarg Labs hosted Loki](https://grafarg.com/loki).
+For more information about Grafarg Loki, refer to [Github Grafarg Loki](https://github.com/famarker/loki) or [Grafarg Labs hosted Loki](https://grafarg.com/loki).
 
 The Explore feature allows you to query logs and features a new log panel. In the near future, we will be adding support
 for other log sources to Explore and the next planned integration is Elasticsearch.
@@ -171,4 +171,4 @@ See [upgrade notes](/installation/upgrading/#upgrading-to-v6-0).
 
 ## Changelog
 
-Check out the [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file for a complete list of new features, changes, and bug fixes.
+Check out the [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file for a complete list of new features, changes, and bug fixes.

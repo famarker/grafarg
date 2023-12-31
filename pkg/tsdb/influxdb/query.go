@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 var (

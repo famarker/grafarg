@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 	"gopkg.in/ini.v1"
 
 	"github.com/stretchr/testify/assert"

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 )
 
 // ConditionsCmd is command for the classic conditions

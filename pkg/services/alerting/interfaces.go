@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 type evalHandler interface {

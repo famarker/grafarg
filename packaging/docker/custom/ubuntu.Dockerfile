@@ -33,7 +33,7 @@ ENV GF_RENDERER_PLUGIN_CHROME_BIN="/usr/bin/google-chrome"
 RUN if [ $GF_INSTALL_IMAGE_RENDERER_PLUGIN = "true" ]; then \
     grafarg-cli \
         --pluginsDir "$GF_PATHS_PLUGINS" \
-        --pluginUrl https://github.com/grafarg/grafarg-image-renderer/releases/latest/download/plugin-linux-x64-glibc-no-chromium.zip \
+        --pluginUrl https://github.com/famarker/grafarg-image-renderer/releases/latest/download/plugin-linux-x64-glibc-no-chromium.zip \
         plugins install grafarg-image-renderer; \
 fi
 

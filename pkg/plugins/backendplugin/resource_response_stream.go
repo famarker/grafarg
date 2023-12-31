@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
 )
 
 func newCallResourceResponseStream(ctx context.Context) *callResourceResponseStream {

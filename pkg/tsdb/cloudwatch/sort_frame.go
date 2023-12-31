@@ -3,7 +3,7 @@ package cloudwatch
 import (
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // ByTime implements sort.Interface for data.Frame based on the frame's time field

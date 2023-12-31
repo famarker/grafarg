@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/grafarg/grafarg/pkg/api/dtos"
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/api/dtos"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 func AdminCreateUser(c *models.ReqContext, form dtos.AdminCreateUserForm) response.Response {

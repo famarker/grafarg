@@ -1,4 +1,4 @@
-module github.com/grafarg/grafarg/dashboard-schemas
+module github.com/famarker/grafarg/dashboard-schemas
 
 go 1.15
 

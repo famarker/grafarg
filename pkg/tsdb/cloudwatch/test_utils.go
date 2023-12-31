@@ -14,11 +14,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
 	"github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi"
 	"github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi/resourcegroupstaggingapiiface"
-	"github.com/grafarg/grafarg-aws-sdk/pkg/awsds"
-	"github.com/grafarg/grafarg/pkg/components/securejsondata"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg-aws-sdk/pkg/awsds"
+	"github.com/famarker/grafarg/pkg/components/securejsondata"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 type fakeDataSourceCfg struct {

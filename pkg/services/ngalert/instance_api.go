@@ -1,8 +1,8 @@
 package ngalert
 
 import (
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 // listAlertInstancesEndpoint handles GET /api/alert-instances.

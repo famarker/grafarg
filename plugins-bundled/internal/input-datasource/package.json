@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "http://github.com/grafarg/grafarg.git"
+    "url": "http://github.com/famarker/grafarg.git"
   },
   "scripts": {
     "build": "grafarg-toolkit plugin:build",

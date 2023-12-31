@@ -3,7 +3,7 @@ package es
 import (
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 // SearchRequestBuilder represents a builder which can build a search request

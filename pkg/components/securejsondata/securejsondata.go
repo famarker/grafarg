@@ -1,9 +1,9 @@
 package securejsondata
 
 import (
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 // SecureJsonData is used to store encrypted data (for example in data_source table). Only values are separately

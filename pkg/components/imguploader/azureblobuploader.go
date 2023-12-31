@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 type AzureBlobUploader struct {

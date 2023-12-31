@@ -15,12 +15,12 @@ import (
 	"github.com/aws/aws-sdk-go/service/servicequotas/servicequotasiface"
 	"github.com/centrifugal/centrifuge"
 	"github.com/google/uuid"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	"github.com/grafarg/grafarg/pkg/util/retryer"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/util/retryer"
 	"golang.org/x/sync/errgroup"
 )
 

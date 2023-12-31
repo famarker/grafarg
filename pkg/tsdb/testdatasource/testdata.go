@@ -3,13 +3,13 @@ package testdatasource
 import (
 	"net/http"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend/datasource"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend/resource/httpadapter"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin/coreplugin"
-	"github.com/grafarg/grafarg/pkg/registry"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend/datasource"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend/resource/httpadapter"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin/coreplugin"
+	"github.com/famarker/grafarg/pkg/registry"
 )
 
 func init() {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/services/validations"
+	"github.com/famarker/grafarg/pkg/services/validations"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

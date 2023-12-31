@@ -15,10 +15,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 // Known AWS regions.

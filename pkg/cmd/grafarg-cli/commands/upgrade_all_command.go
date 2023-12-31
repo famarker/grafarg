@@ -1,10 +1,10 @@
 package commands
 
 import (
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 	"github.com/hashicorp/go-version"
 )
 

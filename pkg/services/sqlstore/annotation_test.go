@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/services/annotations"
+	"github.com/famarker/grafarg/pkg/services/annotations"
 )
 
 func TestAnnotations(t *testing.T) {

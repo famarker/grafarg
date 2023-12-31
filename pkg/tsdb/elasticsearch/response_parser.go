@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/components/null"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	es "github.com/grafarg/grafarg/pkg/tsdb/elasticsearch/client"
+	"github.com/famarker/grafarg/pkg/components/null"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	es "github.com/famarker/grafarg/pkg/tsdb/elasticsearch/client"
 )
 
 const (

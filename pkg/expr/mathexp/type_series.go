@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp/parse"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/expr/mathexp/parse"
 )
 
 // Series has time.Time and ...? *float64 fields.

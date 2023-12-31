@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs/cloudwatchlogsiface"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/tsdb"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

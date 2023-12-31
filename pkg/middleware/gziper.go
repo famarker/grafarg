@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/go-macaron/gzip"
-	"github.com/grafarg/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/infra/log"
 	"gopkg.in/macaron.v1"
 )
 

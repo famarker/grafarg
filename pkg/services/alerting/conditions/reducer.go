@@ -5,8 +5,8 @@ import (
 
 	"sort"
 
-	"github.com/grafarg/grafarg/pkg/components/null"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/components/null"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 // queryReducer reduces a timeseries to a nullable float

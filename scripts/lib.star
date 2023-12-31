@@ -154,7 +154,7 @@ def init_steps(edition, platform, ver_mode, is_downstream=False, install_deps=Tr
                     },
                 },
                 'commands': download_grabpl_cmds + [
-                    'git clone "https://$${GITHUB_TOKEN}@github.com/grafarg/grafarg-enterprise.git"',
+                    'git clone "https://$${GITHUB_TOKEN}@github.com/famarker/grafarg-enterprise.git"',
                     'cd grafarg-enterprise',
                     'git checkout {}'.format(committish),
                 ],
@@ -1027,7 +1027,7 @@ def get_windows_steps(edition, ver_mode, is_downstream=False):
             'Invoke-WebRequest https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v{}/windows/grabpl.exe -OutFile grabpl.exe'.format(grabpl_version),
         ]
         clone_cmds = [
-            'git clone "https://$$env:GITHUB_TOKEN@github.com/grafarg/grafarg-enterprise.git"',
+            'git clone "https://$$env:GITHUB_TOKEN@github.com/famarker/grafarg-enterprise.git"',
         ]
         if not is_downstream:
             clone_cmds.extend([

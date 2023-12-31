@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/grafarg/grafarg/pkg/api/frontendlogging"
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/api/routing"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/api/frontendlogging"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/api/routing"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/setting"
 	log "github.com/inconshreveable/log15"
 
 	"github.com/stretchr/testify/assert"

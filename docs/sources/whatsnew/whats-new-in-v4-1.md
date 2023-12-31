@@ -9,13 +9,13 @@ list = false
 +++
 
 ## What's new in Grafarg v4.1
-- **Graph**: Support for shared tooltip on all graphs as you hover over one graph. [#1578](https://github.com/grafarg/grafarg/pull/1578), [#6274](https://github.com/grafarg/grafarg/pull/6274)
-- **Victorops**: Add VictorOps notification integration [#6411](https://github.com/grafarg/grafarg/issues/6411), thx [@ichekrygin](https://github.com/ichekrygin)
-- **Opsgenie**: Add OpsGenie notification integratiion [#6687](https://github.com/grafarg/grafarg/issues/6687), thx [@kylemcc](https://github.com/kylemcc)
-- **Cloudwatch**: Make it possible to specify access and secret key on the data source configuration page [#6697](https://github.com/grafarg/grafarg/issues/6697)
-- **Elasticsearch**: Added support for Elasticsearch 5.x [#5740](https://github.com/grafarg/grafarg/issues/5740), thx [@lpic10](https://github.com/lpic10)
-- **Panel**: Added help text for panels. [#4079](https://github.com/grafarg/grafarg/issues/4079), thx [@utkarshcmu](https://github.com/utkarshcmu)
-- [Full changelog](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md)
+- **Graph**: Support for shared tooltip on all graphs as you hover over one graph. [#1578](https://github.com/famarker/grafarg/pull/1578), [#6274](https://github.com/famarker/grafarg/pull/6274)
+- **Victorops**: Add VictorOps notification integration [#6411](https://github.com/famarker/grafarg/issues/6411), thx [@ichekrygin](https://github.com/ichekrygin)
+- **Opsgenie**: Add OpsGenie notification integratiion [#6687](https://github.com/famarker/grafarg/issues/6687), thx [@kylemcc](https://github.com/kylemcc)
+- **Cloudwatch**: Make it possible to specify access and secret key on the data source configuration page [#6697](https://github.com/famarker/grafarg/issues/6697)
+- **Elasticsearch**: Added support for Elasticsearch 5.x [#5740](https://github.com/famarker/grafarg/issues/5740), thx [@lpic10](https://github.com/lpic10)
+- **Panel**: Added help text for panels. [#4079](https://github.com/famarker/grafarg/issues/4079), thx [@utkarshcmu](https://github.com/utkarshcmu)
+- [Full changelog](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md)
 
 ### Shared tooltip
 
@@ -55,7 +55,7 @@ Elasticsearch 1.x is no longer supported. Please upgrade to Elasticsearch 2.x or
 
 ## Changelog
 
-Check out the [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file for a complete list
+Check out the [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.
 
 ## Download

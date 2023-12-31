@@ -6,7 +6,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

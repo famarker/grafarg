@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 func GetGrafargPluginDir(currentOS string) string {

@@ -28,9 +28,9 @@ const PluginNames: Record<PluginType, string> = {
   'backend-datasource-plugin': 'Grafarg Backend Datasource Plugin',
 };
 const RepositoriesPaths: Record<PluginType, string> = {
-  'panel-plugin': 'https://github.com/grafarg/simple-react-panel.git',
-  'datasource-plugin': 'https://github.com/grafarg/simple-datasource.git',
-  'backend-datasource-plugin': 'https://github.com/grafarg/simple-datasource-backend.git',
+  'panel-plugin': 'https://github.com/famarker/simple-react-panel.git',
+  'datasource-plugin': 'https://github.com/famarker/simple-datasource.git',
+  'backend-datasource-plugin': 'https://github.com/famarker/simple-datasource-backend.git',
 };
 const TutorialPaths: Record<PluginType, string> = {
   'panel-plugin': 'https://grafarg.com/tutorials/build-a-panel-plugin',

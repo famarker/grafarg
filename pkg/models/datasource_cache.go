@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/validations"
+	"github.com/famarker/grafarg/pkg/services/validations"
 
-	"github.com/grafarg/grafarg-aws-sdk/pkg/sigv4"
-	"github.com/grafarg/grafarg/pkg/infra/metrics/metricutil"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg-aws-sdk/pkg/sigv4"
+	"github.com/famarker/grafarg/pkg/infra/metrics/metricutil"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/mwitkow/go-conntrack"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

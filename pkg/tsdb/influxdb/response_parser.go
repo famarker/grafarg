@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/components/null"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/components/null"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 type ResponseParser struct{}

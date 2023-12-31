@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	"github.com/stretchr/testify/require"
 )
 

@@ -13,17 +13,17 @@ Grafarg already has a strong community of contributors and plugin developers. By
 
 ## Short version
 
-1. [Set up Grafarg](https://github.com/grafarg/grafarg/blob/master/contribute/developer-guide.md)
+1. [Set up Grafarg](https://github.com/famarker/grafarg/blob/master/contribute/developer-guide.md)
 1. Clone an example plugin into `/var/lib/grafarg/plugins` or `data/plugins` (relative to grafarg git repo if you're running development version from source dir)
 1. Use one of our example plugins as a starting point
 
 Example plugins
 
-- ["Hello World" panel using Angular](https://github.com/grafarg/simple-angular-panel)
-- ["Hello World" panel using React](https://github.com/grafarg/simple-react-panel)
-- [Simple json data source](https://github.com/grafarg/simple-json-datasource)
-- [Clock panel](https://github.com/grafarg/clock-panel)
-- [Pie chart panel](https://github.com/grafarg/piechart-panel)
+- ["Hello World" panel using Angular](https://github.com/famarker/simple-angular-panel)
+- ["Hello World" panel using React](https://github.com/famarker/simple-react-panel)
+- [Simple json data source](https://github.com/famarker/simple-json-datasource)
+- [Clock panel](https://github.com/famarker/clock-panel)
+- [Pie chart panel](https://github.com/famarker/piechart-panel)
 
 You might also be interested in the available tutorials around authoring a plugin.
 
@@ -39,7 +39,7 @@ You can use any build system that supports systemjs. All the built content shoul
 
 ## Keep your plugin up to date
 
-New versions of Grafarg can sometimes cause plugins to break. Check out our [PLUGIN_DEV.md](https://github.com/grafarg/grafarg/blob/master/PLUGIN_DEV.md) doc for changes in
+New versions of Grafarg can sometimes cause plugins to break. Check out our [PLUGIN_DEV.md](https://github.com/famarker/grafarg/blob/master/PLUGIN_DEV.md) doc for changes in
 Grafarg that can impact your plugin.
 
 ## Metadata
@@ -55,7 +55,7 @@ and [apps]({{< relref "apps.md" >}}) plugins in the documentation.
 
 The Grafarg SDK is quite small so far and can be found here:
 
-- [SDK file in Grafarg](https://github.com/grafarg/grafarg/blob/master/public/app/plugins/sdk.ts)
+- [SDK file in Grafarg](https://github.com/famarker/grafarg/blob/master/public/app/plugins/sdk.ts)
 
 The SDK contains three different plugin classes: PanelCtrl, MetricsPanelCtrl and QueryCtrl. For plugins of the panel type, the module.js file should export one of these. There are some extra classes for [data sources]({{< relref "data-sources.md" >}}).
 
@@ -85,7 +85,7 @@ export { WorldmapCtrl as PanelCtrl };
 
 There are three ways that you can start developing a Grafarg plugin.
 
-1. Set up a Grafarg development environment. [(described here)](https://github.com/grafarg/grafarg/blob/master/contribute/developer-guide.md) and place your plugin in the `data/plugins` folder.
+1. Set up a Grafarg development environment. [(described here)](https://github.com/famarker/grafarg/blob/master/contribute/developer-guide.md) and place your plugin in the `data/plugins` folder.
 1. Install Grafarg and place your plugin in the plugins directory which is set in your [config file](/administration/configuration). By default this is `/var/lib/grafarg/plugins` on Linux systems.
 1. Place your plugin directory anywhere you like and specify it grafarg.ini.
 
@@ -111,11 +111,11 @@ If a panel receives data and hooks into the `data-received` event then it should
 
 We have three different examples that you can fork/download to get started developing your Grafarg plugin.
 
-- [simple-json-datasource](https://github.com/grafarg/simple-json-datasource) (small data source plugin for querying json data from backends)
-- [simple-app-plugin](https://github.com/grafarg/simple-app-plugin)
-- [clock-panel](https://github.com/grafarg/clock-panel)
-- [singlestat-panel](https://github.com/grafarg/grafarg/tree/master/public/app/plugins/panel/singlestat)
-- [piechart-panel](https://github.com/grafarg/piechart-panel)
+- [simple-json-datasource](https://github.com/famarker/simple-json-datasource) (small data source plugin for querying json data from backends)
+- [simple-app-plugin](https://github.com/famarker/simple-app-plugin)
+- [clock-panel](https://github.com/famarker/clock-panel)
+- [singlestat-panel](https://github.com/famarker/grafarg/tree/master/public/app/plugins/panel/singlestat)
+- [piechart-panel](https://github.com/famarker/piechart-panel)
 
 ## Other Articles
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 	"github.com/mattn/go-sqlite3"
 	"xorm.io/xorm"
 )

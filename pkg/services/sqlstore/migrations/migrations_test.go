@@ -3,8 +3,8 @@ package migrations
 import (
 	"testing"
 
-	. "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/sqlutil"
+	. "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/sqlutil"
 	"github.com/stretchr/testify/require"
 	"xorm.io/xorm"
 )

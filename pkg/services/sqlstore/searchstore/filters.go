@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 )
 
 // FilterWhere limits the set of dashboard IDs to the dashboards for

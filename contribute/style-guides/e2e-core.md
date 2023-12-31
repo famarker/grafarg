@@ -1,6 +1,6 @@
 # End-to-End Tests for core Grafarg
 
-This document is specific to the [Grafarg repository](https://github.com/grafarg/grafarg). Be sure that you've read the [generalized E2E document](e2e.md).
+This document is specific to the [Grafarg repository](https://github.com/famarker/grafarg). Be sure that you've read the [generalized E2E document](e2e.md).
 
 ## Commands
 

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp/parse"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/expr/mathexp/parse"
 )
 
 // Expr holds a parsed math command expression.

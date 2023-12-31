@@ -3,9 +3,9 @@ package notifications
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

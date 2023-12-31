@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/components/securejsondata"
+	"github.com/famarker/grafarg/pkg/components/securejsondata"
 )
 
 var (

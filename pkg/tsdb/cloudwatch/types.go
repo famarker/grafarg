@@ -3,7 +3,7 @@ package cloudwatch
 import (
 	"fmt"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 type requestQuery struct {

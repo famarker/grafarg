@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 // timeNow makes it possible to test usage of time

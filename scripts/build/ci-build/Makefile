@@ -22,9 +22,9 @@ run-with-local-source-live:
 	docker run -d \
 		-e "CIRCLE_BRANCH=local" \
 		-e "CIRCLE_BUILD_NUM=472" \
-		-w "/go/src/github.com/grafarg/grafarg" \
+		-w "/go/src/github.com/famarker/grafarg" \
 		--name grafarg-build \
-		-v "${GOPATH}/src/github.com/grafarg/grafarg:/go/src/github.com/grafarg/grafarg" \
+		-v "${GOPATH}/src/github.com/famarker/grafarg:/go/src/github.com/famarker/grafarg" \
 		${TAG}:${VERSION} \
 		bash -c "/tmp/bootstrap.sh; mkdir /.cache; chown "${USER_ID}:${GROUP_ID}" /.cache; tail -f /dev/null"
 	docker exec -ti --user "${USER_ID}:${GROUP_ID}" grafarg-build bash
@@ -33,15 +33,15 @@ run-with-local-source-copy:
 	docker run -d \
 		-e "CIRCLE_BRANCH=local" \
 		-e "CIRCLE_BUILD_NUM=472" \
-		-w "/go/src/github.com/grafarg/grafarg" \
+		-w "/go/src/github.com/famarker/grafarg" \
 		--name grafarg-build \
 		${TAG}:${VERSION} \
 		bash -c "/tmp/bootstrap.sh; tail -f /dev/null"
-	docker cp "${GOPATH}/src/github.com/grafarg/grafarg" grafarg-build:/go/src/github.com/grafarg/
+	docker cp "${GOPATH}/src/github.com/famarker/grafarg" grafarg-build:/go/src/github.com/famarker/
 	docker exec -ti grafarg-build bash
 
 update-source:
-	docker cp "${GOPATH}/src/github.com/grafarg/grafarg" grafarg-build:/go/src/github.com/grafarg/
+	docker cp "${GOPATH}/src/github.com/famarker/grafarg" grafarg-build:/go/src/github.com/famarker/
 
 attach:
 	docker exec -ti grafarg-build bash

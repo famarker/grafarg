@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	"github.com/grafarg/grafarg/pkg/tsdb/sqleng"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb/sqleng"
 
 	"xorm.io/core"
 )

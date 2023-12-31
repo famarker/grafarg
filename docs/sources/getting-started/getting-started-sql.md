@@ -21,7 +21,7 @@ MS SQL Server can be installed on Windows or Linux operating systems and also on
 
 You can install MS SQL Server on the host running Grafarg or on a remote server. To install the software from the [downloads page](https://www.microsoft.com/en-us/sql-server/sql-server-downloads), follow their setup prompts.
 
-If you are on a Windows host but want to use Grafarg and MS SQL data source on a Linux environment, refer to the [WSL to set up your Grafarg development environment](https://grafarg.com/blog/2021/03/03/.how-to-set-up-a-grafarg-development-environment-on-a-windows-pc-using-wsl). This will allow you to leverage the resources available in [grafarg/grafarg](https://github.com/grafarg/grafarg) GitHub repository. Here you will find a collection of supported data sources, including MS SQL Server, along with test data and pre-configured dashboards for use.
+If you are on a Windows host but want to use Grafarg and MS SQL data source on a Linux environment, refer to the [WSL to set up your Grafarg development environment](https://grafarg.com/blog/2021/03/03/.how-to-set-up-a-grafarg-development-environment-on-a-windows-pc-using-wsl). This will allow you to leverage the resources available in [grafarg/grafarg](https://github.com/famarker/grafarg) GitHub repository. Here you will find a collection of supported data sources, including MS SQL Server, along with test data and pre-configured dashboards for use.
 ## Step 4. Adding the MS SQL data source
 
 To add MS SQL Server data source:
@@ -39,7 +39,7 @@ To add MS SQL Server data source:
 `User`         | Database user's login/username.
 `Password`     | Database user's password.
 
-For installations from the [grafarg/grafarg](https://github.com/grafarg/grafarg/tree/master) repository, `gdev-mssql` data source is available. Once you add this data source, you can use the `Datasource tests - MSSQL` dashboard with three panels showing metrics generated from a test database.
+For installations from the [grafarg/grafarg](https://github.com/famarker/grafarg/tree/master) repository, `gdev-mssql` data source is available. Once you add this data source, you can use the `Datasource tests - MSSQL` dashboard with three panels showing metrics generated from a test database.
 
 <img src="/static/img/docs/getting-started/gdev-sql-dashboard.png" class="no-shadow" width="700px">
 

@@ -3,7 +3,7 @@ package tsdb
 import (
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // SeriesToFrame converts a TimeSeries to a sdk Frame

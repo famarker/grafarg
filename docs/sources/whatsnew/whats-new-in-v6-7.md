@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v6.7
 
-This topic includes the release notes for the Grafarg v6.7. For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+This topic includes the release notes for the Grafarg v6.7. For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 Grafarg 6.7 comes with a lot of new features and enhancements:
 

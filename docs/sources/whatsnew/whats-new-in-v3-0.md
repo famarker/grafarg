@@ -222,4 +222,4 @@ Check out the full list of plugins on [Grafarg.com](https://grafarg.com/plugins)
 
 For a detailed list and link to github issues for everything included
 in the 3.0 release please view the
-[CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file.
+[CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file.

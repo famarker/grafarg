@@ -3,7 +3,7 @@ package rendering
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/require"
 )
 

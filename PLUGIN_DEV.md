@@ -8,7 +8,7 @@ upgrading Grafarg please check here before creating an issue.
 
 - [Grafarg plugin developer guide](http://docs.grafarg.org/plugins/developing/development/)
 - [Webpack Grafarg plugin template project](https://github.com/CorpGlory/grafarg-plugin-template-webpack)
-- [Simple JSON datasource plugin](https://github.com/grafarg/simple-json-datasource)
+- [Simple JSON datasource plugin](https://github.com/famarker/simple-json-datasource)
 
 ## Changes in Grafarg v4.6
 
@@ -17,7 +17,7 @@ for built-in plugins and everything internal. External plugins still use systemj
 set of Grafarg components they can import. Plugins can depend on libs like lodash & moment and internal components 
 like before using the same import paths. However since everything in Grafarg is no longer accessible, a few plugins could encounter issues when importing a Grafarg dependency. 
 
-[List of exposed components plugins can import/require](https://github.com/grafarg/grafarg/blob/master/public/app/features/plugins/plugin_loader.ts#L48)
+[List of exposed components plugins can import/require](https://github.com/famarker/grafarg/blob/master/public/app/features/plugins/plugin_loader.ts#L48)
 
 If you think we missed exposing a crucial lib or Grafarg component let us know by opening an issue.  
 
@@ -30,4 +30,4 @@ upgrade to new `<color-picker color="ctrl.color" onChange="ctrl.onSparklineColor
 
 ### DashboardSrv.ts
 
-If you utilize [DashboardSrv](https://github.com/grafarg/grafarg/commit/8574dca081002f36e482b572517d8f05fd44453f#diff-1ab99561f9f6a10e1fafcddc39bc1d65) in your plugin code, `dash` was renamed to `dashboard`.
+If you utilize [DashboardSrv](https://github.com/famarker/grafarg/commit/8574dca081002f36e482b572517d8f05fd44453f#diff-1ab99561f9f6a10e1fafcddc39bc1d65) in your plugin code, `dash` was renamed to `dashboard`.

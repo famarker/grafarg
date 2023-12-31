@@ -20,7 +20,7 @@ We use the standard following linters:
 
 In addition to the standard linters, we also use:
 
-- [revive](https://revive.run/) with a [custom config](https://github.com/grafarg/grafarg/blob/master/conf/revive.toml)
+- [revive](https://revive.run/) with a [custom config](https://github.com/famarker/grafarg/blob/master/conf/revive.toml)
 - [GolangCI-Lint](https://github.com/golangci/golangci-lint)
 - [gosec](https://github.com/securego/gosec)
 
@@ -83,7 +83,7 @@ In database related code, we follow certain patterns.
 ### Foreign keys
 
 While they can be useful, we don't generally use foreign key constraints in Grafarg, for historical and
-technical reasons. See this [comment](https://github.com/grafarg/grafarg/issues/3269#issuecomment-383328548) by Torkel 
+technical reasons. See this [comment](https://github.com/famarker/grafarg/issues/3269#issuecomment-383328548) by Torkel 
 for context.
 
 ### Unique columns

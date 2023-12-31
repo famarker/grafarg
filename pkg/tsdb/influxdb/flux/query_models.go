@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 // queryOptions represents datasource configuration options

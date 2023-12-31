@@ -1108,7 +1108,7 @@ steps:
   - mkdir -p bin
   - curl -fL -o bin/grabpl https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/grabpl
   - chmod +x bin/grabpl
-  - git clone "https://$${GITHUB_TOKEN}@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$${GITHUB_TOKEN}@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout ${DRONE_TAG}
   environment:
@@ -1504,7 +1504,7 @@ steps:
   commands:
   - $$ProgressPreference = "SilentlyContinue"
   - Invoke-WebRequest https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/windows/grabpl.exe -OutFile grabpl.exe
-  - git clone "https://$$env:GITHUB_TOKEN@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$$env:GITHUB_TOKEN@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout ${DRONE_TAG}
   environment:
@@ -2031,7 +2031,7 @@ steps:
   - mkdir -p bin
   - curl -fL -o bin/grabpl https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/grabpl
   - chmod +x bin/grabpl
-  - git clone "https://$${GITHUB_TOKEN}@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$${GITHUB_TOKEN}@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout main
   environment:
@@ -2421,7 +2421,7 @@ steps:
   commands:
   - $$ProgressPreference = "SilentlyContinue"
   - Invoke-WebRequest https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/windows/grabpl.exe -OutFile grabpl.exe
-  - git clone "https://$$env:GITHUB_TOKEN@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$$env:GITHUB_TOKEN@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout main
   environment:
@@ -2919,7 +2919,7 @@ steps:
   - mkdir -p bin
   - curl -fL -o bin/grabpl https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/grabpl
   - chmod +x bin/grabpl
-  - git clone "https://$${GITHUB_TOKEN}@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$${GITHUB_TOKEN}@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout ${DRONE_BRANCH}
   environment:
@@ -3312,7 +3312,7 @@ steps:
   commands:
   - $$ProgressPreference = "SilentlyContinue"
   - Invoke-WebRequest https://grafarg-downloads.storage.googleapis.com/grafarg-build-pipeline/v0.5.60/windows/grabpl.exe -OutFile grabpl.exe
-  - git clone "https://$$env:GITHUB_TOKEN@github.com/grafarg/grafarg-enterprise.git"
+  - git clone "https://$$env:GITHUB_TOKEN@github.com/famarker/grafarg-enterprise.git"
   - cd grafarg-enterprise
   - git checkout $$env:DRONE_BRANCH
   environment:

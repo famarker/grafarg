@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
 )
 
 // getAlertInstance is a handler for retrieving an alert instance based on OrgId, AlertDefintionID, and

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 type (

@@ -51,4 +51,4 @@ If possible, a link to a dashboard or custom page should be shown after enabling
 
 > Our goal is not to have a very extensive documentation but rather have actual
 > code that people can look at. An example implementation of an app can be found
-> in this [example app repo](https://github.com/grafarg/simple-app-plugin)
+> in this [example app repo](https://github.com/famarker/simple-app-plugin)

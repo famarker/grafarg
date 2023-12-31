@@ -5,8 +5,8 @@ import (
 
 	"gopkg.in/macaron.v1"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/quota"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/quota"
 )
 
 // Quota returns a function that returns a function used to call quotaservice based on target name

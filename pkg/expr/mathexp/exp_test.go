@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // Common Test Constructor Utils and Types

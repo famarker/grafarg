@@ -1,10 +1,10 @@
 package licensing
 
 import (
-	"github.com/grafarg/grafarg/pkg/api/dtos"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/hooks"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/api/dtos"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/hooks"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 const (

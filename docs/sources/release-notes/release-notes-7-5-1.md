@@ -10,5 +10,5 @@ list = false
 
 ### Bug fixes
 
-* **MSSQL**: Fix panic not implemented by upgrading go-mssqldb dependency. [#32347](https://github.com/grafarg/grafarg/pull/32347), [@aknuds1](https://github.com/aknuds1)
+* **MSSQL**: Fix panic not implemented by upgrading go-mssqldb dependency. [#32347](https://github.com/famarker/grafarg/pull/32347), [@aknuds1](https://github.com/aknuds1)
 

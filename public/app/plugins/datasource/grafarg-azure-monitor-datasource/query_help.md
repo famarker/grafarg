@@ -31,4 +31,4 @@ Examples:
 
 #### Writing Queries for Template Variables
 
-See the [docs](https://github.com/grafarg/azure-monitor-datasource#templating-with-variables) for details and examples.
+See the [docs](https://github.com/famarker/azure-monitor-datasource#templating-with-variables) for details and examples.

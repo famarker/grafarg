@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/components/gtime"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	"github.com/grafarg/grafarg/pkg/tsdb/sqleng"
+	"github.com/famarker/grafarg/pkg/components/gtime"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb/sqleng"
 )
 
 const rsIdentifier = `([_a-zA-Z0-9]+)`

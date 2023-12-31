@@ -3,8 +3,8 @@ package commands
 import (
 	"errors"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 )
 
 func validateVersionInput(c utils.CommandLine) error {

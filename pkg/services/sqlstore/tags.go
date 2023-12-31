@@ -1,6 +1,6 @@
 package sqlstore
 
-import "github.com/grafarg/grafarg/pkg/models"
+import "github.com/famarker/grafarg/pkg/models"
 
 // Will insert if needed any new key/value pars and return ids
 func EnsureTagsExist(sess *DBSession, tags []*models.Tag) ([]*models.Tag, error) {

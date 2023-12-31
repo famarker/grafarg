@@ -275,7 +275,7 @@ describe('Reducer Transformer', () => {
     `);
   });
 
-  it('reduces multiple data frames with decimal display name (https://github.com/grafarg/grafarg/issues/31580)', async () => {
+  it('reduces multiple data frames with decimal display name (https://github.com/famarker/grafarg/issues/31580)', async () => {
     const cfg = {
       id: DataTransformerID.reduce,
       options: {
@@ -322,7 +322,7 @@ describe('Reducer Transformer', () => {
     });
   });
 
-  it('reduces multiple data frames with decimal fields name (https://github.com/grafarg/grafarg/issues/31580)', async () => {
+  it('reduces multiple data frames with decimal fields name (https://github.com/famarker/grafarg/issues/31580)', async () => {
     const cfg = {
       id: DataTransformerID.reduce,
       options: {

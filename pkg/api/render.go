@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/rendering"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/rendering"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 func (hs *HTTPServer) RenderToPng(c *models.ReqContext) {

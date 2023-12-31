@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v7.2
 
-This topic includes the release notes for the Grafarg v7.2. For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+This topic includes the release notes for the Grafarg v7.2. For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 The main highlights are:
 
@@ -147,7 +147,7 @@ See [upgrade notes]({{< relref "../installation/upgrading.md" >}}).
 
 ## Changelog
 
-Check out [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
+Check out [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
 
 ## What's new in other parts of the Grafarg ecosystem
 

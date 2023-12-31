@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 )
 
 var removePlugin func(pluginPath, id string) error = services.RemoveInstalledPlugin

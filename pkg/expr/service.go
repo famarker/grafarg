@@ -3,8 +3,8 @@ package expr
 import (
 	"context"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 // DatasourceName is the string constant used as the datasource name in requests

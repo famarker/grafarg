@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"fmt"
 
-	glog "github.com/grafarg/grafarg/pkg/infra/log"
+	glog "github.com/famarker/grafarg/pkg/infra/log"
 
 	"xorm.io/core"
 )

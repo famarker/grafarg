@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 	"golang.org/x/oauth2"
 )
 

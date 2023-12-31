@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 type store interface {

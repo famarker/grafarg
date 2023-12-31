@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 )
 
 func nilOrNaN(f *float64) bool {

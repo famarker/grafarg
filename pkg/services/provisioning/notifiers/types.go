@@ -1,8 +1,8 @@
 package notifiers
 
 import (
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/services/provisioning/values"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/services/provisioning/values"
 )
 
 // notificationsAsConfig is normalized data object for notifications config data. Any config version should be mappable

@@ -5,7 +5,7 @@ package remotecache
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 func TestRedisCacheStorage(t *testing.T) {

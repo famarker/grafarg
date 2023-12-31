@@ -44,4 +44,4 @@ There are three steps needed to package a plugin:
 
 The best way to share your plugin with the world is to publish it on [Grafarg Plugins](https://grafarg.com/plugins). By having your plugin published on Grafarg.com, more users will be able to discover your plugin.
 
-To publish a plugin to [Grafarg Plugins](https://grafarg.com/grafarg/plugins), create a pull request to the [Grafarg Plugin Repository](https://github.com/grafarg/grafarg-plugin-repository). Please note that both the source code and the packaged plugin archive need to be publicly available.
+To publish a plugin to [Grafarg Plugins](https://grafarg.com/grafarg/plugins), create a pull request to the [Grafarg Plugin Repository](https://github.com/famarker/grafarg-plugin-repository). Please note that both the source code and the packaged plugin archive need to be publicly available.

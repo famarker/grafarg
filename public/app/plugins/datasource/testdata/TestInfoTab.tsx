@@ -19,7 +19,7 @@ export class TestInfoTab extends PureComponent<Props> {
         <br />
         <a
           className="btn btn-inverse"
-          href="https://github.com/grafarg/grafarg/tree/master/devenv"
+          href="https://github.com/famarker/grafarg/tree/master/devenv"
           target="_blank"
           rel="noopener noreferrer"
         >

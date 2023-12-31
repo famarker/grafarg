@@ -1404,7 +1404,7 @@ This option does not require any configuration.
 
 ## [rendering]
 
-Options to configure a remote HTTP image rendering service, e.g. using https://github.com/grafarg/grafarg-image-renderer.
+Options to configure a remote HTTP image rendering service, e.g. using https://github.com/famarker/grafarg-image-renderer.
 
 ### server_url
 

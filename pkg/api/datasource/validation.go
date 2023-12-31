@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/tsdb/mssql"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/tsdb/mssql"
 )
 
 var logger = log.New("datasource")

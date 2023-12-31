@@ -64,7 +64,7 @@ Explore the many UI components in our [Grafarg UI library](https://developers.gr
 
 ### Examples
 
-For inspiration, check out our [plugin examples](https://github.com/grafarg/grafarg-plugin-examples).
+For inspiration, check out our [plugin examples](https://github.com/famarker/grafarg-plugin-examples).
 
 ### API reference
 

@@ -8,12 +8,12 @@ import (
 
 	"gopkg.in/macaron.v1"
 
-	"github.com/grafarg/grafarg/pkg/infra/remotecache"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/auth"
-	"github.com/grafarg/grafarg/pkg/services/contexthandler"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/infra/remotecache"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/auth"
+	"github.com/famarker/grafarg/pkg/services/contexthandler"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/require"
 )
 

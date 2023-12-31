@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	pluginModel "github.com/grafarg/grafarg-plugin-model/go/renderer"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin/pluginextensionv2"
+	pluginModel "github.com/famarker/grafarg-plugin-model/go/renderer"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin/pluginextensionv2"
 )
 
 func (rs *RenderingService) startPlugin(ctx context.Context) error {

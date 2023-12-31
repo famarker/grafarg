@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/registry"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/commands/commandstest"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/commands/commandstest"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

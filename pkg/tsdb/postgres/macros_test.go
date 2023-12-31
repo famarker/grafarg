@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

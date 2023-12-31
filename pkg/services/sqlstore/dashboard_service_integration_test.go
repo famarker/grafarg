@@ -5,12 +5,12 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/services/dashboards"
-	"github.com/grafarg/grafarg/pkg/services/guardian"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/services/dashboards"
+	"github.com/famarker/grafarg/pkg/services/guardian"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

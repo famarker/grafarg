@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/ldap"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/ldap"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

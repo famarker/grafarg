@@ -7,7 +7,7 @@ weight = 700
 
 ## Deploy Grafarg on Kubernetes
 
-This page explains how to install and run Grafarg on Kubernetes (K8S). It uses Kubernetes manifests for the setup. If you prefer Helm, refer to the [Grafarg Helm community charts](https://github.com/grafarg/helm-charts). 
+This page explains how to install and run Grafarg on Kubernetes (K8S). It uses Kubernetes manifests for the setup. If you prefer Helm, refer to the [Grafarg Helm community charts](https://github.com/famarker/helm-charts). 
 
 If you are interested in Grafarg Enterprise (not Grafarg OS), jump to [Deploy Grafarg Enterprise on Kubernetes](#deploy-grafarg-enterprise-on-kubernetes) section.
 

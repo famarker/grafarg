@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/expr/classic"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/expr/classic"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 
 	"gonum.org/v1/gonum/graph/simple"
 )

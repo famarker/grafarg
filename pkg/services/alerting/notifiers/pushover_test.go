@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/services/validations"
+	"github.com/famarker/grafarg/pkg/services/validations"
 
-	"github.com/grafarg/grafarg/pkg/services/alerting"
+	"github.com/famarker/grafarg/pkg/services/alerting"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/models"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -272,8 +272,8 @@ export class ConfigEditor extends PureComponent<Props, State> {
             <h5>Support for Flux in Grafarg is currently in beta</h5>
             <p>
               Please report any issues to: <br />
-              <a href="https://github.com/grafarg/grafarg/issues/new/choose">
-                https://github.com/grafarg/grafarg/issues
+              <a href="https://github.com/famarker/grafarg/issues/new/choose">
+                https://github.com/famarker/grafarg/issues
               </a>
             </p>
           </InfoBox>

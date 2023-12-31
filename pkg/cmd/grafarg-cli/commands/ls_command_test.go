@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/commands/commandstest"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/commands/commandstest"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
 )
 
 func TestMissingPath(t *testing.T) {

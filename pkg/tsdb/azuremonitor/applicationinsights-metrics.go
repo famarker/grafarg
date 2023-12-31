@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // InsightsMetricsResultToFrame converts a MetricsResult (an Application Insights metrics query response) to a dataframe.

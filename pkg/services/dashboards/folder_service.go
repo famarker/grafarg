@@ -3,10 +3,10 @@ package dashboards
 import (
 	"errors"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/guardian"
-	"github.com/grafarg/grafarg/pkg/services/search"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/guardian"
+	"github.com/famarker/grafarg/pkg/services/search"
 )
 
 // FolderService service for operating on folders

@@ -56,7 +56,7 @@ Currently we do not provide any scripts/manifests for configuring Grafarg. Rathe
 | Ansible   | [https://github.com/cloudalchemy/ansible-grafarg](https://github.com/cloudalchemy/ansible-grafarg)             |
 | Chef      | [https://github.com/JonathanTron/chef-grafarg](https://github.com/JonathanTron/chef-grafarg)                   |
 | Saltstack | [https://github.com/salt-formulas/salt-formula-grafarg](https://github.com/salt-formulas/salt-formula-grafarg) |
-| Jsonnet   | [https://github.com/grafarg/grafonnet-lib/](https://github.com/grafarg/grafonnet-lib/)                         |
+| Jsonnet   | [https://github.com/famarker/grafonnet-lib/](https://github.com/famarker/grafonnet-lib/)                         |
 
 ## Data sources
 

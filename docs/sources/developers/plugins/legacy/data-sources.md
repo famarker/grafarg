@@ -16,9 +16,9 @@ time series data so that any grafarg panel can then show it.
 > code that people can look at. Example implementations of a data source can be
 > found in these repos:
 
-> - [simple-json-datasource](https://github.com/grafarg/simple-json-datasource)
-> - [simple-datasource](https://github.com/grafarg/simple-datasource)
-> - [simple-json-backend-datasource](https://github.com/grafarg/simple-json-backend-datasource)
+> - [simple-json-datasource](https://github.com/famarker/simple-json-datasource)
+> - [simple-datasource](https://github.com/famarker/simple-datasource)
+> - [simple-json-backend-datasource](https://github.com/famarker/simple-json-backend-datasource)
 
 To interact with the rest of grafarg the plugins module file can export 4 different components.
 

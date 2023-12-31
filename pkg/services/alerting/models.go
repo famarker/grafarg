@@ -3,7 +3,7 @@ package alerting
 import (
 	"sync"
 
-	"github.com/grafarg/grafarg/pkg/components/null"
+	"github.com/famarker/grafarg/pkg/components/null"
 )
 
 // Job holds state about when the alert rule should be evaluated.

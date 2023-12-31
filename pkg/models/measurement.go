@@ -1,6 +1,6 @@
 package models
 
-import "github.com/grafarg/grafarg-plugin-sdk-go/data"
+import "github.com/famarker/grafarg-plugin-sdk-go/data"
 
 // NOTE:
 // this likely should go in the Plugin SDK since it will be useful from plugins

@@ -1,6 +1,6 @@
 package dtos
 
-import "github.com/grafarg/grafarg/pkg/components/simplejson"
+import "github.com/famarker/grafarg/pkg/components/simplejson"
 
 type PostAnnotationsCmd struct {
 	DashboardId int64            `json:"dashboardId"`

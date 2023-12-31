@@ -6,7 +6,7 @@
 #  * number of issues with label type/bug
 #  * number of open issues in current milestone
 #
-# https://github.com/grafarg/grafarg-github-actions/blob/main/metrics-collector/index.ts
+# https://github.com/famarker/grafarg-github-actions/blob/main/metrics-collector/index.ts
 #
 name: Github issue metrics collection
 on:

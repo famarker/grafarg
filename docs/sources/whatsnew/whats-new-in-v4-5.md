@@ -35,17 +35,17 @@ For more information about query inspector, refer to [using grafargs query inspe
 
 ### New Features
 
-- **Table panel**: Render cell values as links that can have an URL template that uses variables from current table row. [#3754](https://github.com/grafarg/grafarg/issues/3754)
-- **Elasticsearch**: Add ad hoc filters directly by clicking values in table panel [#8052](https://github.com/grafarg/grafarg/issues/8052).
+- **Table panel**: Render cell values as links that can have an URL template that uses variables from current table row. [#3754](https://github.com/famarker/grafarg/issues/3754)
+- **Elasticsearch**: Add ad hoc filters directly by clicking values in table panel [#8052](https://github.com/famarker/grafarg/issues/8052).
 - **MySQL**: New rich query editor with syntax highlighting
-- **Prometheus**: New rich query editor with syntax highlighting, metric and range auto complete and integrated function docs. [#5117](https://github.com/grafarg/grafarg/issues/5117)
+- **Prometheus**: New rich query editor with syntax highlighting, metric and range auto complete and integrated function docs. [#5117](https://github.com/famarker/grafarg/issues/5117)
 
 ### Enhancements
 
-- **GitHub OAuth**: Support for GitHub organizations with 100+ teams. [#8846](https://github.com/grafarg/grafarg/issues/8846), thx [@skwashd](https://github.com/skwashd)
-- **Graphite**: Calls to Graphite API /metrics/find now include panel or dashboard time range (from and until) in most cases, [#8055](https://github.com/grafarg/grafarg/issues/8055)
-- **Graphite**: Added new graphite 1.0 functions, available if you set version to 1.0.x in data source settings. New Functions: mapSeries, reduceSeries, isNonNull, groupByNodes, offsetToZero, grep, weightedAverage, removeEmptySeries, aggregateLine, averageOutsidePercentile, delay, exponentialMovingAverage, fallbackSeries, integralByInterval, interpolate, invert, linearRegression, movingMin, movingMax, movingSum, multiplySeriesWithWildcards, pow, powSeries, removeBetweenPercentile, squareRoot, timeSlice, closes [#8261](https://github.com/grafarg/grafarg/issues/8261)
-- **Elasticsearch**: Ad-hoc filters now use query phrase match filters instead of term filters, works on non keyword/raw fields [#9095](https://github.com/grafarg/grafarg/issues/9095).
+- **GitHub OAuth**: Support for GitHub organizations with 100+ teams. [#8846](https://github.com/famarker/grafarg/issues/8846), thx [@skwashd](https://github.com/skwashd)
+- **Graphite**: Calls to Graphite API /metrics/find now include panel or dashboard time range (from and until) in most cases, [#8055](https://github.com/famarker/grafarg/issues/8055)
+- **Graphite**: Added new graphite 1.0 functions, available if you set version to 1.0.x in data source settings. New Functions: mapSeries, reduceSeries, isNonNull, groupByNodes, offsetToZero, grep, weightedAverage, removeEmptySeries, aggregateLine, averageOutsidePercentile, delay, exponentialMovingAverage, fallbackSeries, integralByInterval, interpolate, invert, linearRegression, movingMin, movingMax, movingSum, multiplySeriesWithWildcards, pow, powSeries, removeBetweenPercentile, squareRoot, timeSlice, closes [#8261](https://github.com/famarker/grafarg/issues/8261)
+- **Elasticsearch**: Ad-hoc filters now use query phrase match filters instead of term filters, works on non keyword/raw fields [#9095](https://github.com/famarker/grafarg/issues/9095).
 
 ### Breaking change
 
@@ -59,10 +59,10 @@ Data source selection and options and help are now above your metric queries.
 
 ### Minor Changes
 
-- **InfluxDB**: Change time range filter for absolute time ranges to be inclusive instead of exclusive [#8319](https://github.com/grafarg/grafarg/issues/8319), thx [@Oxydros](https://github.com/Oxydros)
-- **InfluxDB**: Added parenthesis around tag filters in queries [#9131](https://github.com/grafarg/grafarg/pull/9131)
+- **InfluxDB**: Change time range filter for absolute time ranges to be inclusive instead of exclusive [#8319](https://github.com/famarker/grafarg/issues/8319), thx [@Oxydros](https://github.com/Oxydros)
+- **InfluxDB**: Added parenthesis around tag filters in queries [#9131](https://github.com/famarker/grafarg/pull/9131)
 
 ## Bug Fixes
 
-- **Modals**: Maintain scroll position after opening/leaving modal [#8800](https://github.com/grafarg/grafarg/issues/8800)
-- **Templating**: You cannot select data source variables as data source for other template variables [#7510](https://github.com/grafarg/grafarg/issues/7510)
+- **Modals**: Maintain scroll position after opening/leaving modal [#8800](https://github.com/famarker/grafarg/issues/8800)
+- **Templating**: You cannot select data source variables as data source for other template variables [#7510](https://github.com/famarker/grafarg/issues/7510)

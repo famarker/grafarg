@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/centrifugal/centrifuge"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 // BroadcastRunner will simply broadcast all events to `grafarg/broadcast/*` channels

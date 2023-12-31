@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 )
 
 // LogTableToFrame converts an AzureLogAnalyticsTable to a data.Frame.

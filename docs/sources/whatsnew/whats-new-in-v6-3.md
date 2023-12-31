@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v6.3
 
-For all details please read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+For all details please read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 ## Highlights
 

@@ -44,7 +44,7 @@ try {
 }
 ```
 
-> **Note:** Grafarg displays the exception message in the UI as written, so we recommend using grammatically correct sentences. For more information, refer to the [Documentation style guide](https://github.com/grafarg/grafarg/blob/master/contribute/style-guides/documentation-style-guide.md).
+> **Note:** Grafarg displays the exception message in the UI as written, so we recommend using grammatically correct sentences. For more information, refer to the [Documentation style guide](https://github.com/famarker/grafarg/blob/master/contribute/style-guides/documentation-style-guide.md).
 
 Here are some examples of situations where you might want to display an error to the user.
 

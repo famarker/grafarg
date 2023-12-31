@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
 )
 
 var (

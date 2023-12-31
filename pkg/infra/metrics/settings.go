@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/infra/metrics/graphitebridge"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/infra/metrics/graphitebridge"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -3,7 +3,7 @@ package search
 import (
 	"sort"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/searchstore"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/searchstore"
 )
 
 var (

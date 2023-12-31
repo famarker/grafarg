@@ -184,8 +184,8 @@ describe('shared actions', () => {
       });
     });
 
-    // Fix for https://github.com/grafarg/grafarg/issues/28791
-    it('fix for https://github.com/grafarg/grafarg/issues/28791', async () => {
+    // Fix for https://github.com/famarker/grafarg/issues/28791
+    it('fix for https://github.com/famarker/grafarg/issues/28791', async () => {
       setVariableQueryRunner(new VariableQueryRunner());
       const stats = queryBuilder()
         .withId('stats')

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

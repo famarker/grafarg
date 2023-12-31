@@ -5,11 +5,11 @@ import (
 
 	"github.com/go-macaron/binding"
 
-	"github.com/grafarg/grafarg/pkg/api/response"
-	"github.com/grafarg/grafarg/pkg/api/routing"
-	"github.com/grafarg/grafarg/pkg/middleware"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/api/response"
+	"github.com/famarker/grafarg/pkg/api/routing"
+	"github.com/famarker/grafarg/pkg/middleware"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 func (lps *LibraryPanelService) registerAPIEndpoints() {

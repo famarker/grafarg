@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/auth"
-	"github.com/grafarg/grafarg/pkg/services/quota"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/auth"
+	"github.com/famarker/grafarg/pkg/services/quota"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/assert"
 	macaron "gopkg.in/macaron.v1"
 )

@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/services/licensing"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/services/licensing"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

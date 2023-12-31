@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/services/alerting"
-	"github.com/grafarg/grafarg/pkg/services/ngalert/eval"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/services/alerting"
+	"github.com/famarker/grafarg/pkg/services/ngalert/eval"
 	"golang.org/x/sync/errgroup"
 )
 

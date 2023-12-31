@@ -23,5 +23,5 @@ In this case, make sure the template has a single `<div>...</div>` root.  The pl
 
 ### Examples
 
-- [clock-panel](https://github.com/grafarg/clock-panel)
-- [singlestat-panel](https://github.com/grafarg/grafarg/tree/master/public/app/plugins/panel/singlestat)
+- [clock-panel](https://github.com/famarker/clock-panel)
+- [singlestat-panel](https://github.com/famarker/grafarg/tree/master/public/app/plugins/panel/singlestat)

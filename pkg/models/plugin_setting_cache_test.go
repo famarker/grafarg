@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/components/securejsondata"
+	"github.com/famarker/grafarg/pkg/components/securejsondata"
 )
 
 // clearPluginSettingDecryptionCache clears the datasource decryption cache.

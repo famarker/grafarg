@@ -46,4 +46,4 @@ Images are currently hosted in the grafarg/website repo.
 
 When a PR is merged to master with changes in the `docs/sources` directory, those changes are automatically synced to the grafarg/website repo and published to the staging site.
 
-Generally, someone from marketing will publish to production each day: so as long as the sync is successful your docs edits will be published. Alternatively, you can refer to [publishing to production](https://github.com/grafarg/website#publishing-to-production-grafargcom) if you'd like to do it yourself.
+Generally, someone from marketing will publish to production each day: so as long as the sync is successful your docs edits will be published. Alternatively, you can refer to [publishing to production](https://github.com/famarker/website#publishing-to-production-grafargcom) if you'd like to do it yourself.

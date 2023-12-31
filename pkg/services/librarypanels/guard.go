@@ -1,9 +1,9 @@
 package librarypanels
 
 import (
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/dashboards"
-	"github.com/grafarg/grafarg/pkg/services/guardian"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/dashboards"
+	"github.com/famarker/grafarg/pkg/services/guardian"
 )
 
 func isGeneralFolder(folderID int64) bool {

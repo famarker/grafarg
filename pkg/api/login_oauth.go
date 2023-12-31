@@ -13,14 +13,14 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
-	"github.com/grafarg/grafarg/pkg/login"
-	"github.com/grafarg/grafarg/pkg/login/social"
-	"github.com/grafarg/grafarg/pkg/middleware/cookies"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/login"
+	"github.com/famarker/grafarg/pkg/login/social"
+	"github.com/famarker/grafarg/pkg/middleware/cookies"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 var (

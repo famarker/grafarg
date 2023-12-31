@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 )
 
 // listRemoteCommand prints out all plugins in the remote repo with latest version supported on current platform.

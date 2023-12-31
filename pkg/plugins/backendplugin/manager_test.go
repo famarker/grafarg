@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg-aws-sdk/pkg/awsds"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg-aws-sdk/pkg/awsds"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/require"
 )
 

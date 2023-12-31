@@ -10,13 +10,13 @@ import (
 	"strings"
 
 	"github.com/VividCortex/mysqlerr"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/tsdb"
-	"github.com/grafarg/grafarg/pkg/tsdb/sqleng"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/tsdb/sqleng"
 	"xorm.io/core"
 )
 

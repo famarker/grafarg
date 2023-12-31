@@ -3,11 +3,11 @@ package grpcplugin
 import (
 	"context"
 
-	datasourceV1 "github.com/grafarg/grafarg-plugin-model/go/datasource"
-	rendererV1 "github.com/grafarg/grafarg-plugin-model/go/renderer"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin"
+	datasourceV1 "github.com/famarker/grafarg-plugin-model/go/datasource"
+	rendererV1 "github.com/famarker/grafarg-plugin-model/go/renderer"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin"
 	"github.com/hashicorp/go-plugin"
 )
 

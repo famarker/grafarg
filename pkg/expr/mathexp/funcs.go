@@ -3,7 +3,7 @@ package mathexp
 import (
 	"math"
 
-	"github.com/grafarg/grafarg/pkg/expr/mathexp/parse"
+	"github.com/famarker/grafarg/pkg/expr/mathexp/parse"
 )
 
 var builtins = map[string]parse.Func{

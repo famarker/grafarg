@@ -12,7 +12,7 @@ If we wait for canceled requests to complete, it might create unnecessary load o
 Grafarg uses a concept called _request cancelation_ to cancel any ongoing request that Grafarg doesn't need.
 
 #### Before Grafarg 7.2
-Before Grafarg can cancel any data request, it has to identify that request. Grafarg identifies a request using the property `requestId` [passed as options](https://github.com/grafarg/grafarg/blob/master/docs/sources/packages_api/runtime/backendsrvrequest.md) when you use [BackendSrv](https://grafarg.com/docs/grafarg/latest/packages_api/runtime/backendsrv).
+Before Grafarg can cancel any data request, it has to identify that request. Grafarg identifies a request using the property `requestId` [passed as options](https://github.com/famarker/grafarg/blob/master/docs/sources/packages_api/runtime/backendsrvrequest.md) when you use [BackendSrv](https://grafarg.com/docs/grafarg/latest/packages_api/runtime/backendsrv).
 
 The cancellation logic is as follows:
 - When an ongoing request discovers that an additional request with the same `requestId` has started, then Grafarg will cancel the ongoing request.
@@ -21,7 +21,7 @@ The cancellation logic is as follows:
 #### After Grafarg 7.2
 Grafarg 7.2 introduced an additional way of canceling requests using [RxJs](https://github.com/ReactiveX/rxjs). To support the new cancellation functionality, the data source needs to use the new `fetch` function in [BackendSrv](https://grafarg.com/docs/grafarg/latest/packages_api/runtime/backendsrv).
 
-Migrating the core data sources to the new `fetch` function [is an ongoing process that you can read about in this issue.](https://github.com/grafarg/grafarg/issues/27222)
+Migrating the core data sources to the new `fetch` function [is an ongoing process that you can read about in this issue.](https://github.com/famarker/grafarg/issues/27222)
 
 ## Request queue
 Depending on how the web browser implements the protocol for HTTP 1.1, it will limit the number of parallel requests, lets call this limit _max_parallel_browser_request_. 

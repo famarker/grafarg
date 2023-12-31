@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 )
 
 type Descriptor struct {

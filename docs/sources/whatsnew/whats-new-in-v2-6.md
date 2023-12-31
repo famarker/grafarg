@@ -120,7 +120,7 @@ to hide metrics from appearing in the graph.
 
 ## Changelog
 For a detailed list and link to github issues for everything included in the 2.6 release please
-view the [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file.
+view the [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file.
 
 - - -
 

@@ -13,14 +13,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafarg/grafarg-aws-sdk/pkg/awsds"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
-	"github.com/grafarg/grafarg/pkg/util/proxyutil"
+	"github.com/famarker/grafarg-aws-sdk/pkg/awsds"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/util/proxyutil"
 )
 
 var (

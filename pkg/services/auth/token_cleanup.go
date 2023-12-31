@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
 )
 
 func (s *UserAuthTokenService) Run(ctx context.Context) error {

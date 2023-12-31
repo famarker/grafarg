@@ -14,9 +14,9 @@ import (
 	"path"
 	"runtime"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 type GrafargComClient struct {

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	pluginModel "github.com/grafarg/grafarg-plugin-model/go/renderer"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin/grpcplugin"
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin/pluginextensionv2"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	pluginModel "github.com/famarker/grafarg-plugin-model/go/renderer"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin/grpcplugin"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin/pluginextensionv2"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 type RendererPlugin struct {

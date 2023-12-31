@@ -3,7 +3,7 @@ package commandstest
 import (
 	"flag"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 	"github.com/urfave/cli/v2"
 )
 

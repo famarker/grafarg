@@ -9,9 +9,9 @@ import (
 
 	macaron "gopkg.in/macaron.v1"
 
-	"github.com/grafarg/grafarg/pkg/middleware/cookies"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/middleware/cookies"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 type AuthOptions struct {

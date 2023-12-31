@@ -1,7 +1,7 @@
 import { MetricTankSeriesMeta } from './types';
 import { QueryResultMetaNotice } from '@grafarg/data';
 
-// https://github.com/grafarg/metrictank/blob/master/scripts/config/storage-schemas.conf#L15-L46
+// https://github.com/famarker/metrictank/blob/master/scripts/config/storage-schemas.conf#L15-L46
 
 export interface RetentionInfo {
   interval: string;

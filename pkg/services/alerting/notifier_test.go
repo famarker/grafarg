@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/validations"
+	"github.com/famarker/grafarg/pkg/services/validations"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/services/rendering"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/services/rendering"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/grafarg/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/bus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/components/imguploader"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/components/imguploader"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 func TestNotificationService(t *testing.T) {

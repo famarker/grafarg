@@ -1,6 +1,6 @@
 # GitHub & grafargbot automation
 
-The bot is configured via [commands.json](https://github.com/grafarg/grafarg/blob/master/.github/commands.json) and some other GitHub workflows [workflows](https://github.com/grafarg/grafarg/tree/master/.github/workflows).
+The bot is configured via [commands.json](https://github.com/famarker/grafarg/blob/master/.github/commands.json) and some other GitHub workflows [workflows](https://github.com/famarker/grafarg/tree/master/.github/workflows).
 
 Comment commands:
 
@@ -17,8 +17,8 @@ Label commands:
 
 ## Metrics
 
-Metrics are configured in [metrics-collector.json](https://github.com/grafarg/grafarg/blob/master/.github/metrics-collector.json) and are also defined in the 
-[metrics-collector](https://github.com/grafarg/grafarg-github-actions/blob/main/metrics-collector/index.ts) GitHub action.
+Metrics are configured in [metrics-collector.json](https://github.com/famarker/grafarg/blob/master/.github/metrics-collector.json) and are also defined in the 
+[metrics-collector](https://github.com/famarker/grafarg-github-actions/blob/main/metrics-collector/index.ts) GitHub action.
 
 ## Backport PR
 
@@ -27,4 +27,4 @@ try to cherry-pick the PR merge commit into that branch and open a PR. It will s
 
 If there are merge conflicts the bot will write a comment on the source PR saying the cherry-pick failed. In this case you have to do the cherry pick and backport PR manually. 
 
-The backport logic is written [here](https://github.com/grafarg/grafarg-github-actions/blob/main/backport/backport.ts)
+The backport logic is written [here](https://github.com/famarker/grafarg-github-actions/blob/main/backport/backport.ts)

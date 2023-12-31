@@ -33,7 +33,7 @@ If you are running Grafarg on Windows 10, we recommend installing the Windows Su
 
 We recommend using the Git command-line interface to download the source code for the Grafarg project:
 
-1. Open a terminal and run `git clone https://github.com/grafarg/grafarg.git`. This command downloads Grafarg to a new `grafarg` directory in your current directory.
+1. Open a terminal and run `git clone https://github.com/famarker/grafarg.git`. This command downloads Grafarg to a new `grafarg` directory in your current directory.
 1. Open the `grafarg` directory in your favorite code editor.
 
 For alternative ways of cloning the Grafarg repository, please refer to [GitHub's cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) documentation.

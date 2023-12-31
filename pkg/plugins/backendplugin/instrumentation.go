@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

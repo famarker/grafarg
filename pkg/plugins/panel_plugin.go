@@ -3,7 +3,7 @@ package plugins
 import (
 	"encoding/json"
 
-	"github.com/grafarg/grafarg/pkg/plugins/backendplugin"
+	"github.com/famarker/grafarg/pkg/plugins/backendplugin"
 )
 
 type PanelPlugin struct {

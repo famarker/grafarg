@@ -172,5 +172,5 @@ You can update plugins using grafarg-cli
 
 ## Changelog
 
-Check out the [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file for a complete list
+Check out the [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.

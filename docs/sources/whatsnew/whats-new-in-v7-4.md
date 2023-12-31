@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v7.4
 
-This topic includes the release notes for Grafarg v7.4. For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+This topic includes the release notes for Grafarg v7.4. For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 Check out the [New Features in 7.4](https://play.grafarg.org/d/nP8rcffGk/1-new-features-in-v7-4?orgId=1) dashboard on Grafarg Play!
 
@@ -240,4 +240,4 @@ See [upgrade notes]({{< relref "../installation/upgrading.md" >}}).
 
 ## Changelog
 
-Check out [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
+Check out [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.

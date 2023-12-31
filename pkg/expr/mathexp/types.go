@@ -1,8 +1,8 @@
 package mathexp
 
 import (
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp/parse"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/expr/mathexp/parse"
 )
 
 // Results is a container for Value interfaces.

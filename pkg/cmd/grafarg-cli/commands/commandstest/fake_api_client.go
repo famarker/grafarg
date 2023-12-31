@@ -3,7 +3,7 @@ package commandstest
 import (
 	"os"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
 )
 
 type FakeGrafargComClient struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/expr"
+	"github.com/famarker/grafarg/pkg/expr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

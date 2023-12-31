@@ -3,8 +3,8 @@ package dashboards
 import (
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 func MakeUserAdmin(bus bus.Bus, orgID int64, userID int64, dashboardID int64, setViewAndEditPermissions bool) error {

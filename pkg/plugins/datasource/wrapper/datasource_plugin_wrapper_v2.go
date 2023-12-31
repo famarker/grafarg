@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend/grpcplugin"
-	"github.com/grafarg/grafarg-plugin-sdk-go/genproto/pluginv2"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/oauthtoken"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend/grpcplugin"
+	"github.com/famarker/grafarg-plugin-sdk-go/genproto/pluginv2"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/oauthtoken"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 func NewDatasourcePluginWrapperV2(log log.Logger, pluginId, pluginType string, client grpcplugin.DataClient) *DatasourcePluginWrapperV2 {

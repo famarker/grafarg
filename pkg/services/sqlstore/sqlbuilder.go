@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 type SQLBuilder struct {

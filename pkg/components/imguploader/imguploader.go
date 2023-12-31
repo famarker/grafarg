@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/components/imguploader/gcs"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/components/imguploader/gcs"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 const (

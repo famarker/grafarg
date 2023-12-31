@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )
 

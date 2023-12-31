@@ -1,8 +1,8 @@
 package plugins
 
 import (
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 func GetPluginSettings(orgId int64) (map[string]*models.PluginSettingInfoDTO, error) {

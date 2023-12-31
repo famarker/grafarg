@@ -3,8 +3,8 @@ package permissions
 import (
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 )
 
 type DashboardPermissionFilter struct {

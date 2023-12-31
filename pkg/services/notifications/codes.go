@@ -8,8 +8,8 @@ import (
 
 	"github.com/unknwon/com"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 const timeLimitCodeLength = 12 + 6 + 40

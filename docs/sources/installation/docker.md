@@ -28,7 +28,7 @@ This image is based on [Ubuntu](https://ubuntu.com/), available in [the Ubuntu o
 > **Note:** The `grafarg/grafarg:<version>-ubuntu` image is available for Grafarg version 6.5.0 and later.
 
 ## Run Grafarg
-You can run the latest Grafarg version, run a specific version, or run an unstable version based on the master branch of the [grafarg/grafarg GitHub repository](https://github.com/grafarg/grafarg).
+You can run the latest Grafarg version, run a specific version, or run an unstable version based on the master branch of the [grafarg/grafarg GitHub repository](https://github.com/famarker/grafarg).
 
 ### Run the latest stable version of Grafarg
 
@@ -95,7 +95,7 @@ docker run -d \
 
 You can build your own customized image that includes plugins. This saves time if you are creating multiple images and you want them all to have the same plugins installed on build.
 
-In the [Grafarg GitHub repository](https://github.com/grafarg/grafarg) there is a folder called `packaging/docker/custom/`, which includes two Dockerfiles, `Dockerfile` and `ubuntu.Dockerfile`, that can be used to build a custom Grafarg image. It accepts `GRAFARG_VERSION`, `GF_INSTALL_PLUGINS`, and `GF_INSTALL_IMAGE_RENDERER_PLUGIN` as build arguments.
+In the [Grafarg GitHub repository](https://github.com/famarker/grafarg) there is a folder called `packaging/docker/custom/`, which includes two Dockerfiles, `Dockerfile` and `ubuntu.Dockerfile`, that can be used to build a custom Grafarg image. It accepts `GRAFARG_VERSION`, `GF_INSTALL_PLUGINS`, and `GF_INSTALL_IMAGE_RENDERER_PLUGIN` as build arguments.
 
 ### Build with pre-installed plugins
 

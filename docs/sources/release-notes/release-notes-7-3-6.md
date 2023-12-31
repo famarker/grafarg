@@ -10,5 +10,5 @@ list = false
 
 ### Security
 
-* **SAML**: Fixes encoding/xml SAML vulnerability in Grafarg Enterprise. [#29875](https://github.com/grafarg/grafarg/issues/29875)
+* **SAML**: Fixes encoding/xml SAML vulnerability in Grafarg Enterprise. [#29875](https://github.com/famarker/grafarg/issues/29875)
 

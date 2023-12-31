@@ -1,7 +1,7 @@
 package elasticsearch
 
 import (
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
 )
 
 // Query represents the time series query model of the datasource

@@ -1,6 +1,6 @@
 package migrations
 
-import . "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+import . "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 
 func addOrgMigrations(mg *Migrator) {
 	orgV1 := Table{

@@ -3,7 +3,7 @@ package alerting
 import (
 	"encoding/json"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 // DatasourceAlertUsage is a hash where the key represents the

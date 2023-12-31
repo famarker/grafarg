@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/login/social"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/login/social"
+	"github.com/famarker/grafarg/pkg/models"
 	"golang.org/x/oauth2"
 )
 

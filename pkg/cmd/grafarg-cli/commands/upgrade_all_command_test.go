@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
 	"github.com/stretchr/testify/assert"
 )
 

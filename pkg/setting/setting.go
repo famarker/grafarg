@@ -21,10 +21,10 @@ import (
 	"github.com/prometheus/common/model"
 	ini "gopkg.in/ini.v1"
 
-	"github.com/grafarg/grafarg-aws-sdk/pkg/awsds"
-	"github.com/grafarg/grafarg/pkg/components/gtime"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg-aws-sdk/pkg/awsds"
+	"github.com/famarker/grafarg/pkg/components/gtime"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 type Scheme string

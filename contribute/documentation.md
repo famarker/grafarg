@@ -4,9 +4,9 @@ This documents guides you through the process of contributing to the Grafarg doc
 
 ## Your first contribution
 
-If you’re unsure about where to start, check out some of our [open docs issues](https://github.com/grafarg/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3Atype%2Fdocs).
+If you’re unsure about where to start, check out some of our [open docs issues](https://github.com/famarker/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3Atype%2Fdocs).
 
-Sometimes it can be difficult to understand an issue when you're just getting started. Refer to this list of [beginner-friendly issues](https://github.com/grafarg/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3Atype%2Fdocs+label%3A"beginner+friendly") for tasks suitable for first-time contributors.
+Sometimes it can be difficult to understand an issue when you're just getting started. Refer to this list of [beginner-friendly issues](https://github.com/famarker/grafarg/issues?q=is%3Aopen+is%3Aissue+label%3Atype%2Fdocs+label%3A"beginner+friendly") for tasks suitable for first-time contributors.
 
 When you’ve found an issue you want to work on, please comment on the issue to let other people know you intend to work on it.
 
@@ -23,7 +23,7 @@ For general discussions on documentation, you’re welcome to join the `#docs` c
 
 ## Style and formatting
 
-All Grafarg documentation is written using [Markdown](https://en.wikipedia.org/wiki/Markdown), and can be found in the [docs](/docs) directory in the [Grafarg GitHub repository](https://github.com/grafarg/grafarg). The [documentation website](https://grafarg.com/docs) is generated with [Hugo](https://gohugo.io) which uses [Blackfriday](https://github.com/russross/blackfriday) as its Markdown rendering engine.
+All Grafarg documentation is written using [Markdown](https://en.wikipedia.org/wiki/Markdown), and can be found in the [docs](/docs) directory in the [Grafarg GitHub repository](https://github.com/famarker/grafarg). The [documentation website](https://grafarg.com/docs) is generated with [Hugo](https://gohugo.io) which uses [Blackfriday](https://github.com/russross/blackfriday) as its Markdown rendering engine.
 
 ### Documentation structure
 

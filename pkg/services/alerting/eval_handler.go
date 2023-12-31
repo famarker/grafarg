@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
 )
 
 // DefaultEvalHandler is responsible for evaluating the alert rule.

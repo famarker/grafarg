@@ -56,7 +56,7 @@ done
 # shellcheck disable=SC2124
 EXTRA_OPTS="$@"
 
-cd /go/src/github.com/grafarg/grafarg
+cd /go/src/github.com/famarker/grafarg
 echo "current dir: $(pwd)"
 
 if [ "$CIRCLE_TAG" != "" ]; then

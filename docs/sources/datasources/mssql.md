@@ -107,7 +107,7 @@ To simplify syntax and to allow for dynamic parts, like date range filters, the 
 | `$__unixEpochGroup(dateColumn,'5m', [fillmode])`      | Same as \$\_\_timeGroup but for times stored as Unix timestamp (only available in Grafarg 5.3+).                                                                                                                                                                                            |
 | `$__unixEpochGroupAlias(dateColumn,'5m', [fillmode])` | Same as above but also adds a column alias (only available in Grafarg 5.3+).                                                                                                                                                                                                                |
 
-We plan to add many more macros. If you have suggestions for what macros you would like to see, please [open an issue](https://github.com/grafarg/grafarg) in our GitHub repo.
+We plan to add many more macros. If you have suggestions for what macros you would like to see, please [open an issue](https://github.com/famarker/grafarg) in our GitHub repo.
 
 The query editor has a link named `Generated SQL` that shows up after a query has been executed, while in panel edit mode. Click on it and it will expand and show the raw interpolated SQL string that was executed.
 

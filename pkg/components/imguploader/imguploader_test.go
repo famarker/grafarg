@@ -3,8 +3,8 @@ package imguploader
 import (
 	"testing"
 
-	"github.com/grafarg/grafarg/pkg/components/imguploader/gcs"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/components/imguploader/gcs"
+	"github.com/famarker/grafarg/pkg/setting"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

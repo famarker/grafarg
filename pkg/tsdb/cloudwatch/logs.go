@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 func init() {

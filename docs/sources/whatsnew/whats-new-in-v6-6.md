@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v6.6
 
-For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md).
+For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md).
 
 ## Highlights
 
@@ -198,7 +198,7 @@ See [upgrade notes]({{< relref "../installation/upgrading/#upgrading-to-v6-6" >}
 
 ## Changelog
 
-Check out [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
+Check out [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
 
 ## Notice about upcoming changes in backendSrv for plugin authors
 

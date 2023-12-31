@@ -2,8 +2,8 @@ package live
 
 import (
 	"github.com/centrifugal/centrifuge"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins"
 )
 
 // PluginHandler manages all the `grafarg/dashboard/*` channels

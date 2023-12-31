@@ -4,10 +4,10 @@ import (
 	"errors"
 
 	"github.com/fatih/color"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
 )
 
 var ls_getPlugins func(path string) []models.InstalledPlugin = services.GetLocalPlugins

@@ -11,7 +11,7 @@ This page lists the minimum hardware and software requirements to install Grafar
 
 To run Grafarg, you must have a supported operating system, hardware that meets or exceeds minimum requirements, a supported database, and a supported browser.
 
-Grafarg uses other open source software. Refer to [package.json](https://github.com/grafarg/grafarg/blob/master/package.json) for a complete list.
+Grafarg uses other open source software. Refer to [package.json](https://github.com/famarker/grafarg/blob/master/package.json) for a complete list.
 
 ## Supported operating systems
 

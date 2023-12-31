@@ -1,6 +1,6 @@
 package dtos
 
-import "github.com/grafarg/grafarg/pkg/models"
+import "github.com/famarker/grafarg/pkg/models"
 
 type AddInviteForm struct {
 	LoginOrEmail string          `json:"loginOrEmail" binding:"Required"`

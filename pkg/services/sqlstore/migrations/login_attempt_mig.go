@@ -1,6 +1,6 @@
 package migrations
 
-import . "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+import . "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 
 func addLoginAttemptMigrations(mg *Migrator) {
 	loginAttemptV1 := Table{

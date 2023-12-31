@@ -17,9 +17,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 // IntValue represents a string value in a YAML

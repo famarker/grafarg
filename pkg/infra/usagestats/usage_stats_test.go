@@ -10,19 +10,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/alerting"
-	"github.com/grafarg/grafarg/pkg/services/licensing"
+	"github.com/famarker/grafarg/pkg/services/alerting"
+	"github.com/famarker/grafarg/pkg/services/licensing"
 	"github.com/stretchr/testify/require"
 
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins"
-	"github.com/grafarg/grafarg/pkg/services/sqlstore"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/services/sqlstore"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/stretchr/testify/assert"
 )
 

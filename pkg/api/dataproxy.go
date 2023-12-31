@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/grafarg/grafarg/pkg/api/datasource"
-	"github.com/grafarg/grafarg/pkg/api/pluginproxy"
-	"github.com/grafarg/grafarg/pkg/infra/metrics"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins"
+	"github.com/famarker/grafarg/pkg/api/datasource"
+	"github.com/famarker/grafarg/pkg/api/pluginproxy"
+	"github.com/famarker/grafarg/pkg/infra/metrics"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins"
 )
 
 // ProxyDataSourceRequest proxies datasource requests

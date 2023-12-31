@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/setting"
 	"github.com/prometheus/client_golang/prometheus"
 	cw "github.com/weaveworks/common/middleware"
 	"gopkg.in/macaron.v1"

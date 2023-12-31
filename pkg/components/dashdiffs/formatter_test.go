@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/components/simplejson"
+	"github.com/famarker/grafarg/pkg/components/simplejson"
 )
 
 func TestDiff(t *testing.T) {

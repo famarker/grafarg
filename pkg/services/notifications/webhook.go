@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/grafarg/grafarg/pkg/util"
+	"github.com/famarker/grafarg/pkg/util"
 )
 
 type Webhook struct {

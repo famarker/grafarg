@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 type NetworkAddress struct {

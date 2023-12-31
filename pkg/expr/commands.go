@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/components/gtime"
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/components/gtime"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 )
 
 // Command is an interface for all expression commands.

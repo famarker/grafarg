@@ -1,6 +1,6 @@
 package migrations
 
-import . "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+import . "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 
 // --- Migration Guide line ---
 // 1. Never change a migration that is committed and pushed to master

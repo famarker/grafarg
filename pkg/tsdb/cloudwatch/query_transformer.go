@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/data"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/data"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 // returns a map of queries with query id as key. In the case a q request query

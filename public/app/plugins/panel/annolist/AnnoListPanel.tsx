@@ -56,8 +56,8 @@ export class AnnoListPanel extends PureComponent<Props, State> {
 
   async doSearch() {
     // http://docs.grafarg.org/http_api/annotations/
-    // https://github.com/grafarg/grafarg/blob/master/public/app/core/services/backend_srv.ts
-    // https://github.com/grafarg/grafarg/blob/master/public/app/features/annotations/annotations_srv.ts
+    // https://github.com/famarker/grafarg/blob/master/public/app/core/services/backend_srv.ts
+    // https://github.com/famarker/grafarg/blob/master/public/app/features/annotations/annotations_srv.ts
 
     const { options } = this.props;
     const { queryUser, queryTags } = this.state;

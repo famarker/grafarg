@@ -28,7 +28,7 @@ When the dashboard folders feature and permissions system was released in Grafar
 
 This feature also adds a new Team permission that can be assigned to any user with the editor or viewer role and enables that user to add other users to the Team.
 
-We believe that this is more in line with the Grafarg philosophy, as it will allow teams to be more self-organizing. This option will be made permanent if it gets positive feedback from the community so let us know what you think in the [issue on GitHub](https://github.com/grafarg/grafarg/issues/15590).
+We believe that this is more in line with the Grafarg philosophy, as it will allow teams to be more self-organizing. This option will be made permanent if it gets positive feedback from the community so let us know what you think in the [issue on GitHub](https://github.com/famarker/grafarg/issues/15590).
 
 To turn this feature on add the following [configuration option](/administration/configuration/#editors-can-admin) to your Grafarg ini file in the `users` section and then restart the Grafarg server:
 
@@ -52,6 +52,6 @@ This release contains a lot of small features and fixes:
   - it is now possible to add user details to requests sent to the dataproxy.
 - Heatmap and Explore fixes.
 
-Check out the [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) file for a complete list of new features, changes, and bug fixes.
+Check out the [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) file for a complete list of new features, changes, and bug fixes.
 
 A huge thanks to our community for all the reported issues, bug fixes and feedback.

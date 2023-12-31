@@ -3,7 +3,7 @@ package migrations
 import (
 	"time"
 
-	. "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
+	. "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
 	"xorm.io/xorm"
 )
 

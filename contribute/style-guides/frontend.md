@@ -34,7 +34,7 @@ Generally we follow the Airbnb [React Style Guide](https://github.com/airbnb/jav
         - [React Component defaultProps](#react-component-defaultprops)
   - [State management](#state-management)
   
-  - [Proposal for removing or replacing Angular dependencies](https://github.com/grafarg/grafarg/pull/23048)
+  - [Proposal for removing or replacing Angular dependencies](https://github.com/famarker/grafarg/pull/23048)
 
 ## Basic rules
 
@@ -276,7 +276,7 @@ For code that needs to be used by external plugin:
 
 ### Linting
 
-Linting is performed using [@grafarg/eslint-config](https://github.com/grafarg/eslint-config-grafarg).
+Linting is performed using [@grafarg/eslint-config](https://github.com/famarker/eslint-config-grafarg).
 
 ## React
 

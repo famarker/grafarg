@@ -3,8 +3,8 @@ package migrations
 import (
 	"fmt"
 
-	. "github.com/grafarg/grafarg/pkg/services/sqlstore/migrator"
-	"github.com/grafarg/grafarg/pkg/util"
+	. "github.com/famarker/grafarg/pkg/services/sqlstore/migrator"
+	"github.com/famarker/grafarg/pkg/util"
 	"xorm.io/xorm"
 )
 

@@ -140,7 +140,7 @@ Our recommendation is to use whatever you usually use - Grunt, Gulp or npm scrip
 
 ## Linting
 
-We recommend that you use a linter for your JavaScript. For ES6, the standard linter is [eslint](http://eslint.org/). Rules for linting are described in an .eslintrc that is placed in the root directory. For an example of linting rules in a plugin, refer to [.eslintrc](https://github.com/grafarg/worldmap-panel/blob/master/.eslintrc).
+We recommend that you use a linter for your JavaScript. For ES6, the standard linter is [eslint](http://eslint.org/). Rules for linting are described in an .eslintrc that is placed in the root directory. For an example of linting rules in a plugin, refer to [.eslintrc](https://github.com/famarker/worldmap-panel/blob/master/.eslintrc).
 
 ### ES6 features
 

@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/grafarg/grafarg.git",
+    "url": "http://github.com/famarker/grafarg.git",
     "directory": "packages/grafarg-runtime"
   },
   "main": "src/index.ts",

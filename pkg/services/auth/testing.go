@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 type FakeUserAuthTokenService struct {

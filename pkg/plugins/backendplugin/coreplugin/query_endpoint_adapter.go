@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/grafarg/grafarg-plugin-sdk-go/backend"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
-	"github.com/grafarg/grafarg/pkg/plugins/datasource/wrapper"
-	"github.com/grafarg/grafarg/pkg/tsdb"
+	"github.com/famarker/grafarg-plugin-sdk-go/backend"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/plugins/datasource/wrapper"
+	"github.com/famarker/grafarg/pkg/tsdb"
 )
 
 func newQueryEndpointAdapter(pluginID string, logger log.Logger, handler backend.QueryDataHandler) tsdb.TsdbQueryEndpoint {

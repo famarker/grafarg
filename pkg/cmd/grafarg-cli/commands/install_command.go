@@ -14,12 +14,12 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/utils"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/utils"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/logger"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/models"
-	"github.com/grafarg/grafarg/pkg/cmd/grafarg-cli/services"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/logger"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/models"
+	"github.com/famarker/grafarg/pkg/cmd/grafarg-cli/services"
 )
 
 func validateInput(c utils.CommandLine, pluginFolder string) error {

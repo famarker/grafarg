@@ -3,7 +3,7 @@ package classic
 import (
 	"fmt"
 
-	"github.com/grafarg/grafarg/pkg/expr/mathexp"
+	"github.com/famarker/grafarg/pkg/expr/mathexp"
 )
 
 type evaluator interface {

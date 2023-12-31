@@ -11,8 +11,8 @@ import (
 
 	"cloud.google.com/go/storage"
 	"github.com/golang/mock/gomock"
-	"github.com/grafarg/grafarg/pkg/ifaces/gcsifaces"
-	"github.com/grafarg/grafarg/pkg/mocks/mock_gcsifaces"
+	"github.com/famarker/grafarg/pkg/ifaces/gcsifaces"
+	"github.com/famarker/grafarg/pkg/mocks/mock_gcsifaces"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/oauth2/google"

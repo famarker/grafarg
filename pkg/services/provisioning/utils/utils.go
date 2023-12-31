@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/grafarg/grafarg/pkg/bus"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/bus"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 func CheckOrgExists(orgID int64) error {

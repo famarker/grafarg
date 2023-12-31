@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/setting"
 )
 
 var netTransport = &http.Transport{

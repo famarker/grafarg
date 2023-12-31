@@ -60,7 +60,7 @@ function GridWrapper({
 
   /*
     Disable draggable if mobile device, solving an issue with unintentionally
-     moving panels. https://github.com/grafarg/grafarg/issues/18497
+     moving panels. https://github.com/famarker/grafarg/issues/18497
      theme.breakpoints.md = 769
   */
   const draggable = width <= 769 ? false : isDraggable;

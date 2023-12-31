@@ -1,4 +1,4 @@
-module github.com/grafarg/grafarg/scripts/go
+module github.com/famarker/grafarg/scripts/go
 
 go 1.14
 

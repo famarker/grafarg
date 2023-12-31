@@ -3,7 +3,7 @@ package tsdb
 import (
 	"context"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 type TsdbQueryEndpoint interface {

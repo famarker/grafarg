@@ -42,7 +42,7 @@ export const prepare = () =>
   useSpinner('Preparing', () =>
     Promise.all([
       // Remove local dependencies for @grafarg/data/node_modules
-      // See: https://github.com/grafarg/grafarg/issues/26748
+      // See: https://github.com/famarker/grafarg/issues/26748
       rimraf(resolvePath(__dirname, 'node_modules/@grafarg/data/node_modules')),
 
       // Copy only if local tsconfig does not exist.  Otherwise this will work, but have odd behavior

@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/registry"
-	"github.com/grafarg/grafarg/pkg/services/provisioning/dashboards"
-	"github.com/grafarg/grafarg/pkg/services/provisioning/datasources"
-	"github.com/grafarg/grafarg/pkg/services/provisioning/notifiers"
-	"github.com/grafarg/grafarg/pkg/services/provisioning/plugins"
-	"github.com/grafarg/grafarg/pkg/setting"
-	"github.com/grafarg/grafarg/pkg/util/errutil"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/registry"
+	"github.com/famarker/grafarg/pkg/services/provisioning/dashboards"
+	"github.com/famarker/grafarg/pkg/services/provisioning/datasources"
+	"github.com/famarker/grafarg/pkg/services/provisioning/notifiers"
+	"github.com/famarker/grafarg/pkg/services/provisioning/plugins"
+	"github.com/famarker/grafarg/pkg/setting"
+	"github.com/famarker/grafarg/pkg/util/errutil"
 )
 
 type ProvisioningService interface {

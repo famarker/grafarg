@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafarg/grafarg/pkg/services/validations"
+	"github.com/famarker/grafarg/pkg/services/validations"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/models"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -2,8 +2,8 @@ package features
 
 import (
 	"github.com/centrifugal/centrifuge"
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 var (

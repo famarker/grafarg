@@ -40,7 +40,7 @@ Once a PR is approved as per above, any team member MAY merge the PR.
 
 ## Backporting a PR
 
-PRs intended for inclusion in the next PATCH release they must be backported to the release branch. The bot can do this automatically. [Read more on backport PRs](https://github.com/grafarg/grafarg/blob/master/.github/bot.md). Both the source PR and the backport PR should be assigned to the patch release milestone, unless you are backporting to many releases then it can differ. 
+PRs intended for inclusion in the next PATCH release they must be backported to the release branch. The bot can do this automatically. [Read more on backport PRs](https://github.com/famarker/grafarg/blob/master/.github/bot.md). Both the source PR and the backport PR should be assigned to the patch release milestone, unless you are backporting to many releases then it can differ. 
 
 Backport PRs are also needed during the beta period to get fixes into the stable release. 
 

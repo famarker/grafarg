@@ -20,7 +20,7 @@ FROM golang:1.16.1-alpine3.13 as go-builder
 
 RUN apk add --no-cache gcc g++
 
-WORKDIR $GOPATH/src/github.com/grafarg/grafarg
+WORKDIR $GOPATH/src/github.com/famarker/grafarg
 
 COPY go.mod go.sum ./
 
@@ -73,7 +73,7 @@ RUN export GF_GID_NAME=$(getent group $GF_GID | cut -d':' -f1) && \
     chown -R "grafarg:$GF_GID_NAME" "$GF_PATHS_DATA" "$GF_PATHS_HOME/.aws" "$GF_PATHS_LOGS" "$GF_PATHS_PLUGINS" "$GF_PATHS_PROVISIONING" && \
     chmod -R 777 "$GF_PATHS_DATA" "$GF_PATHS_HOME/.aws" "$GF_PATHS_LOGS" "$GF_PATHS_PLUGINS" "$GF_PATHS_PROVISIONING"
 
-COPY --from=go-builder /go/src/github.com/grafarg/grafarg/bin/linux-amd64/grafarg-server /go/src/github.com/grafarg/grafarg/bin/linux-amd64/grafarg-cli ./bin/
+COPY --from=go-builder /go/src/github.com/famarker/grafarg/bin/linux-amd64/grafarg-server /go/src/github.com/famarker/grafarg/bin/linux-amd64/grafarg-cli ./bin/
 COPY --from=js-builder /usr/src/app/public ./public
 COPY --from=js-builder /usr/src/app/tools ./tools
 

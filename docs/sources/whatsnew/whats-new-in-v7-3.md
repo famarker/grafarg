@@ -10,7 +10,7 @@ list = false
 
 # What's new in Grafarg v7.3
 
-This topic includes the release notes for Grafarg v7.3. For all details, read the full [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) or the [Patch release notes](#patch-release-notes).
+This topic includes the release notes for Grafarg v7.3. For all details, read the full [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) or the [Patch release notes](#patch-release-notes).
 
 The main highlights are:
 
@@ -59,7 +59,7 @@ As this new option is a standard field option it works in every panel. Here is a
 
 ## CSV exports for Excel
 
-In v7.0, we introduced a new table panel and inspect mode with Download CSV enabled. However, CSV export to Excel was removed. Due to a large number of inquiries and requests, this [community contribution from tomdaly](https://github.com/grafarg/grafarg/pull/27284) brought the feature back.
+In v7.0, we introduced a new table panel and inspect mode with Download CSV enabled. However, CSV export to Excel was removed. Due to a large number of inquiries and requests, this [community contribution from tomdaly](https://github.com/famarker/grafarg/pull/27284) brought the feature back.
 
 For more information, refer to [Download raw query results as CSV]({{< relref "../panels/inspect-panel/#download-raw-query-results-as-csv" >}}) in the Grafarg documentation.
 
@@ -147,7 +147,7 @@ See [upgrade notes]({{< relref "../installation/upgrading.md" >}}).
 
 ## Changelog
 
-Check out [CHANGELOG.md](https://github.com/grafarg/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
+Check out [CHANGELOG.md](https://github.com/famarker/grafarg/blob/master/CHANGELOG.md) for a complete list of new features, changes, and bug fixes.
 
 ## Patch release notes
 

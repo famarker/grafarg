@@ -7,8 +7,8 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"gopkg.in/ldap.v3"
 
-	"github.com/grafarg/grafarg/pkg/infra/log"
-	"github.com/grafarg/grafarg/pkg/models"
+	"github.com/famarker/grafarg/pkg/infra/log"
+	"github.com/famarker/grafarg/pkg/models"
 )
 
 func TestLDAPLogin(t *testing.T) {
