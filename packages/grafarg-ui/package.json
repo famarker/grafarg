@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.27",
-    "@grafarg/aws-sdk": "0.0.3",
+    "@grafana/aws-sdk": "0.0.3",
     "@grafarg/data": "7.5.17",
     "@grafarg/e2e-selectors": "7.5.17",
-    "@grafarg/tsconfig": "^1.0.0-rc1",
+    "@grafana/tsconfig": "^1.0.0-rc1",
     "@iconscout/react-unicons": "1.1.4",
     "@popperjs/core": "2.5.4",
     "@sentry/browser": "5.25.0",

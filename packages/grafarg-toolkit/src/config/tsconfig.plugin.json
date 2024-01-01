@@ -3,5 +3,5 @@
     "alwaysStrict": true,
     "declaration": false
   },
-  "extends": "@grafarg/tsconfig"
+  "extends": "@grafana/tsconfig"
 }

@@ -3400,7 +3400,7 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-"@grafarg/api-documenter@7.11.2":
+"@grafana/api-documenter@7.11.2":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@grafana/api-documenter/-/api-documenter-7.11.2.tgz#c08372e51426e3d67d2406834ddbe59f1585b297"
   integrity sha512-03PvAj6fiN5EY+BsdHN61kGpUGdAhRBPTUtnzdMGPYuWlCQthMys0jB5XcrtRWJiOVHkxp597LG+7ZFjI+jaUw==
@@ -3413,7 +3413,7 @@
     js-yaml "~3.13.1"
     resolve "~1.17.0"
 
-"@grafarg/api-extractor@7.10.1":
+"@grafana/api-extractor@7.10.1":
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/@grafana/api-extractor/-/api-extractor-7.10.1.tgz#9464911c20483485cf042586dc594f4184702b55"
   integrity sha512-TpfRiHvR9gkjtZWSpOsdnHvSuIFIy//FhQtOcEtBzotiHiaH/b+qTcaHHondVS2r5MNWj3zfcVBRR1S1Yx5cUQ==
@@ -3430,12 +3430,12 @@
     source-map "~0.6.1"
     typescript "~3.9.7"
 
-"@grafarg/aws-sdk@0.0.3":
+"@grafana/aws-sdk@0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@grafana/aws-sdk/-/aws-sdk-0.0.3.tgz#bc632c6c77971a5474acbe45847420503679fc75"
   integrity sha512-V0PJLk+oU1C33knurXp8BkT5N2ctDu9b21zpK16vkJAs5aOiH/OaOhQ/IP9ipxYhB+b9PFjr8RXagV/8XJ8xwg==
 
-"@grafarg/eslint-config@2.3.0":
+"@grafana/eslint-config@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@grafana/eslint-config/-/eslint-config-2.3.0.tgz#2d053d488854e2fcbaa1ebc0ed4c0258fc014aa4"
   integrity sha512-QX9QbgT6nehLU91HncdE0bXEaGLmB7tSyxyj60+lQYWPygaoFUCsQWKBYxBRsyTYQahQGqkfS+y3scvkCLDCcw==
@@ -3451,7 +3451,7 @@
     prettier "2.2.1"
     typescript "4.1.3"
 
-"@grafarg/tsconfig@^1.0.0-rc1":
+"@grafana/tsconfig@^1.0.0-rc1":
   version "1.0.0-rc1"
   resolved "https://registry.yarnpkg.com/@grafana/tsconfig/-/tsconfig-1.0.0-rc1.tgz#d07ea16755a50cae21000113f30546b61647a200"
   integrity sha512-nucKPGyzlSKYSiJk5RA8GzMdVWhdYNdF+Hh65AXxjD9PlY69JKr5wANj8bVdQboag6dgg0BFKqgKPyY+YtV4Iw==

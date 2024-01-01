@@ -4,6 +4,6 @@
     "module": "commonjs",
     "types": ["cypress", "cypress-file-upload"]
   },
-  "extends": "@grafarg/tsconfig",
+  "extends": "@grafana/tsconfig",
   "include": ["**/*.ts"]
 }
