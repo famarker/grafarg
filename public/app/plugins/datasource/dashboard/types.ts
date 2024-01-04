@@ -1,4 +1,4 @@
-import { DataFrame, DataQuery, DataQueryError } from '@grafarg/data';
+import { DataFrame, DataQuery, DataQueryError } from '@grafana/data';
 
 export const SHARED_DASHBODARD_QUERY = '-- Dashboard --';
 

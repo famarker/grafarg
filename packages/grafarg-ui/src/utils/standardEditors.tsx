@@ -22,7 +22,7 @@ import {
   FieldColor,
   FieldColorConfigSettings,
   StatsPickerConfigSettings,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { Switch } from '../components/Switch/Switch';
 import {

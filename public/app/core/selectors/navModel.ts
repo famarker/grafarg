@@ -1,4 +1,4 @@
-import { NavModel, NavModelItem, NavIndex } from '@grafarg/data';
+import { NavModel, NavModelItem, NavIndex } from '@grafana/data';
 
 const getNotFoundModel = (): NavModel => {
   const node: NavModelItem = {

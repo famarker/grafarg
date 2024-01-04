@@ -9,7 +9,7 @@ import {
   FieldType,
   MutableDataFrame,
   PreferredVisualisationType,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { ElasticsearchAggregation, ElasticsearchQuery } from './types';
 import {
   ExtendedStatMetaType,

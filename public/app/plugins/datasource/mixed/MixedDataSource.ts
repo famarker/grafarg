@@ -10,8 +10,8 @@ import {
   DataSourceApi,
   DataSourceInstanceSettings,
   LoadingState,
-} from '@grafarg/data';
-import { getDataSourceSrv, toDataQueryError } from '@grafarg/runtime';
+} from '@grafana/data';
+import { getDataSourceSrv, toDataQueryError } from '@grafana/runtime';
 
 export const MIXED_DATASOURCE_NAME = '-- Mixed --';
 

@@ -5,10 +5,10 @@ import {
   standardTransformers,
   TransformerRegistryItem,
   TransformerUIProps,
-} from '@grafarg/data';
-import { HorizontalGroup, FilterPill } from '@grafarg/ui';
+} from '@grafana/data';
+import { HorizontalGroup, FilterPill } from '@grafana/ui';
 
-import { FilterFramesByRefIdTransformerOptions } from '@grafarg/data/src/transformations/transformers/filterByRefId';
+import { FilterFramesByRefIdTransformerOptions } from '@grafana/data/src/transformations/transformers/filterByRefId';
 
 interface FilterByRefIdTransformerEditorProps extends TransformerUIProps<FilterFramesByRefIdTransformerOptions> {}
 

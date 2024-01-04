@@ -1,4 +1,4 @@
-import { TableSortByFieldState } from '@grafarg/ui';
+import { TableSortByFieldState } from '@grafana/ui';
 
 export interface Options {
   frameIndex: number;

@@ -1,4 +1,4 @@
-import { SelectableValue } from '@grafarg/data';
+import { SelectableValue } from '@grafana/data';
 
 /**
  * @alpha

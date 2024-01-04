@@ -26,12 +26,12 @@ import impressionSrv from 'app/core/services/impression_srv';
 import builtInPlugins from './built_in_plugins';
 import * as d3 from 'd3';
 import * as emotion from 'emotion';
-import * as grafargData from '@grafarg/data';
-import * as grafargUIraw from '@grafarg/ui';
-import * as grafargRuntime from '@grafarg/runtime';
+import * as grafargData from '@grafana/data';
+import * as grafargUIraw from '@grafana/ui';
+import * as grafargRuntime from '@grafana/runtime';
 
 // Help the 6.4 to 6.5 migration
-// The base classes were moved from @grafarg/ui to @grafarg/data
+// The base classes were moved from @grafana/ui to @grafana/data
 // This exposes the same classes on both import paths
 const grafargUI = grafargUIraw as any;
 grafargUI.PanelPlugin = grafargData.PanelPlugin;
@@ -77,9 +77,9 @@ function exposeToPlugin(name: string, component: any) {
   });
 }
 
-exposeToPlugin('@grafarg/data', grafargData);
-exposeToPlugin('@grafarg/ui', grafargUI);
-exposeToPlugin('@grafarg/runtime', grafargRuntime);
+exposeToPlugin('@grafana/data', grafargData);
+exposeToPlugin('@grafana/ui', grafargUI);
+exposeToPlugin('@grafana/runtime', grafargRuntime);
 exposeToPlugin('lodash', _);
 exposeToPlugin('moment', moment);
 exposeToPlugin('jquery', jquery);

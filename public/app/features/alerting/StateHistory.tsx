@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { getBackendSrv } from '@grafarg/runtime';
-import { Icon, ConfirmButton, Button } from '@grafarg/ui';
+import { getBackendSrv } from '@grafana/runtime';
+import { Icon, ConfirmButton, Button } from '@grafana/ui';
 
 import alertDef from './state/alertDef';
 import { DashboardModel } from '../dashboard/state/DashboardModel';

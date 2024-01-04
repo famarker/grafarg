@@ -8,7 +8,7 @@ import RCCascader from 'rc-cascader';
 import { CascaderOption } from '../Cascader/Cascader';
 import { onChangeCascader, onLoadDataCascader } from '../Cascader/optionMappings';
 import { stylesFactory, useTheme } from '../../themes';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 export interface ButtonCascaderProps {
   options: CascaderOption[];

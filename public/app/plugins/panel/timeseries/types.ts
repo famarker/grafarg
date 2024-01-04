@@ -1,4 +1,4 @@
-import { VizLegendOptions, GraphTooltipOptions } from '@grafarg/ui';
+import { VizLegendOptions, GraphTooltipOptions } from '@grafana/ui';
 
 export interface GraphOptions {
   // nothing for now

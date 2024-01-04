@@ -1,5 +1,5 @@
 import { ThunkResult } from '../../../types';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 import { OrgUser } from 'app/types';
 import { inviteesLoaded, usersLoaded } from './reducers';
 

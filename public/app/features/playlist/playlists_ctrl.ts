@@ -1,8 +1,8 @@
 import { IScope } from 'angular';
 import _ from 'lodash';
-import { AppEvents } from '@grafarg/data';
+import { AppEvents } from '@grafana/data';
 import { OrgRole, AppEventEmitter, CoreEvents } from 'app/types';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 
 import coreModule from '../../core/core_module';
 import config from '../../core/config';

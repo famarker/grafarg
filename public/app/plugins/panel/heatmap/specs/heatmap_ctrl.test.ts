@@ -1,5 +1,5 @@
 import { HeatmapCtrl } from '../heatmap_ctrl';
-import { dateTime } from '@grafarg/data';
+import { dateTime } from '@grafana/data';
 import { TimeSrv } from 'app/features/dashboard/services/TimeSrv';
 
 describe('HeatmapCtrl', () => {

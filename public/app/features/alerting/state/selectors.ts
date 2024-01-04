@@ -1,5 +1,5 @@
 import { AlertDefinition, AlertRule, AlertRulesState, NotificationChannelState, StoreState } from 'app/types';
-import { config } from '@grafarg/runtime';
+import { config } from '@grafana/runtime';
 
 export const getSearchQuery = (state: AlertRulesState) => state.searchQuery;
 

@@ -1,4 +1,4 @@
-import { toUtc, AbsoluteTimeRange } from '@grafarg/data';
+import { toUtc, AbsoluteTimeRange } from '@grafana/data';
 
 import { getShiftedTimeRange, getZoomedTimeRange } from './timePicker';
 

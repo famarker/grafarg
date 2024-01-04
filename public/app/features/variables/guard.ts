@@ -13,7 +13,7 @@ import {
   StandardVariableSupport,
   VariableModel,
   VariableSupportType,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import {
   AdHocVariableModel,

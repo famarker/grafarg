@@ -1,7 +1,7 @@
 // TODO: migrate tests below to the builder
 
 import { UPlotConfigBuilder } from './UPlotConfigBuilder';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import {
   GraphGradientMode,
   AxisPlacement,

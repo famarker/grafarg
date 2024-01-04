@@ -7,13 +7,13 @@ import {
   PanelState,
   QueriesToUpdateOnDashboardLoad,
 } from 'app/types';
-import { AngularComponent } from '@grafarg/runtime';
+import { AngularComponent } from '@grafana/runtime';
 import { EDIT_PANEL_ID } from 'app/core/constants';
 import { processAclItems } from 'app/core/utils/acl';
 import { panelEditorReducer } from '../components/PanelEditor/state/reducers';
 import { DashboardModel } from './DashboardModel';
 import { PanelModel } from './PanelModel';
-import { PanelPlugin } from '@grafarg/data';
+import { PanelPlugin } from '@grafana/data';
 
 export const initialState: DashboardState = {
   initPhase: DashboardInitPhase.NotStarted,

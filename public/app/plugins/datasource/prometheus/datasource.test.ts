@@ -9,7 +9,7 @@ import {
   getFieldDisplayName,
   LoadingState,
   toDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import {
   alignRange,
@@ -26,9 +26,9 @@ import { QueryOptions } from 'app/types';
 const fetchMock = jest.fn().mockReturnValue(of(createDefaultPromResponse()));
 
 jest.mock('./metric_find_query');
-jest.mock('@grafarg/runtime', () => ({
+jest.mock('@grafana/runtime', () => ({
   // @ts-ignore
-  ...jest.requireActual('@grafarg/runtime'),
+  ...jest.requireActual('@grafana/runtime'),
   getBackendSrv: () => ({
     fetch: fetchMock,
   }),

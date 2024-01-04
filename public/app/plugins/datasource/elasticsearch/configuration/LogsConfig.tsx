@@ -1,5 +1,5 @@
 import React from 'react';
-import { LegacyForms } from '@grafarg/ui';
+import { LegacyForms } from '@grafana/ui';
 const { FormField } = LegacyForms;
 import { ElasticsearchOptions } from '../types';
 

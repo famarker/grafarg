@@ -1,7 +1,7 @@
 import React, { forwardRef, HTMLAttributes } from 'react';
 import { cx, css } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
-import { useTheme } from '@grafarg/ui';
+import { GrafargTheme } from '@grafana/data';
+import { useTheme } from '@grafana/ui';
 // @ts-ignore
 import Highlighter from 'react-highlight-words';
 

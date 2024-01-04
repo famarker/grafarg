@@ -1,4 +1,4 @@
-import { FieldConfig, FieldConfigSource, PanelPlugin, standardFieldConfigEditorRegistry } from '@grafarg/data';
+import { FieldConfig, FieldConfigSource, PanelPlugin, standardFieldConfigEditorRegistry } from '@grafana/data';
 import { supportsDataQuery, updateDefaultFieldConfigValue } from './utils';
 
 describe('standardFieldConfigEditorRegistry', () => {

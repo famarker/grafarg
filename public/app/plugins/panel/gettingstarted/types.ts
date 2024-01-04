@@ -1,4 +1,4 @@
-import { IconName } from '@grafarg/ui';
+import { IconName } from '@grafana/ui';
 
 export type CardType = 'tutorial' | 'docs' | 'other';
 

@@ -1,6 +1,6 @@
 import { css } from 'emotion';
 import { config } from 'app/core/config';
-import { stylesFactory } from '@grafarg/ui';
+import { stylesFactory } from '@grafana/ui';
 
 export const getPanelInspectorStyles = stylesFactory(() => {
   return {

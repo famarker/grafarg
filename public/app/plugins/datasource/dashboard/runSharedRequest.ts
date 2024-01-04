@@ -9,7 +9,7 @@ import {
   getDefaultTimeRange,
   LoadingState,
   PanelData,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 export function isSharedDashboardQuery(datasource: string | DataSourceApi | null) {
   if (!datasource) {

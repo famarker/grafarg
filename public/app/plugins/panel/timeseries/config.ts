@@ -9,7 +9,7 @@ import {
   standardEditorsRegistry,
   StatsPickerConfigSettings,
   stringOverrideProcessor,
-} from '@grafarg/data';
+} from '@grafana/data';
 import {
   AxisPlacement,
   BarAlignment,
@@ -24,7 +24,7 @@ import {
   GraphGradientMode,
   LegendDisplayMode,
   AxisConfig,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import { SeriesConfigEditor } from './HideSeriesConfigEditor';
 import { ScaleDistributionEditor } from './ScaleDistributionEditor';
 import { LineStyleEditor } from './LineStyleEditor';

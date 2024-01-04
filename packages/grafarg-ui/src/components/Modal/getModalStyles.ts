@@ -1,5 +1,5 @@
 import { css } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { stylesFactory } from '../../themes';
 
 export const getModalStyles = stylesFactory((theme: GrafargTheme) => {

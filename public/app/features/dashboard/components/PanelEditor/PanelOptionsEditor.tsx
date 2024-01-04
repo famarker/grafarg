@@ -7,9 +7,9 @@ import {
   PanelPlugin,
   StandardEditorContext,
   VariableSuggestionsScope,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { get as lodashGet, set as lodashSet } from 'lodash';
-import { Field, Label } from '@grafarg/ui';
+import { Field, Label } from '@grafana/ui';
 import groupBy from 'lodash/groupBy';
 import { OptionsGroup } from './OptionsGroup';
 import { getPanelOptionsVariableSuggestions } from 'app/features/panel/panellinks/link_srv';

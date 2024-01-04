@@ -1,5 +1,5 @@
 import { ComponentType } from 'react';
-import { LoadingState } from '@grafarg/data';
+import { LoadingState } from '@grafana/data';
 
 import { initialVariableModelState, SystemVariable, VariableHide } from '../types';
 import { VariableAdapter } from '../adapters';

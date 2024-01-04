@@ -1,9 +1,9 @@
 import React, { FC, useState } from 'react';
 import Page from 'app/core/components/Page/Page';
-import { getBackendSrv, config } from '@grafarg/runtime';
+import { getBackendSrv, config } from '@grafana/runtime';
 import { UserOrg } from 'app/types';
 import { useAsync } from 'react-use';
-import { Button, HorizontalGroup } from '@grafarg/ui';
+import { Button, HorizontalGroup } from '@grafana/ui';
 
 const navModel = {
   main: {

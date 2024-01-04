@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { toDuration } from '@grafarg/data';
+import { toDuration } from '@grafana/data';
 
 export interface TimeProps {
   timeInMs: number;

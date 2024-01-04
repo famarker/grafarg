@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import coreModule from 'app/core/core_module';
 import { DashboardModel } from '../../state/DashboardModel';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 
 export interface HistoryListOpts {
   limit: number;

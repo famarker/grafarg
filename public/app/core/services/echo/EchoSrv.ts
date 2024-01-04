@@ -1,4 +1,4 @@
-import { getEchoSrv, EchoEventType } from '@grafarg/runtime';
+import { getEchoSrv, EchoEventType } from '@grafana/runtime';
 import { captureException } from '@sentry/browser';
 import { PerformanceEvent } from './backends/PerformanceBackend';
 

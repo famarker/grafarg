@@ -6,7 +6,7 @@ import {
   outerJoinDataFrames,
   fieldMatchers,
   FieldMatcherID,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { map } from 'rxjs/operators';
 
 /**

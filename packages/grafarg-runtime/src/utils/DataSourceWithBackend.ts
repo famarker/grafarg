@@ -6,7 +6,7 @@ import {
   DataQuery,
   DataSourceJsonData,
   ScopedVars,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 import { getBackendSrv, getDataSourceSrv } from '../services';

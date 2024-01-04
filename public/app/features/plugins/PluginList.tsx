@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import PluginListItem from './PluginListItem';
-import { PluginMeta } from '@grafarg/data';
+import { PluginMeta } from '@grafana/data';
 import { selectors } from '@grafarg/e2e-selectors';
 
 interface Props {

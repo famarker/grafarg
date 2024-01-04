@@ -1,6 +1,6 @@
-import { ArrayVector, FieldType, MutableDataFrame } from '@grafarg/data';
+import { ArrayVector, FieldType, MutableDataFrame } from '@grafana/data';
 import { nodes, edges } from './testData/serviceMapResponse';
-import { NodeGraphDataFrameFieldNames } from '@grafarg/ui';
+import { NodeGraphDataFrameFieldNames } from '@grafana/ui';
 
 export function generateRandomNodes(count = 10) {
   const nodes = [];

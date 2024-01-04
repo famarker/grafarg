@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { css } from 'emotion';
 import { useStyles } from '../../themes';
 

@@ -1,4 +1,4 @@
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { css } from 'emotion';
 
 export const getSegmentStyles = (theme: GrafargTheme) => {

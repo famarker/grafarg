@@ -1,6 +1,6 @@
 import React from 'react';
 import { MetricDescriptor } from '../types';
-import { Icon } from '@grafarg/ui';
+import { Icon } from '@grafana/ui';
 
 export interface Props {
   rawQuery: string;

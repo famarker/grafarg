@@ -1,6 +1,6 @@
 import { of } from 'rxjs';
 import { first } from 'rxjs/operators';
-import { BackendSrvRequest } from '@grafarg/runtime';
+import { BackendSrvRequest } from '@grafana/runtime';
 
 import { FetchQueue, FetchQueueUpdate } from './FetchQueue';
 import { ResponseQueue } from './ResponseQueue';

@@ -1,4 +1,4 @@
-import { GrafargThemeCommons } from '@grafarg/data';
+import { GrafargThemeCommons } from '@grafana/data';
 
 export const commonColorsPalette = {
   // New greys palette used by next-gen form elements

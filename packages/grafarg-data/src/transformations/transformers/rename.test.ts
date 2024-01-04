@@ -5,7 +5,7 @@ import {
   FieldType,
   toDataFrame,
   transformDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { renameFieldsTransformer, RenameFieldsTransformerOptions } from './rename';
 import { mockTransformationsRegistry } from '../../utils/tests/mockTransformationsRegistry';
 

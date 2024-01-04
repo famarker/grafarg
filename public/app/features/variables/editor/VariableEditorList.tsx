@@ -1,8 +1,8 @@
 import React, { FC, MouseEvent, PureComponent } from 'react';
 import { css } from 'emotion';
-import { Icon, IconButton, useStyles } from '@grafarg/ui';
+import { Icon, IconButton, useStyles } from '@grafana/ui';
 import { selectors } from '@grafarg/e2e-selectors';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 import EmptyListCTA from '../../../core/components/EmptyListCTA/EmptyListCTA';
 import { QueryVariableModel, VariableModel } from '../types';

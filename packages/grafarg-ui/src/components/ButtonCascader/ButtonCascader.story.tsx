@@ -1,7 +1,7 @@
 import React from 'react';
 import { Story } from '@storybook/react';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
-import { ButtonCascader } from '@grafarg/ui';
+import { ButtonCascader } from '@grafana/ui';
 import { NOOP_CONTROL } from '../../utils/storybook/noopControl';
 import { ButtonCascaderProps } from './ButtonCascader';
 

@@ -1,6 +1,6 @@
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { css } from 'emotion';
-import { stylesFactory } from '@grafarg/ui';
+import { stylesFactory } from '@grafana/ui';
 
 export const cardStyle = stylesFactory((theme: GrafargTheme, complete: boolean) => {
   const completeGradient = 'linear-gradient(to right, #5182CC 0%, #245BAF 100%)';

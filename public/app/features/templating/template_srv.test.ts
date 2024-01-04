@@ -1,4 +1,4 @@
-import { dateTime, TimeRange } from '@grafarg/data';
+import { dateTime, TimeRange } from '@grafana/data';
 import { initTemplateSrv } from '../../../test/helpers/initTemplateSrv';
 import { silenceConsoleOutput } from '../../../test/core/utils/silenceConsoleOutput';
 import { VariableAdapter, variableAdapters } from '../variables/adapters';

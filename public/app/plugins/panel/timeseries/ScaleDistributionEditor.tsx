@@ -1,6 +1,6 @@
 import React from 'react';
-import { FieldOverrideEditorProps, SelectableValue } from '@grafarg/data';
-import { HorizontalGroup, RadioButtonGroup, ScaleDistribution, ScaleDistributionConfig, Select } from '@grafarg/ui';
+import { FieldOverrideEditorProps, SelectableValue } from '@grafana/data';
+import { HorizontalGroup, RadioButtonGroup, ScaleDistribution, ScaleDistributionConfig, Select } from '@grafana/ui';
 
 const DISTRIBUTION_OPTIONS: Array<SelectableValue<ScaleDistribution>> = [
   {

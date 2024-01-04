@@ -1,4 +1,4 @@
-import { VariableModel } from '@grafarg/data';
+import { VariableModel } from '@grafana/data';
 import { VariableWithOptions } from '../types';
 
 export const formatVariableLabel = (variable: VariableModel) => {

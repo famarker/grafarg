@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { config, GrafargBootConfig } from '@grafarg/runtime';
-import { ThemeContext } from '@grafarg/ui';
+import { config, GrafargBootConfig } from '@grafana/runtime';
+import { ThemeContext } from '@grafana/ui';
 import { appEvents } from '../core';
 import { ThemeChangedEvent } from 'app/types/events';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 export const ConfigContext = React.createContext<GrafargBootConfig>(config);
 export const ConfigConsumer = ConfigContext.Consumer;

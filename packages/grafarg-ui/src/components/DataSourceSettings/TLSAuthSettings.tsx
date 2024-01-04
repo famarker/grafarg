@@ -1,5 +1,5 @@
 import React from 'react';
-import { KeyValue } from '@grafarg/data';
+import { KeyValue } from '@grafana/data';
 import { css, cx } from 'emotion';
 import { Tooltip } from '../Tooltip/Tooltip';
 import { Icon } from '../Icon/Icon';

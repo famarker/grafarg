@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from '@grafarg/ui';
+import { Icon } from '@grafana/ui';
 
 export interface FunctionDescriptor {
   text: string;

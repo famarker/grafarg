@@ -1,4 +1,4 @@
-import { LogLevel } from '@grafarg/data';
+import { LogLevel } from '@grafana/data';
 
 let index = 0;
 

@@ -1,4 +1,4 @@
-import { DataFrame, DataQuery, PanelData, SelectableValue, TimeRange } from '@grafarg/data';
+import { DataFrame, DataQuery, PanelData, SelectableValue, TimeRange } from '@grafana/data';
 import { PanelQueryRunner } from '../features/query/state/PanelQueryRunner';
 import { QueryGroupOptions } from './query';
 import { ExpressionQuery } from '../features/expressions/types';

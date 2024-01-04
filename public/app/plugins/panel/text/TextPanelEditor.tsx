@@ -7,8 +7,8 @@ import {
   useTheme,
   CodeEditorSuggestionItem,
   variableSuggestionToCodeEditorSuggestion,
-} from '@grafarg/ui';
-import { GrafargTheme, StandardEditorProps } from '@grafarg/data';
+} from '@grafana/ui';
+import { GrafargTheme, StandardEditorProps } from '@grafana/data';
 
 import { TextOptions } from './types';
 

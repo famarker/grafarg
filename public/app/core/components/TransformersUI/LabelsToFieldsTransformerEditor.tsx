@@ -5,10 +5,10 @@ import {
   standardTransformers,
   TransformerRegistryItem,
   TransformerUIProps,
-} from '@grafarg/data';
-import { Select } from '@grafarg/ui';
+} from '@grafana/data';
+import { Select } from '@grafana/ui';
 
-import { LabelsToFieldsOptions } from '@grafarg/data/src/transformations/transformers/labelsToFields';
+import { LabelsToFieldsOptions } from '@grafana/data/src/transformations/transformers/labelsToFields';
 
 export const LabelsAsFieldsTransformerEditor: React.FC<TransformerUIProps<LabelsToFieldsOptions>> = ({
   input,

@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ClickOutsideWrapper } from '@grafarg/ui';
+import { ClickOutsideWrapper } from '@grafana/ui';
 import { PanelHeaderMenuProvider } from './PanelHeaderMenuProvider';
 import { PanelHeaderMenu } from './PanelHeaderMenu';
 import { DashboardModel, PanelModel } from '../../state';

@@ -4,15 +4,15 @@ import renderer from 'react-test-renderer';
 import { CloudMonitoringVariableQueryEditor, Props } from './VariableQueryEditor';
 import { CloudMonitoringVariableQuery, MetricFindQueryTypes } from '../types';
 import CloudMonitoringDatasource from '../datasource';
-import { VariableModel } from '@grafarg/data';
+import { VariableModel } from '@grafana/data';
 
 jest.mock('../functions', () => ({
   getMetricTypes: (): any => ({ metricTypes: [], selectedMetricType: '' }),
   extractServicesFromMetricDescriptors: (): any[] => [],
 }));
 
-jest.mock('@grafarg/runtime', () => {
-  const original = jest.requireActual('@grafarg/runtime');
+jest.mock('@grafana/runtime', () => {
+  const original = jest.requireActual('@grafana/runtime');
   return {
     ...original,
     getTemplateSrv: () => ({

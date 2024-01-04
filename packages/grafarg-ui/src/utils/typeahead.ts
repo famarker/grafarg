@@ -1,6 +1,6 @@
 import { default as calculateSize } from 'calculate-size';
 import { CompletionItemGroup, CompletionItem, CompletionItemKind } from '../types/completion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 export const flattenGroupItems = (groupedItems: CompletionItemGroup[]): CompletionItem[] => {
   return groupedItems.reduce((all: CompletionItem[], { items, label }) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { appEvents } from 'app/core/core';
-import { Icon } from '@grafarg/ui';
+import { Icon } from '@grafana/ui';
 
 export class HelpModal extends React.PureComponent {
   static tabIndex = 0;

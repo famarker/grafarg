@@ -1,5 +1,5 @@
 import defaultTheme, { commonColorsPalette } from './default';
-import { GrafargThemeType, GrafargTheme } from '@grafarg/data';
+import { GrafargThemeType, GrafargTheme } from '@grafana/data';
 
 const basicColors = {
   ...commonColorsPalette,

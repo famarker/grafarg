@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import { alignOptions, aggOptions, ValueTypes, MetricKind, systemLabels } from './constants';
-import { SelectableValue } from '@grafarg/data';
+import { SelectableValue } from '@grafana/data';
 import CloudMonitoringDatasource from './datasource';
-import { TemplateSrv } from '@grafarg/runtime';
+import { TemplateSrv } from '@grafana/runtime';
 import { MetricDescriptor, Filter, MetricQuery } from './types';
 
 export const extractServicesFromMetricDescriptors = (metricDescriptors: MetricDescriptor[]) =>

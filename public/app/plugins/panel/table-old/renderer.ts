@@ -13,8 +13,8 @@ import {
   dateTimeFormat,
   getColorForTheme,
   GrafargTheme,
-} from '@grafarg/data';
-import { getTemplateSrv, TemplateSrv } from '@grafarg/runtime';
+} from '@grafana/data';
+import { getTemplateSrv, TemplateSrv } from '@grafana/runtime';
 import { ColumnRender, TableRenderModel, ColumnStyle } from './types';
 import { ColumnOptionsCtrl } from './column_options';
 

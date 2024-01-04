@@ -7,15 +7,15 @@ import {
   standardTransformers,
   TransformerRegistryItem,
   TransformerUIProps,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { getAllFieldNamesFromDataFrames } from './OrganizeFieldsTransformerEditor';
-import { Select, StatsPicker, stylesFactory } from '@grafarg/ui';
+import { Select, StatsPicker, stylesFactory } from '@grafana/ui';
 
 import {
   GroupByFieldOptions,
   GroupByOperationID,
   GroupByTransformerOptions,
-} from '@grafarg/data/src/transformations/transformers/groupBy';
+} from '@grafana/data/src/transformations/transformers/groupBy';
 
 interface FieldProps {
   fieldName: string;

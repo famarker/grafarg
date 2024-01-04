@@ -1,6 +1,6 @@
 import React from 'react';
 import noop from 'lodash/noop';
-import { Icon } from '@grafarg/ui';
+import { Icon } from '@grafana/ui';
 
 type VersionHistoryHeaderProps = {
   isComparing?: boolean;

@@ -7,7 +7,7 @@ import {
   LogsMetaKind,
   MutableDataFrame,
   toDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { dataFrameToLogsModel, dedupLogRows, getSeriesProperties, logSeriesToLogsModel } from './logs_model';
 
 describe('dedupLogRows()', () => {

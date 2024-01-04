@@ -1,4 +1,4 @@
-import { EchoBackend, EchoMeta, EchoEvent, EchoSrv } from '@grafarg/runtime';
+import { EchoBackend, EchoMeta, EchoEvent, EchoSrv } from '@grafana/runtime';
 import { contextSrv } from '../context_srv';
 
 interface EchoConfig {

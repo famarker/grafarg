@@ -1,4 +1,4 @@
-import { getTemplateSrv, TemplateSrv } from '@grafarg/runtime';
+import { getTemplateSrv, TemplateSrv } from '@grafana/runtime';
 
 export class AzureMonitorAnnotationsQueryCtrl {
   static templateUrl = 'partials/annotations.editor.html';

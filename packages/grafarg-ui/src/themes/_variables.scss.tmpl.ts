@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-import { GrafargThemeCommons } from '@grafarg/data';
+import { GrafargThemeCommons } from '@grafana/data';
 import { renderGeneratedFileBanner } from '../utils/generatedFileBanner';
 
 export const commonThemeVarsTemplate = (theme: GrafargThemeCommons) =>

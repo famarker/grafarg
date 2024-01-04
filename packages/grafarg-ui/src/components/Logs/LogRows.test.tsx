@@ -2,7 +2,7 @@ import React from 'react';
 import { range } from 'lodash';
 import { LogRows, PREVIEW_LIMIT } from './LogRows';
 import { mount } from 'enzyme';
-import { LogLevel, LogRowModel, LogsDedupStrategy, MutableDataFrame, LogsSortOrder } from '@grafarg/data';
+import { LogLevel, LogRowModel, LogsDedupStrategy, MutableDataFrame, LogsSortOrder } from '@grafana/data';
 import { LogRow } from './LogRow';
 
 describe('LogRows', () => {

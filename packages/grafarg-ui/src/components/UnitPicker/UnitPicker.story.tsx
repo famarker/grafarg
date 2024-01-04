@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
-import { UnitPicker } from '@grafarg/ui';
+import { UnitPicker } from '@grafana/ui';
 import mdx from './UnitPicker.mdx';
 
 export default {

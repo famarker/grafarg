@@ -1,5 +1,5 @@
 import validationSrv from '../services/ValidationSrv';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 
 export const validateDashboardJson = (json: string) => {
   try {

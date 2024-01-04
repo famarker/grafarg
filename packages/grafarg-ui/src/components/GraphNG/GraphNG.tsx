@@ -10,7 +10,7 @@ import {
   FieldType,
   TimeRange,
   TimeZone,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { withTheme } from '../../themes';
 import { Themeable } from '../../types';
 import { UPlotConfigBuilder } from '../uPlot/config/UPlotConfigBuilder';

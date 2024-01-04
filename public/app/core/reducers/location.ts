@@ -1,9 +1,9 @@
 import _ from 'lodash';
 import { Action, createAction } from '@reduxjs/toolkit';
-import { LocationUpdate } from '@grafarg/runtime';
+import { LocationUpdate } from '@grafana/runtime';
 
 import { LocationState } from 'app/types';
-import { urlUtil } from '@grafarg/data';
+import { urlUtil } from '@grafana/data';
 
 export const initialState: LocationState = {
   url: '',

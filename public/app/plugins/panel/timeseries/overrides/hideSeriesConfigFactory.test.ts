@@ -5,8 +5,8 @@ import {
   FieldMatcherID,
   FieldType,
   toDataFrame,
-} from '@grafarg/data';
-import { GraphNGLegendEvent, GraphNGLegendEventMode } from '@grafarg/ui';
+} from '@grafana/data';
+import { GraphNGLegendEvent, GraphNGLegendEventMode } from '@grafana/ui';
 import { hideSeriesConfigFactory } from './hideSeriesConfigFactory';
 
 describe('hideSeriesConfigFactory', () => {

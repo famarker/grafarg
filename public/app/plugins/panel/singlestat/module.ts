@@ -24,9 +24,9 @@ import {
   getFieldDisplayName,
   getColorForTheme,
   InterpolateFunction,
-} from '@grafarg/data';
+} from '@grafana/data';
 
-import { convertOldAngularValueMapping } from '@grafarg/ui';
+import { convertOldAngularValueMapping } from '@grafana/ui';
 
 import config from 'app/core/config';
 import { MetricsPanelCtrl } from 'app/plugins/sdk';

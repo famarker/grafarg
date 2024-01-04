@@ -1,4 +1,4 @@
-import { DataSourcePlugin } from '@grafarg/data';
+import { DataSourcePlugin } from '@grafana/data';
 import { TempoDatasource } from './datasource';
 import { TempoQueryField } from './QueryField';
 import { ConfigEditor } from './ConfigEditor';

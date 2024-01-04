@@ -9,7 +9,7 @@ import {
   GrafargTheme,
   MutableDataFrame,
   VizOrientation,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { BarChartFieldConfig, BarChartOptions, BarValueVisibility, defaultBarChartFieldConfig } from './types';
 import { AxisPlacement, ScaleDirection, ScaleDistribution, ScaleOrientation } from '../uPlot/config';
 import { BarsOptions, getConfig } from './bars';

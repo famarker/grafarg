@@ -7,7 +7,7 @@ import {
   ThresholdsMode,
   SelectableValue,
   GrafargTheme,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { colors } from '../../utils';
 import { ThemeContext } from '../../themes/ThemeContext';
 import { Input } from '../Input/Input';

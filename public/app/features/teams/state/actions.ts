@@ -1,4 +1,4 @@
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 
 import { TeamMember, ThunkResult } from 'app/types';
 import { updateNavIndex } from 'app/core/actions';

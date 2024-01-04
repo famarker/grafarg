@@ -1,6 +1,6 @@
 import React, { memo, PropsWithChildren } from 'react';
 import { css } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { useTheme, stylesFactory } from '../../../themes';
 
 const getStyle = stylesFactory((theme: GrafargTheme) => {

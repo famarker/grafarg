@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../Button';
 import { stylesFactory, useTheme } from '../../themes';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { css } from 'emotion';
 import { HorizontalGroup } from '..';
 

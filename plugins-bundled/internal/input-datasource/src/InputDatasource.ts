@@ -8,7 +8,7 @@ import {
   DataFrame,
   DataFrameDTO,
   toDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { InputQuery, InputOptions } from './types';
 

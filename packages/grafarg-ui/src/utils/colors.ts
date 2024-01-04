@@ -6,7 +6,7 @@ import zip from 'lodash/zip';
 import tinycolor from 'tinycolor2';
 import lightTheme from '../themes/light';
 import darkTheme from '../themes/dark';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { AlertVariant } from '../components/Alert/Alert';
 
 const PALETTE_ROWS = 4;

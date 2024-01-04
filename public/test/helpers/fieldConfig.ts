@@ -1,4 +1,4 @@
-import { identityOverrideProcessor, ThresholdsMode } from '@grafarg/data';
+import { identityOverrideProcessor, ThresholdsMode } from '@grafana/data';
 
 export function mockStandardFieldConfigOptions() {
   const unit = {

@@ -1,4 +1,4 @@
-import { DataQuery, DataSourceJsonData } from '@grafarg/data';
+import { DataQuery, DataSourceJsonData } from '@grafana/data';
 
 export interface GraphiteQuery extends DataQuery {
   target?: string;

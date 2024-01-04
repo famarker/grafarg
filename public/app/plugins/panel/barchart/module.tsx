@@ -5,7 +5,7 @@ import {
   FieldType,
   PanelPlugin,
   VizOrientation,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { BarChartPanel } from './BarChartPanel';
 import {
   BarChartFieldConfig,
@@ -13,9 +13,9 @@ import {
   BarStackingMode,
   BarValueVisibility,
   graphFieldOptions,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import { addAxisConfig, addHideFrom, addLegendOptions } from '../timeseries/config';
-import { defaultBarChartFieldConfig } from '@grafarg/ui/src/components/BarChart/types';
+import { defaultBarChartFieldConfig } from '@grafana/ui/src/components/BarChart/types';
 
 export const plugin = new PanelPlugin<BarChartOptions, BarChartFieldConfig>(BarChartPanel)
   .useFieldConfig({

@@ -1,4 +1,4 @@
-jest.mock('@grafarg/data/src/datetime/formatter', () => ({
+jest.mock('@grafana/data/src/datetime/formatter', () => ({
   dateTimeFormat: () => 'format() jest mocked',
   dateTimeFormatTimeAgo: (ts: any) => 'fromNow() jest mocked',
 }));
@@ -12,7 +12,7 @@ import {
   PanelData,
   TimeRange,
   toDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import {
   decorateWithFrameTypeMetadata,

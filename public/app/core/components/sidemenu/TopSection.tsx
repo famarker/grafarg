@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import _ from 'lodash';
 import TopSectionItem from './TopSectionItem';
 import config from '../../config';
-import { getLocationSrv } from '@grafarg/runtime';
+import { getLocationSrv } from '@grafana/runtime';
 
 const TopSection: FC<any> = () => {
   const navTree = _.cloneDeep(config.bootData.navTree);

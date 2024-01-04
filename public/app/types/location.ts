@@ -1,4 +1,4 @@
-import { UrlQueryMap } from '@grafarg/data';
+import { UrlQueryMap } from '@grafana/data';
 
 export interface LocationState {
   url: string;

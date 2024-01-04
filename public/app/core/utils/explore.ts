@@ -24,16 +24,16 @@ import {
   rangeUtil,
   DateTime,
   isDateTime,
-} from '@grafarg/data';
+} from '@grafana/data';
 import store from 'app/core/store';
 import { v4 as uuidv4 } from 'uuid';
 import { getNextRefIdChar } from './query';
 // Types
-import { RefreshPicker } from '@grafarg/ui';
+import { RefreshPicker } from '@grafana/ui';
 import { QueryOptions, QueryTransaction } from 'app/types/explore';
 import { config } from '../config';
 import { TimeSrv } from 'app/features/dashboard/services/TimeSrv';
-import { DataSourceSrv } from '@grafarg/runtime';
+import { DataSourceSrv } from '@grafana/runtime';
 import { PanelModel } from 'app/features/dashboard/state';
 
 export const DEFAULT_RANGE = {

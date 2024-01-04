@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { getBackendSrv } from '@grafarg/runtime';
-import { dateMath, dateTime, PanelEvents } from '@grafarg/data';
+import { getBackendSrv } from '@grafana/runtime';
+import { dateMath, dateTime, PanelEvents } from '@grafana/data';
 import { auto, IScope } from 'angular';
 
 import alertDef from '../../../features/alerting/state/alertDef';

@@ -17,7 +17,7 @@ import {
   InputControl,
   TextArea,
   RadioButtonGroup,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 
 export default {
   title: 'Forms/Example forms',

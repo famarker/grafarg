@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { cx, css } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { useTheme } from '../../themes';
 
 export interface Props {

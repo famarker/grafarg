@@ -7,9 +7,9 @@ import {
   DataSourceSrv as DataSourceService,
   getDataSourceSrv as getDataSourceService,
   TemplateSrv,
-} from '@grafarg/runtime';
+} from '@grafana/runtime';
 // Types
-import { AppEvents, DataSourceApi, DataSourceInstanceSettings, DataSourceSelectItem, ScopedVars } from '@grafarg/data';
+import { AppEvents, DataSourceApi, DataSourceInstanceSettings, DataSourceSelectItem, ScopedVars } from '@grafana/data';
 import { auto } from 'angular';
 import { GrafargRootScope } from 'app/routes/GrafargCtrl';
 // Pretend Datasource

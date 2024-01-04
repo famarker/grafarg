@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react';
-import { QueryEditorProps } from '@grafarg/data';
+import { QueryEditorProps } from '@grafana/data';
 import { ElasticDatasource } from '../../datasource';
 import { ElasticsearchOptions, ElasticsearchQuery } from '../../types';
 import { ElasticsearchProvider } from './ElasticsearchQueryContext';
-import { InlineField, InlineFieldRow, Input, QueryField } from '@grafarg/ui';
+import { InlineField, InlineFieldRow, Input, QueryField } from '@grafana/ui';
 import { changeAliasPattern, changeQuery } from './state';
 import { MetricAggregationsEditor } from './MetricAggregationsEditor';
 import { BucketAggregationsEditor } from './BucketAggregationsEditor';

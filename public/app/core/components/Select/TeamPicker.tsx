@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import _, { debounce } from 'lodash';
-import { AsyncSelect } from '@grafarg/ui';
-import { getBackendSrv } from '@grafarg/runtime';
+import { AsyncSelect } from '@grafana/ui';
+import { getBackendSrv } from '@grafana/runtime';
 
 export interface Team {
   id: number;

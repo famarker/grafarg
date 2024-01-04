@@ -1,7 +1,7 @@
 import React, { memo, FC, useEffect } from 'react';
 
 // Types
-import { ExploreQueryFieldProps } from '@grafarg/data';
+import { ExploreQueryFieldProps } from '@grafana/data';
 
 import { PrometheusDatasource } from '../datasource';
 import { PromQuery, PromOptions } from '../types';

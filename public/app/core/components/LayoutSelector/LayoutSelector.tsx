@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { RadioButtonGroup } from '@grafarg/ui';
+import { RadioButtonGroup } from '@grafana/ui';
 
 export type LayoutMode = LayoutModes.Grid | LayoutModes.List;
 

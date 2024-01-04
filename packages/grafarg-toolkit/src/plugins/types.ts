@@ -1,4 +1,4 @@
-import { PluginMeta, KeyValue } from '@grafarg/data';
+import { PluginMeta, KeyValue } from '@grafana/data';
 
 export interface PluginPackageDetails {
   plugin: ZipFileInfo;

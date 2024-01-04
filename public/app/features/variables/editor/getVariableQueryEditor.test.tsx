@@ -1,4 +1,4 @@
-import { VariableSupportType } from '@grafarg/data';
+import { VariableSupportType } from '@grafana/data';
 import { getVariableQueryEditor, StandardVariableQueryEditor } from './getVariableQueryEditor';
 import { LegacyVariableQueryEditor } from './LegacyVariableQueryEditor';
 

@@ -9,7 +9,7 @@ import {
   dateTimeParse,
   rangeUtil,
   RawTimeRange,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { TimePickerCalendar } from './TimePickerCalendar';
 import { Field } from '../../Forms/Field';
 import { Input } from '../../Input/Input';

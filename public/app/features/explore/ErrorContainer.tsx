@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import { DataQueryError } from '@grafarg/data';
-import { Icon } from '@grafarg/ui';
+import { DataQueryError } from '@grafana/data';
+import { Icon } from '@grafana/ui';
 import { FadeIn } from 'app/core/components/Animations/FadeIn';
 
 export interface ErrorContainerProps {

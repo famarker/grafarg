@@ -7,7 +7,7 @@ import {
   LoadingState,
   LogsDedupStrategy,
   PanelData,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { ExploreItemState } from 'app/types/explore';
 import { getDatasourceSrv } from '../../plugins/datasource_srv';

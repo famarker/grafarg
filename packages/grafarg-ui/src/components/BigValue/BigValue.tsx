@@ -1,6 +1,6 @@
 // Library
 import React, { PureComponent } from 'react';
-import { DisplayValue, DisplayValueAlignmentFactors, FieldSparkline, TextDisplayOptions } from '@grafarg/data';
+import { DisplayValue, DisplayValueAlignmentFactors, FieldSparkline, TextDisplayOptions } from '@grafana/data';
 
 // Types
 import { Themeable } from '../../types';

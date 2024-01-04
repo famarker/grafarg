@@ -1,4 +1,4 @@
-import { DataQuery, DataSourceJsonData, QueryResultMeta, ScopedVars } from '@grafarg/data';
+import { DataQuery, DataSourceJsonData, QueryResultMeta, ScopedVars } from '@grafana/data';
 
 export interface LokiInstantQueryRequest {
   query: string;

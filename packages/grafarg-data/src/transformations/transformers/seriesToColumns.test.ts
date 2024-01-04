@@ -5,7 +5,7 @@ import {
   FieldType,
   toDataFrame,
   transformDataFrame,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { SeriesToColumnsOptions, seriesToColumnsTransformer } from './seriesToColumns';
 import { mockTransformationsRegistry } from '../../utils/tests/mockTransformationsRegistry';
 

@@ -1,5 +1,5 @@
 import { Grammar } from 'prismjs';
-import { CompletionItem } from '@grafarg/ui';
+import { CompletionItem } from '@grafana/ui';
 
 export const QUERY_COMMANDS: CompletionItem[] = [
   {

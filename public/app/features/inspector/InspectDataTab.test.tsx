@@ -1,5 +1,5 @@
 import React, { ComponentProps } from 'react';
-import { FieldType } from '@grafarg/data';
+import { FieldType } from '@grafana/data';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { InspectDataTab } from './InspectDataTab';

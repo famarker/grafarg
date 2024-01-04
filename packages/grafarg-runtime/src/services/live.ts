@@ -1,4 +1,4 @@
-import { LiveChannel, LiveChannelAddress } from '@grafarg/data';
+import { LiveChannel, LiveChannelAddress } from '@grafana/data';
 import { Observable } from 'rxjs';
 
 /**

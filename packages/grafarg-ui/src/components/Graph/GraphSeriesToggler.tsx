@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraphSeriesXY } from '@grafarg/data';
+import { GraphSeriesXY } from '@grafana/data';
 import difference from 'lodash/difference';
 import isEqual from 'lodash/isEqual';
 

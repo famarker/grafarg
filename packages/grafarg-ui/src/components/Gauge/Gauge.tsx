@@ -11,7 +11,7 @@ import {
   FieldColorModeId,
   FALLBACK_COLOR,
   TextDisplayOptions,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { Themeable } from '../../types';
 import { calculateFontSize } from '../../utils/measureText';
 

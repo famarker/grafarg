@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextArea } from '@grafarg/ui';
+import { TextArea } from '@grafana/ui';
 
 export interface Props {
   onChange: (query: string) => void;

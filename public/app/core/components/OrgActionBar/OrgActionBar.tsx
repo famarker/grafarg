@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { FilterInput } from '../FilterInput/FilterInput';
-import { LinkButton } from '@grafarg/ui';
+import { LinkButton } from '@grafana/ui';
 
 export interface Props {
   searchQuery: string;

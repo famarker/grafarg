@@ -14,7 +14,7 @@ import {
   LiveChannelScope,
   LoadingState,
   TimeRange,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { Scenario, TestDataQuery } from './types';
 import {
   DataSourceWithBackend,
@@ -23,7 +23,7 @@ import {
   getTemplateSrv,
   TemplateSrv,
   toDataQueryError,
-} from '@grafarg/runtime';
+} from '@grafana/runtime';
 import { queryMetricTree } from './metricTree';
 import { runStream } from './runStreams';
 import { getSearchFilterScopedVar } from 'app/features/variables/utils';

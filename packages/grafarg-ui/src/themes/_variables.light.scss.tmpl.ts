@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { renderGeneratedFileBanner } from '../utils/generatedFileBanner';
 import { styleMixins } from '.';
 

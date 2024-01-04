@@ -1,4 +1,4 @@
-import { Field, RegistryItem } from '@grafarg/data';
+import { Field, RegistryItem } from '@grafana/data';
 export interface ValueMatcherUIRegistryItem<TOptions> extends RegistryItem {
   component: React.ComponentType<ValueMatcherUIProps<TOptions>>;
 }

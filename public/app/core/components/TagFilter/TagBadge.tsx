@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTagColorsFromName, Icon } from '@grafarg/ui';
+import { getTagColorsFromName, Icon } from '@grafana/ui';
 
 export interface Props {
   label: string;

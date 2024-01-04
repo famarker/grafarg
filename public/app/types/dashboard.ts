@@ -1,7 +1,7 @@
 import { DashboardAcl } from './acl';
-import { DataQuery, PanelPlugin } from '@grafarg/data';
+import { DataQuery, PanelPlugin } from '@grafana/data';
 import { DashboardModel } from 'app/features/dashboard/state/DashboardModel';
-import { AngularComponent } from '@grafarg/runtime';
+import { AngularComponent } from '@grafana/runtime';
 
 export interface DashboardDTO {
   redirectUri?: string;

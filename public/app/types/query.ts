@@ -1,4 +1,4 @@
-import { DataQuery } from '@grafarg/data';
+import { DataQuery } from '@grafana/data';
 import { ExpressionQuery } from '../features/expressions/types';
 
 export interface QueryGroupOptions {

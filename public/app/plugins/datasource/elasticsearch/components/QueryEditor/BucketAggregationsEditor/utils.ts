@@ -7,7 +7,7 @@ import {
   MetricAggregation,
   Percentiles,
 } from '../MetricAggregationsEditor/aggregations';
-import { SelectableValue } from '@grafarg/data';
+import { SelectableValue } from '@grafana/data';
 
 export const bucketAggregationConfig: BucketsConfiguration = {
   terms: {

@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import { css } from 'emotion';
-import { GrafargTheme, SelectableValue, TransformerRegistryItem, TransformerUIProps } from '@grafarg/data';
+import { GrafargTheme, SelectableValue, TransformerRegistryItem, TransformerUIProps } from '@grafana/data';
 import { prepareTimeSeriesTransformer, PrepareTimeSeriesOptions, timeSeriesFormat } from './prepareTimeSeries';
-import { InlineField, InlineFieldRow, Select, useStyles } from '@grafarg/ui';
+import { InlineField, InlineFieldRow, Select, useStyles } from '@grafana/ui';
 
 const wideInfo = {
   label: 'Wide time series',

@@ -1,7 +1,7 @@
 import React from 'react';
-import { PanelProps } from '@grafarg/data';
+import { PanelProps } from '@grafana/data';
 import { Options } from './types';
-import { NodeGraph } from '@grafarg/ui';
+import { NodeGraph } from '@grafana/ui';
 import { useLinks } from '../../../features/explore/utils/links';
 
 export const NodeGraphPanel: React.FunctionComponent<PanelProps<Options>> = ({ width, height, data }) => {

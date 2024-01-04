@@ -4,7 +4,7 @@ import {
   FieldColorModeId,
   FieldConfigSource,
   FieldMatcherID,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 export const changeSeriesColorConfigFactory = (
   label: string,

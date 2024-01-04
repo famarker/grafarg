@@ -1,4 +1,4 @@
-import { PanelPlugin } from '@grafarg/data';
+import { PanelPlugin } from '@grafana/data';
 import { GettingStarted } from './GettingStarted';
 
 // Simplest possible panel plugin

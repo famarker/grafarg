@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { IconButton } from '@grafarg/ui';
+import { IconButton } from '@grafana/ui';
 import { css } from 'emotion';
 import React from 'react';
 import { createStyle } from '../../Theme';

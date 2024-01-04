@@ -1,4 +1,4 @@
-import { LogsSortOrder, LogsDedupStrategy } from '@grafarg/data';
+import { LogsSortOrder, LogsDedupStrategy } from '@grafana/data';
 
 export interface Options {
   showLabels: boolean;

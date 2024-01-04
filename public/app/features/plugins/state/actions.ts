@@ -1,5 +1,5 @@
-import { getBackendSrv } from '@grafarg/runtime';
-import { PanelPlugin } from '@grafarg/data';
+import { getBackendSrv } from '@grafana/runtime';
+import { PanelPlugin } from '@grafana/data';
 import { ThunkResult } from 'app/types';
 import {
   pluginDashboardsLoad,

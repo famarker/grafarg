@@ -1,4 +1,4 @@
-import { dateTime } from '@grafarg/data';
+import { dateTime } from '@grafana/data';
 
 import { inputToValue } from './TimePickerCalendar';
 

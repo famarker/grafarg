@@ -1,4 +1,4 @@
-import { Field, LinkModel } from '@grafarg/data';
+import { Field, LinkModel } from '@grafana/data';
 import React from 'react';
 import { ButtonProps, Button } from '../Button';
 

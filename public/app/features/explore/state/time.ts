@@ -6,8 +6,8 @@ import {
   RawTimeRange,
   sortLogsResult,
   TimeRange,
-} from '@grafarg/data';
-import { RefreshPicker } from '@grafarg/ui';
+} from '@grafana/data';
+import { RefreshPicker } from '@grafana/ui';
 
 import { getTimeRange, refreshIntervalToSortOrder, stopQueryState } from 'app/core/utils/explore';
 import { ExploreItemState, ThunkResult } from 'app/types';

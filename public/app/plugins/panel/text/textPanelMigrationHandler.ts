@@ -1,4 +1,4 @@
-import { PanelModel } from '@grafarg/data';
+import { PanelModel } from '@grafana/data';
 import { TextMode, TextOptions } from './types';
 
 export const textPanelMigrationHandler = (panel: PanelModel<TextOptions>): Partial<TextOptions> => {

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { DataQuery } from '@grafarg/data';
+import { DataQuery } from '@grafana/data';
 
 export const getNextRefIdChar = (queries: DataQuery[]): string => {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

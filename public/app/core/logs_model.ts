@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { colors, ansicolor } from '@grafarg/ui';
+import { colors, ansicolor } from '@grafana/ui';
 
 import {
   Labels,
@@ -29,10 +29,10 @@ import {
   dateTime,
   AbsoluteTimeRange,
   sortInAscendingOrder,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { getThemeColor } from 'app/core/utils/colors';
 
-import { SIPrefix } from '@grafarg/data/src/valueFormats/symbolFormatters';
+import { SIPrefix } from '@grafana/data/src/valueFormats/symbolFormatters';
 
 export const LogLevelColor = {
   [LogLevel.critical]: colors[7],

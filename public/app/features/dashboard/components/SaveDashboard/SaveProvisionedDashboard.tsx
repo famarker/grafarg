@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from '@grafarg/ui';
+import { Modal } from '@grafana/ui';
 import { SaveProvisionedDashboardForm } from './forms/SaveProvisionedDashboardForm';
 import { SaveDashboardModalProps } from './types';
 

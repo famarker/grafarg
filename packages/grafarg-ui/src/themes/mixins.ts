@@ -1,4 +1,4 @@
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import tinycolor from 'tinycolor2';
 
 export function cardChrome(theme: GrafargTheme): string {

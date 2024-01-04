@@ -9,7 +9,7 @@ import {
   RawTimeRange,
   TimeRange,
   toUtc,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import coreModule from 'app/core/core_module';
 import { ContextSrv } from 'app/core/services/context_srv';

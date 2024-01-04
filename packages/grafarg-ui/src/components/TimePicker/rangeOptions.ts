@@ -1,4 +1,4 @@
-import { TimeOption } from '@grafarg/data';
+import { TimeOption } from '@grafana/data';
 
 export const quickOptions: TimeOption[] = [
   { from: 'now-5m', to: 'now', display: 'Last 5 minutes', section: 3 },

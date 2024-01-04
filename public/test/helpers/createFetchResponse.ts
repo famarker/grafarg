@@ -1,4 +1,4 @@
-import { FetchResponse } from '@grafarg/runtime';
+import { FetchResponse } from '@grafana/runtime';
 
 export function createFetchResponse<T>(data: T): FetchResponse<T> {
   return {

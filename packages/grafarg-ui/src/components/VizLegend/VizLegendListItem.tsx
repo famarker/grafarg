@@ -4,7 +4,7 @@ import { VizLegendSeriesIcon } from './VizLegendSeriesIcon';
 import { VizLegendItem, SeriesColorChangeHandler } from './types';
 import { VizLegendStatsList } from './VizLegendStatsList';
 import { useStyles } from '../../themes';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 export interface Props {
   item: VizLegendItem;

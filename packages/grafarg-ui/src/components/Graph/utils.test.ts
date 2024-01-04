@@ -6,7 +6,7 @@ import {
   FieldColorModeId,
   Field,
   getColorForTheme,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { getTheme } from '../../themes';
 import { getMultiSeriesGraphHoverInfo, findHoverIndexFromData, graphTimeFormat } from './utils';
 

@@ -30,11 +30,11 @@ import {
   TimeRange,
   HistoryItem,
   DataSourceApi,
-} from '@grafarg/data';
+} from '@grafana/data';
 // Types
 import { ThunkResult } from 'app/types';
 import { getTimeZone } from 'app/features/profile/state/selectors';
-import { getDataSourceSrv } from '@grafarg/runtime';
+import { getDataSourceSrv } from '@grafana/runtime';
 import { getRichHistory } from '../../../core/utils/richHistory';
 import { richHistoryUpdatedAction } from './main';
 

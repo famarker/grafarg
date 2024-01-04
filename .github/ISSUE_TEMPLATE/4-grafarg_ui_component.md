@@ -1,11 +1,11 @@
 ---
-name: '@grafarg/ui component request'
-about: Suggest a component for the @grafarg/ui package
+name: '@grafana/ui component request'
+about: Suggest a component for the @grafana/ui package
 labels: 'area/grafarg/ui'
 ---
 
 <!-- 
-By using this template you will make it easier for us to make sure that documentation and implementation stays up to date for every component in @grafarg/ui
+By using this template you will make it easier for us to make sure that documentation and implementation stays up to date for every component in @grafana/ui
 
 Thank you!
 -->

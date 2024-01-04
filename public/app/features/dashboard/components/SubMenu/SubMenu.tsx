@@ -8,7 +8,7 @@ import { DashboardLinks } from './DashboardLinks';
 import { Annotations } from './Annotations';
 import { SubMenuItems } from './SubMenuItems';
 import { DashboardLink } from '../../state/DashboardModel';
-import { AnnotationQuery } from '@grafarg/data';
+import { AnnotationQuery } from '@grafana/data';
 
 interface OwnProps {
   dashboard: DashboardModel;

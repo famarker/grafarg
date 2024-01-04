@@ -7,7 +7,7 @@ import {
   SelectableValue,
   DataFrame,
   ByNamesMatcherOptions,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { MultiSelect } from '../Select/Select';
 import { Input } from '../Input/Input';
 

@@ -6,18 +6,18 @@ import {
   VizRepeater,
   VizRepeaterRenderValueProps,
   BigValueTextMode,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import {
   DisplayValueAlignmentFactors,
   FieldDisplay,
   getDisplayValueAlignmentFactors,
   getFieldDisplayValues,
   PanelProps,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { config } from 'app/core/config';
 import { StatPanelOptions } from './types';
-import { DataLinksContextMenuApi } from '@grafarg/ui/src/components/DataLinks/DataLinksContextMenu';
+import { DataLinksContextMenuApi } from '@grafana/ui/src/components/DataLinks/DataLinksContextMenu';
 
 export class StatPanel extends PureComponent<PanelProps<StatPanelOptions>> {
   renderComponent = (

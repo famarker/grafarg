@@ -1,4 +1,4 @@
-import { DataSourceSettings } from '@grafarg/data';
+import { DataSourceSettings } from '@grafana/data';
 
 export function createDatasourceSettings<T>(jsonData: T): DataSourceSettings<T> {
   return {

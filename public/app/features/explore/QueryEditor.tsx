@@ -2,10 +2,10 @@
 import React, { PureComponent } from 'react';
 
 // Services
-import { getAngularLoader, AngularComponent } from '@grafarg/runtime';
+import { getAngularLoader, AngularComponent } from '@grafana/runtime';
 
 // Types
-import { DataQuery, TimeRange, EventBusExtended } from '@grafarg/data';
+import { DataQuery, TimeRange, EventBusExtended } from '@grafana/data';
 import 'app/features/plugins/plugin_loader';
 
 interface QueryEditorProps {

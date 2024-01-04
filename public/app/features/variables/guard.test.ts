@@ -8,7 +8,7 @@ import {
 } from './guard';
 import { LegacyVariableQueryEditor } from './editor/LegacyVariableQueryEditor';
 import { StandardVariableQueryEditor } from './editor/getVariableQueryEditor';
-import { VariableSupportType } from '@grafarg/data';
+import { VariableSupportType } from '@grafana/data';
 
 describe('type guards', () => {
   describe('hasLegacyVariableSupport', () => {

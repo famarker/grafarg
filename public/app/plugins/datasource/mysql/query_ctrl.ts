@@ -7,9 +7,9 @@ import MysqlQuery from './mysql_query';
 import sqlPart from './sql_part';
 import { auto } from 'angular';
 import { CoreEvents } from 'app/types';
-import { PanelEvents, QueryResultMeta } from '@grafarg/data';
+import { PanelEvents, QueryResultMeta } from '@grafana/data';
 import { VariableWithMultiSupport } from 'app/features/variables/types';
-import { TemplateSrv } from '@grafarg/runtime';
+import { TemplateSrv } from '@grafana/runtime';
 
 const defaultQuery = `SELECT
   UNIX_TIMESTAMP(<time_column>) as time_sec,

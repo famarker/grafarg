@@ -11,7 +11,7 @@ import {
   SortOrder,
 } from './richHistory';
 import store from 'app/core/store';
-import { dateTime, DataQuery } from '@grafarg/data';
+import { dateTime, DataQuery } from '@grafana/data';
 
 const mock: any = {
   storedHistory: [

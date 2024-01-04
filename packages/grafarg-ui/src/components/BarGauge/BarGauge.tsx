@@ -16,7 +16,7 @@ import {
   FALLBACK_COLOR,
   TextDisplayOptions,
   VizOrientation,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { selectors } from '@grafarg/e2e-selectors';
 import { FormattedValueDisplay } from '../FormattedValueDisplay/FormattedValueDisplay';
 import { measureText, calculateFontSize } from '../../utils/measureText';

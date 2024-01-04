@@ -1,4 +1,4 @@
-import { EventBusExtended } from '@grafarg/data';
+import { EventBusExtended } from '@grafana/data';
 
 export interface PanelModelForLegacyQueryEditors {
   events: EventBusExtended;

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { css } from 'emotion';
-import { Select, FeatureInfoBox, Label, stylesFactory } from '@grafarg/ui';
+import { Select, FeatureInfoBox, Label, stylesFactory } from '@grafana/ui';
 import {
   LiveChannelScope,
   LiveChannelAddress,
@@ -9,7 +9,7 @@ import {
   StandardEditorProps,
   FeatureState,
   GrafargTheme,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { LivePanelOptions } from './types';
 import { getGrafargLiveCentrifugeSrv } from 'app/features/live/live';

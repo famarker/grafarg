@@ -23,7 +23,7 @@ import {
   VariableOrigin,
   VariableSuggestion,
   VariableSuggestionsScope,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { getAllVariableValuesForUrl } from '../../variables/getAllVariableValuesForUrl';
 
 const timeRangeVars = [

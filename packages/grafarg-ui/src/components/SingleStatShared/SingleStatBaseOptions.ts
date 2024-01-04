@@ -17,7 +17,7 @@ import {
   validateFieldConfig,
   FieldColorModeId,
   TextDisplayOptions,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 export interface SingleStatBaseOptions {
   reduceOptions: ReduceDataOptions;

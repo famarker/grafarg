@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { DataSourceInstanceSettings } from '@grafarg/data';
+import { DataSourceInstanceSettings } from '@grafana/data';
 
 export enum DashboardSource {
   Gcom = 0,

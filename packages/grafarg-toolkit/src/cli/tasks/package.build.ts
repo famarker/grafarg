@@ -28,13 +28,13 @@ const preparePackage = async (packageDist: string, pkg: any) => {
   // Below we are adding cross-dependencies to Grafarg's packages
   // with the version being published
   if (name.endsWith('/ui')) {
-    deps['@grafarg/data'] = version;
+    deps['@grafana/data'] = version;
   } else if (name.endsWith('/runtime')) {
-    deps['@grafarg/data'] = version;
-    deps['@grafarg/ui'] = version;
+    deps['@grafana/data'] = version;
+    deps['@grafana/ui'] = version;
   } else if (name.endsWith('/toolkit')) {
-    deps['@grafarg/data'] = version;
-    deps['@grafarg/ui'] = version;
+    deps['@grafana/data'] = version;
+    deps['@grafana/ui'] = version;
   }
 
   await useSpinner('Updating package.json', () =>

@@ -1,4 +1,4 @@
-import { DocsId } from '@grafarg/data';
+import { DocsId } from '@grafana/data';
 
 // TODO: Documentation links
 const DOCS_LINKS: Record<DocsId, string> = {

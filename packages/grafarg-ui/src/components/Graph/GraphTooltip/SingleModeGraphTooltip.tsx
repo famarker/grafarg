@@ -5,7 +5,7 @@ import {
   formattedValueToString,
   getDisplayProcessor,
   getFieldDisplayName,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { SeriesTable } from './SeriesTable';
 import { GraphTooltipContentProps } from './types';
 

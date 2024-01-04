@@ -3,8 +3,8 @@ import {
   DataSourcePluginOptionsEditorProps,
   GrafargTheme,
   updateDatasourcePluginJsonDataOption,
-} from '@grafarg/data';
-import { InlineFormLabel, TagsInput, useStyles } from '@grafarg/ui';
+} from '@grafana/data';
+import { InlineFormLabel, TagsInput, useStyles } from '@grafana/ui';
 import { css } from 'emotion';
 import React from 'react';
 import { DataSourcePicker } from './Select/DataSourcePicker';

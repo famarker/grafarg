@@ -1,5 +1,5 @@
-import { GraphTooltipOptions, LegendDisplayMode, LegendPlacement } from '@grafarg/ui';
-import { YAxis } from '@grafarg/data';
+import { GraphTooltipOptions, LegendDisplayMode, LegendPlacement } from '@grafana/ui';
+import { YAxis } from '@grafana/data';
 
 export interface SeriesOptions {
   color?: string;

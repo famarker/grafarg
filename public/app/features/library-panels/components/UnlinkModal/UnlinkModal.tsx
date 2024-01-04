@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfirmModal } from '@grafarg/ui';
+import { ConfirmModal } from '@grafana/ui';
 
 interface Props {
   isOpen: boolean;

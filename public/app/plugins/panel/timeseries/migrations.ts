@@ -9,8 +9,8 @@ import {
   fieldReducers,
   NullValueMode,
   PanelModel,
-} from '@grafarg/data';
-import { GraphFieldConfig, LegendDisplayMode } from '@grafarg/ui';
+} from '@grafana/data';
+import { GraphFieldConfig, LegendDisplayMode } from '@grafana/ui';
 import {
   GraphGradientMode,
   AxisPlacement,
@@ -18,7 +18,7 @@ import {
   LineInterpolation,
   LineStyle,
   PointVisibility,
-} from '@grafarg/ui/src/components/uPlot/config';
+} from '@grafana/ui/src/components/uPlot/config';
 import { Options } from './types';
 import omitBy from 'lodash/omitBy';
 import isNil from 'lodash/isNil';

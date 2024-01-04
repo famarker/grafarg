@@ -8,7 +8,7 @@ import {
   formattedValueToString,
   getFieldDisplayName,
   SelectableValue,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { DefaultCell } from './DefaultCell';
 import { BarGaugeCell } from './BarGaugeCell';

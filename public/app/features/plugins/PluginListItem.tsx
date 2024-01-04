@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { PluginMeta } from '@grafarg/data';
+import { PluginMeta } from '@grafana/data';
 import { PluginSignatureBadge } from './PluginSignatureBadge';
 import { selectors } from '@grafarg/e2e-selectors';
 

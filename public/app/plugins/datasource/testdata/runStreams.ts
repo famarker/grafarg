@@ -9,7 +9,7 @@ import {
   CSVReader,
   Field,
   LoadingState,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { TestDataQuery, StreamingQuery } from './types';
 import { getRandomLine } from './LogIpsum';

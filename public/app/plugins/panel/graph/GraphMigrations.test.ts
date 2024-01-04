@@ -1,4 +1,4 @@
-import { PanelModel, FieldConfigSource } from '@grafarg/data';
+import { PanelModel, FieldConfigSource } from '@grafana/data';
 import { graphPanelMigrationHandler } from './GraphMigrations';
 
 describe('Graph Panel Migrations', () => {

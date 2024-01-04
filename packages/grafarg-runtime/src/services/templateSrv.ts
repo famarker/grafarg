@@ -1,4 +1,4 @@
-import { VariableModel, ScopedVars } from '@grafarg/data';
+import { VariableModel, ScopedVars } from '@grafana/data';
 
 /**
  * Via the TemplateSrv consumers get access to all the available template variables

@@ -1,7 +1,7 @@
 import angular from 'angular';
 import coreModule from 'app/core/core_module';
 import _ from 'lodash';
-import { TemplateSrv } from '@grafarg/runtime';
+import { TemplateSrv } from '@grafana/runtime';
 
 export class CloudWatchQueryParameterCtrl {
   /** @ngInject */

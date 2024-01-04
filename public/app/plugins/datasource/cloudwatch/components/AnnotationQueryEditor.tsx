@@ -1,7 +1,7 @@
 import React, { ChangeEvent } from 'react';
-import { LegacyForms } from '@grafarg/ui';
+import { LegacyForms } from '@grafana/ui';
 const { Switch } = LegacyForms;
-import { PanelData } from '@grafarg/data';
+import { PanelData } from '@grafana/data';
 import { AnnotationQuery } from '../types';
 import { CloudWatchDatasource } from '../datasource';
 import { QueryField, PanelQueryEditor } from './';

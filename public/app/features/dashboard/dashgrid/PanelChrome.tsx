@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { Subscription } from 'rxjs';
 // Components
 import { PanelHeader } from './PanelHeader/PanelHeader';
-import { ErrorBoundary } from '@grafarg/ui';
+import { ErrorBoundary } from '@grafana/ui';
 // Utils & Services
 import { getTimeSrv, TimeSrv } from '../services/TimeSrv';
 import { applyPanelTimeOverrides } from 'app/features/dashboard/utils/panel';
@@ -23,7 +23,7 @@ import {
   PanelPluginMeta,
   toDataFrameDTO,
   toUtc,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { selectors } from '@grafarg/e2e-selectors';
 import { loadSnapshotData } from '../utils/loadSnapshotData';
 import { RefreshEvent, RenderEvent } from 'app/types/events';

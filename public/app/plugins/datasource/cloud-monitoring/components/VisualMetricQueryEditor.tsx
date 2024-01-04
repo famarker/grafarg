@@ -3,7 +3,7 @@ import { Aggregations, Metrics, LabelFilter, GroupBys, Alignments, AlignmentPeri
 import { MetricQuery, MetricDescriptor } from '../types';
 import { getAlignmentPickerData } from '../functions';
 import CloudMonitoringDatasource from '../datasource';
-import { SelectableValue } from '@grafarg/data';
+import { SelectableValue } from '@grafana/data';
 
 export interface Props {
   usedAlignmentPeriod?: number;

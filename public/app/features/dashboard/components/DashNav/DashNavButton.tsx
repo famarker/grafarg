@@ -2,8 +2,8 @@
 import React, { FunctionComponent } from 'react';
 import { css } from 'emotion';
 // Components
-import { IconName, IconType, IconSize, IconButton, useTheme, stylesFactory } from '@grafarg/ui';
-import { GrafargTheme } from '@grafarg/data';
+import { IconName, IconType, IconSize, IconButton, useTheme, stylesFactory } from '@grafana/ui';
+import { GrafargTheme } from '@grafana/data';
 
 interface Props {
   icon?: IconName;

@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { LoadingPlaceholder } from '@grafarg/ui';
+import { LoadingPlaceholder } from '@grafana/ui';
 
 interface Props {
   pageName?: string;

@@ -1,8 +1,8 @@
 import React, { FC, useState } from 'react';
-import { useTheme, VizLegend } from '@grafarg/ui';
+import { useTheme, VizLegend } from '@grafana/ui';
 import { number, select } from '@storybook/addon-knobs';
 import {} from './VizLegendListItem';
-import { DisplayValue, getColorForTheme, GrafargTheme } from '@grafarg/data';
+import { DisplayValue, getColorForTheme, GrafargTheme } from '@grafana/data';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { LegendDisplayMode, VizLegendItem, LegendPlacement } from './types';
 

@@ -14,7 +14,7 @@ import {
   RawTimeRange,
   TimeRange,
   EventBusExtended,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 export enum ExploreId {
   left = 'left',

@@ -1,4 +1,4 @@
-import { DataSourceSettings } from '@grafarg/data';
+import { DataSourceSettings } from '@grafana/data';
 
 export const getMockDataSources = (amount: number) => {
   const dataSources = [];

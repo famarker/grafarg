@@ -8,8 +8,8 @@ import {
   onUpdateDatasourceJsonDataOptionSelect,
   onUpdateDatasourceSecureJsonDataOption,
   updateDatasourcePluginJsonDataOption,
-} from '@grafarg/data';
-import { DataSourceHttpSettings, InfoBox, InlineField, InlineFormLabel, LegacyForms } from '@grafarg/ui';
+} from '@grafana/data';
+import { DataSourceHttpSettings, InfoBox, InlineField, InlineFormLabel, LegacyForms } from '@grafana/ui';
 const { Select, Input, SecretFormField } = LegacyForms;
 import { InfluxOptions, InfluxSecureJsonData, InfluxVersion } from '../types';
 

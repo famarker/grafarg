@@ -1,6 +1,6 @@
 import { getPanelEditorTabs } from './selectors';
 import { LocationState } from 'app/types';
-import { PanelPlugin } from '@grafarg/data';
+import { PanelPlugin } from '@grafana/data';
 import { PanelEditorTabId } from '../types';
 import { updateConfig } from '../../../../../core/config';
 

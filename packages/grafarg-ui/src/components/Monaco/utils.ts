@@ -1,4 +1,4 @@
-import { VariableSuggestion } from '@grafarg/data';
+import { VariableSuggestion } from '@grafana/data';
 import { CodeEditorSuggestionItem, CodeEditorSuggestionItemKind } from './types';
 
 /**

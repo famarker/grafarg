@@ -6,7 +6,7 @@ import {
   QueryEditorProps,
   VariableModel as BaseVariableModel,
   VariableType,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import { NEW_VARIABLE_ID } from './state/types';
 import { VariableQueryProps } from '../../types';

@@ -1,4 +1,4 @@
-import { DataSourceInstanceSettings } from '@grafarg/data';
+import { DataSourceInstanceSettings } from '@grafana/data';
 
 import { reduxTester } from '../../../../test/core/redux/reduxTester';
 import { getRootReducer, RootReducerType } from '../state/helpers';

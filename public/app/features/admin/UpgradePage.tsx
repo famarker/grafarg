@@ -1,9 +1,9 @@
 import React from 'react';
 import { css } from 'emotion';
-import { NavModel } from '@grafarg/data';
+import { NavModel } from '@grafana/data';
 import Page from '../../core/components/Page/Page';
 import { LicenseChrome } from './LicenseChrome';
-import { LinkButton } from '@grafarg/ui';
+import { LinkButton } from '@grafana/ui';
 import { hot } from 'react-hot-loader';
 import { StoreState } from '../../types';
 import { getNavModel } from '../../core/selectors/navModel';

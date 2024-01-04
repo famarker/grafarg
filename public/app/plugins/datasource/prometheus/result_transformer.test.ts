@@ -1,7 +1,7 @@
-import { DataFrame, FieldType } from '@grafarg/data';
+import { DataFrame, FieldType } from '@grafana/data';
 import { transform } from './result_transformer';
 
-jest.mock('@grafarg/runtime', () => ({
+jest.mock('@grafana/runtime', () => ({
   getTemplateSrv: () => ({
     replace: (str: string) => str,
   }),

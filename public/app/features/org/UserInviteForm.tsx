@@ -9,15 +9,15 @@ import {
   Form,
   Field,
   InputControl,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import { getConfig } from 'app/core/config';
 import { OrgRole } from 'app/types';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 import { updateLocation } from 'app/core/actions';
 import { connect } from 'react-redux';
 import { hot } from 'react-hot-loader';
 import { appEvents } from 'app/core/core';
-import { AppEvents, locationUtil } from '@grafarg/data';
+import { AppEvents, locationUtil } from '@grafana/data';
 
 const roles = [
   { label: 'Viewer', value: OrgRole.Viewer },

@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import { arrayMove } from 'app/core/utils/arrayMove';
 import { Parser } from './parser';
-import { TemplateSrv } from '@grafarg/runtime';
-import { ScopedVars } from '@grafarg/data';
+import { TemplateSrv } from '@grafana/runtime';
+import { ScopedVars } from '@grafana/data';
 
 export default class GraphiteQuery {
   datasource: any;

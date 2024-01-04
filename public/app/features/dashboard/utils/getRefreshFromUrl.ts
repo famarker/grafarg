@@ -1,4 +1,4 @@
-import { defaultIntervals } from '@grafarg/ui';
+import { defaultIntervals } from '@grafana/ui';
 
 interface Args {
   params: Record<string, string>;

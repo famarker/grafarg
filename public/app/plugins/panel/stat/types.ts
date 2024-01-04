@@ -4,7 +4,7 @@ import {
   BigValueGraphMode,
   BigValueJustifyMode,
   BigValueTextMode,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import {
   ReducerID,
   standardEditorsRegistry,
@@ -13,7 +13,7 @@ import {
   escapeStringForRegex,
   VizOrientation,
   PanelOptionsEditorBuilder,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 // Structure copied from angular
 export interface StatPanelOptions extends SingleStatBaseOptions {

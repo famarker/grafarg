@@ -1,5 +1,5 @@
 import { MetricTankSeriesMeta } from './types';
-import { QueryResultMetaNotice } from '@grafarg/data';
+import { QueryResultMetaNotice } from '@grafana/data';
 
 // https://github.com/famarker/metrictank/blob/master/scripts/config/storage-schemas.conf#L15-L46
 

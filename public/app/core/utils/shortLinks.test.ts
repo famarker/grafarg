@@ -1,6 +1,6 @@
 import { createShortLink, createAndCopyShortLink } from './shortLinks';
 
-jest.mock('@grafarg/runtime', () => ({
+jest.mock('@grafana/runtime', () => ({
   getBackendSrv: () => {
     return {
       post: () => {

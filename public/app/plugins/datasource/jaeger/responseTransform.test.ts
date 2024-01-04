@@ -1,5 +1,5 @@
 import { createTraceFrame } from './responseTransform';
-import { ArrayVector } from '@grafarg/data';
+import { ArrayVector } from '@grafana/data';
 import { testResponse } from './testResponse';
 
 describe('createTraceFrame', () => {

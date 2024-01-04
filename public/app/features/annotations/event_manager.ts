@@ -7,10 +7,10 @@ import {
   PENDING_COLOR,
   DEFAULT_ANNOTATION_COLOR,
   REGION_FILL_ALPHA,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
-import { AnnotationEvent } from '@grafarg/data';
+import { AnnotationEvent } from '@grafana/data';
 
 export class EventManager {
   event: AnnotationEvent | null;

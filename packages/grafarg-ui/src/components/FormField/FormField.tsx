@@ -1,6 +1,6 @@
 import React, { InputHTMLAttributes, FunctionComponent } from 'react';
 import { css, cx } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { InlineFormLabel } from '../FormLabel/FormLabel';
 import { PopoverContent } from '../Tooltip/Tooltip';
 import { useStyles } from '../../themes';

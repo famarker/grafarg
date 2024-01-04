@@ -1,7 +1,7 @@
 import React from 'react';
 import { FolderSettingsPage, Props } from './FolderSettingsPage';
 import { shallow } from 'enzyme';
-import { NavModel } from '@grafarg/data';
+import { NavModel } from '@grafana/data';
 import { mockToolkitActionCreator } from 'test/core/redux/mocks';
 import { setFolderTitle } from './state/reducers';
 

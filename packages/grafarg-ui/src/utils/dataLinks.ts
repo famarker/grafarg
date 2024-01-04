@@ -1,4 +1,4 @@
-import { LinkModel } from '@grafarg/data';
+import { LinkModel } from '@grafana/data';
 import { MenuItem } from '../components/Menu/Menu';
 import { IconName } from '../types';
 

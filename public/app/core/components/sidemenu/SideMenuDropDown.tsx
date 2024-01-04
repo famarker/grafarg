@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import _ from 'lodash';
 import DropDownChild from './DropDownChild';
-import { NavModelItem } from '@grafarg/data';
+import { NavModelItem } from '@grafana/data';
 
 interface Props {
   link: NavModelItem;

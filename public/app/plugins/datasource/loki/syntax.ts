@@ -1,5 +1,5 @@
 import { Grammar } from 'prismjs';
-import { CompletionItem } from '@grafarg/ui';
+import { CompletionItem } from '@grafana/ui';
 
 const AGGREGATION_OPERATORS: CompletionItem[] = [
   {

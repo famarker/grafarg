@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import _ from 'lodash';
 
-import { TemplateSrv } from '@grafarg/runtime';
-import { SelectableValue } from '@grafarg/data';
+import { TemplateSrv } from '@grafana/runtime';
+import { SelectableValue } from '@grafana/data';
 import CloudMonitoringDatasource from '../datasource';
-import { Segment } from '@grafarg/ui';
+import { Segment } from '@grafana/ui';
 import { MetricDescriptor } from '../types';
 
 export interface Props {

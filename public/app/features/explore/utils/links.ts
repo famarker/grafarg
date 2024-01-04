@@ -8,8 +8,8 @@ import {
   ScopedVars,
   DataFrame,
   getFieldDisplayValuesProxy,
-} from '@grafarg/data';
-import { config, getTemplateSrv } from '@grafarg/runtime';
+} from '@grafana/data';
+import { config, getTemplateSrv } from '@grafana/runtime';
 import { SplitOpen } from 'app/types/explore';
 import { getLinkSrv } from '../../panel/panellinks/link_srv';
 

@@ -1,4 +1,4 @@
-import { PanelPlugin } from '@grafarg/data';
+import { PanelPlugin } from '@grafana/data';
 
 import { TextPanel } from './TextPanel';
 import { TextOptions } from './types';

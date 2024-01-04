@@ -19,7 +19,7 @@ import {
   AbsoluteTimeRange,
   LoadingState,
   EventBusExtended,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { selectors } from '@grafarg/e2e-selectors';
 
 import { ExploreItemState, ExploreId } from 'app/types/explore';

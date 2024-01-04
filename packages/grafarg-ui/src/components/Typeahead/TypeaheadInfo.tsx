@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { css, cx } from 'emotion';
 
 import { CompletionItem, ThemeContext } from '../..';
-import { GrafargTheme, renderMarkdown } from '@grafarg/data';
+import { GrafargTheme, renderMarkdown } from '@grafana/data';
 
 const getStyles = (theme: GrafargTheme, height: number, visible: boolean) => {
   return {

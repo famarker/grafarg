@@ -1,6 +1,6 @@
-import { DataQueryError, DataSourceApi, PanelData, PanelPlugin } from '@grafarg/data';
+import { DataQueryError, DataSourceApi, PanelData, PanelPlugin } from '@grafana/data';
 import useAsync from 'react-use/lib/useAsync';
-import { getDataSourceSrv } from '@grafarg/runtime';
+import { getDataSourceSrv } from '@grafana/runtime';
 import { DashboardModel } from 'app/features/dashboard/state';
 import { useMemo } from 'react';
 import { supportsDataQuery } from '../PanelEditor/utils';

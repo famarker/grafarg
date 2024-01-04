@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal } from '@grafarg/ui';
+import { Modal } from '@grafana/ui';
 import { css } from 'emotion';
 import { SaveDashboardForm } from './forms/SaveDashboardForm';
 import { SaveDashboardErrorProxy } from './SaveDashboardErrorProxy';

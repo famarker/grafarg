@@ -9,11 +9,11 @@ import {
   TransformerRegistryItem,
   TransformerUIProps,
   getFieldDisplayName,
-} from '@grafarg/data';
-import { stylesFactory, useTheme, Input, IconButton, Icon } from '@grafarg/ui';
+} from '@grafana/data';
+import { stylesFactory, useTheme, Input, IconButton, Icon } from '@grafana/ui';
 
-import { OrganizeFieldsTransformerOptions } from '@grafarg/data/src/transformations/transformers/organize';
-import { createOrderFieldsComparer } from '@grafarg/data/src/transformations/transformers/order';
+import { OrganizeFieldsTransformerOptions } from '@grafana/data/src/transformations/transformers/organize';
+import { createOrderFieldsComparer } from '@grafana/data/src/transformations/transformers/order';
 
 interface OrganizeFieldsTransformerEditorProps extends TransformerUIProps<OrganizeFieldsTransformerOptions> {}
 

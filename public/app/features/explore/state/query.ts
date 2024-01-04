@@ -9,7 +9,7 @@ import {
   PanelEvents,
   QueryFixAction,
   toLegacyResponseData,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import {
   buildQueryTransaction,

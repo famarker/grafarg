@@ -1,6 +1,6 @@
 import React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import { FieldConfigOptionsRegistry } from '@grafarg/data';
+import { FieldConfigOptionsRegistry } from '@grafana/data';
 import { selectors } from '@grafarg/e2e-selectors';
 import { OverrideEditor } from './OverrideEditor';
 

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { LegacyForms, ThemeContext } from '@grafarg/ui';
+import { LegacyForms, ThemeContext } from '@grafana/ui';
 const { Select } = LegacyForms;
 import { css, cx } from 'emotion';
-import { GrafargTheme, SelectableValue } from '@grafarg/data';
+import { GrafargTheme, SelectableValue } from '@grafana/data';
 
 const getStyles = (theme: GrafargTheme) => ({
   keyValueContainer: css`

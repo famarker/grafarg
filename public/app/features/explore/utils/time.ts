@@ -1,4 +1,4 @@
-import { isDateTime, RawTimeRange, TimeRange } from '@grafarg/data';
+import { isDateTime, RawTimeRange, TimeRange } from '@grafana/data';
 
 export const toRawTimeRange = (range: TimeRange): RawTimeRange => {
   let from = range.raw.from;

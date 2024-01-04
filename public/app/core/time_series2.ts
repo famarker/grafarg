@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { getValueFormat, ValueFormatter, stringToJsRegex, DecimalCount, formattedValueToString } from '@grafarg/data';
+import { getValueFormat, ValueFormatter, stringToJsRegex, DecimalCount, formattedValueToString } from '@grafana/data';
 
 function matchSeriesOverride(aliasOrRegex: string, seriesAlias: string) {
   if (!aliasOrRegex) {

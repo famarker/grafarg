@@ -12,7 +12,7 @@ import {
   getFieldDisplayName,
   KeyValue,
   standardTransformers,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 import isString from 'lodash/isString';
 

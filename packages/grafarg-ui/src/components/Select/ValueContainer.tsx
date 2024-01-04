@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { cx } from 'emotion';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 import { withTheme } from '../../themes/ThemeContext';
 import { getSelectStyles } from './getSelectStyles';
 

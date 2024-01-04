@@ -1,5 +1,5 @@
 import React from 'react';
-import { config } from '@grafarg/runtime';
+import { config } from '@grafana/runtime';
 import { renderHook } from '@testing-library/react-hooks';
 import { css } from 'emotion';
 import { mount } from 'enzyme';

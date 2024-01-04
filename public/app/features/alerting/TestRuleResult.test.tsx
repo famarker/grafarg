@@ -3,8 +3,8 @@ import { TestRuleResult, Props } from './TestRuleResult';
 import { DashboardModel, PanelModel } from '../dashboard/state';
 import { shallow } from 'enzyme';
 
-jest.mock('@grafarg/runtime', () => {
-  const original = jest.requireActual('@grafarg/runtime');
+jest.mock('@grafana/runtime', () => {
+  const original = jest.requireActual('@grafana/runtime');
 
   return {
     ...original,

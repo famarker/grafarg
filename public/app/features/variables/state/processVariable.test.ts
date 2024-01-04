@@ -1,4 +1,4 @@
-import { UrlQueryMap } from '@grafarg/data';
+import { UrlQueryMap } from '@grafana/data';
 
 import { getTemplatingRootReducer } from './helpers';
 import { variableAdapters } from '../adapters';
@@ -14,7 +14,7 @@ import { updateVariableOptions } from '../query/reducer';
 import { customBuilder, queryBuilder } from '../shared/testing/builders';
 import { variablesInitTransaction } from './transactionReducer';
 import { setVariableQueryRunner, VariableQueryRunner } from '../query/VariableQueryRunner';
-import { setDataSourceSrv } from '@grafarg/runtime';
+import { setDataSourceSrv } from '@grafana/runtime';
 
 jest.mock('app/features/dashboard/services/TimeSrv', () => ({
   getTimeSrv: jest.fn().mockReturnValue({

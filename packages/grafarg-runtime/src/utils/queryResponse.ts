@@ -12,7 +12,7 @@ import {
   MetricFindValue,
   FieldType,
   DataQuery,
-} from '@grafarg/data';
+} from '@grafana/data';
 
 interface DataResponse {
   error?: string;

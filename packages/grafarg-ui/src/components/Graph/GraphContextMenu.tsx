@@ -9,7 +9,7 @@ import {
   dateTimeFormat,
   TimeZone,
   FormattedValue,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { useTheme } from '../../themes';
 import { HorizontalGroup } from '../Layout/Layout';
 import { FormattedValueDisplay } from '../FormattedValueDisplay/FormattedValueDisplay';

@@ -14,15 +14,15 @@ import {
   standardTransformers,
   TransformerRegistryItem,
   TransformerUIProps,
-} from '@grafarg/data';
-import { FilterPill, HorizontalGroup, Input, LegacyForms, Select, StatsPicker } from '@grafarg/ui';
+} from '@grafana/data';
+import { FilterPill, HorizontalGroup, Input, LegacyForms, Select, StatsPicker } from '@grafana/ui';
 import {
   BinaryOptions,
   CalculateFieldMode,
   CalculateFieldTransformerOptions,
   getNameFromOptions,
   ReduceOptions,
-} from '@grafarg/data/src/transformations/transformers/calculateField';
+} from '@grafana/data/src/transformations/transformers/calculateField';
 
 import defaults from 'lodash/defaults';
 

@@ -1,4 +1,4 @@
-import { DataSourcePlugin } from '@grafarg/data';
+import { DataSourcePlugin } from '@grafana/data';
 import { JaegerDatasource } from './datasource';
 import { JaegerQueryField } from './QueryField';
 import { ConfigEditor } from './ConfigEditor';

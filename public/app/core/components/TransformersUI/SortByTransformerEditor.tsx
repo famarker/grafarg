@@ -1,9 +1,9 @@
 import React, { useCallback, useMemo } from 'react';
-import { DataTransformerID, standardTransformers, TransformerRegistryItem, TransformerUIProps } from '@grafarg/data';
+import { DataTransformerID, standardTransformers, TransformerRegistryItem, TransformerUIProps } from '@grafana/data';
 import { getAllFieldNamesFromDataFrames } from './OrganizeFieldsTransformerEditor';
-import { InlineField, InlineSwitch, InlineFieldRow, Select } from '@grafarg/ui';
+import { InlineField, InlineSwitch, InlineFieldRow, Select } from '@grafana/ui';
 
-import { SortByField, SortByTransformerOptions } from '@grafarg/data/src/transformations/transformers/sortBy';
+import { SortByField, SortByTransformerOptions } from '@grafana/data/src/transformations/transformers/sortBy';
 
 export const SortByTransformerEditor: React.FC<TransformerUIProps<SortByTransformerOptions>> = ({
   input,

@@ -1,4 +1,4 @@
-import { dateTime, LoadingState } from '@grafarg/data';
+import { dateTime, LoadingState } from '@grafana/data';
 
 import { makeExplorePaneState } from './utils';
 import { ExploreId, ExploreItemState } from 'app/types/explore';

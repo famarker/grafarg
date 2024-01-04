@@ -8,7 +8,7 @@ import {
   MenuItemsGroup,
   Portal,
   useGraphNGContext,
-} from '@grafarg/ui';
+} from '@grafana/ui';
 import {
   DataFrame,
   DataFrameView,
@@ -16,7 +16,7 @@ import {
   getFieldDisplayName,
   InterpolateFunction,
   TimeZone,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { useClickAway } from 'react-use';
 import { getFieldLinksSupplier } from '../../../../features/panel/panellinks/linkSuppliers';
 

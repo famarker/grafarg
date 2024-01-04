@@ -3,7 +3,7 @@ import { create } from '@storybook/theming/create';
 import lightTheme from '../src/themes/light';
 import darkTheme from '../src/themes/dark';
 import ThemeCommons from '../src/themes/default';
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 const createTheme = (theme: GrafargTheme) => {
   return create({

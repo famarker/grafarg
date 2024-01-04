@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FieldConfigEditorProps, ValueMapping, ValueMappingFieldConfigSettings } from '@grafarg/data';
+import { FieldConfigEditorProps, ValueMapping, ValueMappingFieldConfigSettings } from '@grafana/data';
 import { ValueMappingsEditor } from '../ValueMappingsEditor/ValueMappingsEditor';
 
 export class ValueMappingsValueEditor extends React.PureComponent<

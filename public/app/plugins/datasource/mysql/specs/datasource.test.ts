@@ -1,14 +1,14 @@
 import { of } from 'rxjs';
-import { dateTime, toUtc } from '@grafarg/data';
+import { dateTime, toUtc } from '@grafana/data';
 
 import { MysqlDatasource } from '../datasource';
 import { backendSrv } from 'app/core/services/backend_srv'; // will use the version in __mocks__
 import { TemplateSrv } from 'app/features/templating/template_srv';
 import { initialCustomVariableModelState } from '../../../../features/variables/custom/reducer';
-import { FetchResponse } from '@grafarg/runtime';
+import { FetchResponse } from '@grafana/runtime';
 
-jest.mock('@grafarg/runtime', () => ({
-  ...((jest.requireActual('@grafarg/runtime') as unknown) as object),
+jest.mock('@grafana/runtime', () => ({
+  ...((jest.requireActual('@grafana/runtime') as unknown) as object),
   getBackendSrv: () => backendSrv,
 }));
 

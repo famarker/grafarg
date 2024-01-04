@@ -1,5 +1,5 @@
-import { AnnotationQuery, DataQuery } from '@grafarg/data';
-import { MeasurementsQuery } from '@grafarg/runtime';
+import { AnnotationQuery, DataQuery } from '@grafana/data';
+import { MeasurementsQuery } from '@grafana/runtime';
 
 //----------------------------------------------
 // Query

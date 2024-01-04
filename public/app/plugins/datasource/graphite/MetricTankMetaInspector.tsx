@@ -1,10 +1,10 @@
 import { css, cx } from 'emotion';
 import React, { PureComponent } from 'react';
-import { MetadataInspectorProps, rangeUtil } from '@grafarg/data';
+import { MetadataInspectorProps, rangeUtil } from '@grafana/data';
 import { GraphiteDatasource } from './datasource';
 import { GraphiteQuery, GraphiteOptions, MetricTankSeriesMeta } from './types';
 import { parseSchemaRetentions, getRollupNotice, getRuntimeConsolidationNotice } from './meta';
-import { stylesFactory } from '@grafarg/ui';
+import { stylesFactory } from '@grafana/ui';
 import { config } from 'app/core/config';
 
 export type Props = MetadataInspectorProps<GraphiteDatasource, GraphiteQuery, GraphiteOptions>;

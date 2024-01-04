@@ -1,4 +1,4 @@
-import { DataSourceInstanceSettings, FieldType, MutableDataFrame, PluginType } from '@grafarg/data';
+import { DataSourceInstanceSettings, FieldType, MutableDataFrame, PluginType } from '@grafana/data';
 import { backendSrv } from 'app/core/services/backend_srv';
 import { of } from 'rxjs';
 import { createFetchResponse } from 'test/helpers/createFetchResponse';

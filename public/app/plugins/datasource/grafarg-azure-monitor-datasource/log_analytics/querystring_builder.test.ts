@@ -1,5 +1,5 @@
 import LogAnalyticsQuerystringBuilder from './querystring_builder';
-import { dateTime } from '@grafarg/data';
+import { dateTime } from '@grafana/data';
 
 describe('LogAnalyticsDatasource', () => {
   let builder: LogAnalyticsQuerystringBuilder;

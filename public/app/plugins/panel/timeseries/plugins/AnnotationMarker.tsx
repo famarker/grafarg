@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from 'react';
-import { GrafargTheme } from '@grafarg/data';
-import { HorizontalGroup, Portal, Tag, TooltipContainer, useStyles } from '@grafarg/ui';
+import { GrafargTheme } from '@grafana/data';
+import { HorizontalGroup, Portal, Tag, TooltipContainer, useStyles } from '@grafana/ui';
 import { css } from 'emotion';
 
 interface AnnotationMarkerProps {

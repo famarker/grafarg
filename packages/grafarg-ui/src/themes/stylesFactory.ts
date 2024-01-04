@@ -1,5 +1,5 @@
 import memoizeOne from 'memoize-one';
-// import { KeyValue } from '@grafarg/data';
+// import { KeyValue } from '@grafana/data';
 
 /**
  *  Creates memoized version of styles creator

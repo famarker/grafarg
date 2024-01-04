@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
-import { getBackendSrv } from '@grafarg/runtime';
+import { getBackendSrv } from '@grafana/runtime';
 import { UserDTO, Team, UserOrg, UserSession } from 'app/types';
 import { config } from 'app/core/config';
-import { dateTimeFormat, dateTimeFormatTimeAgo } from '@grafarg/data';
+import { dateTimeFormat, dateTimeFormatTimeAgo } from '@grafana/data';
 
 export interface UserAPI {
   changePassword: (changePassword: ChangePasswordFields) => void;

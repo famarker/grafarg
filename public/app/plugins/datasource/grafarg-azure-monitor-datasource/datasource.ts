@@ -11,9 +11,9 @@ import {
   DataSourceInstanceSettings,
   LoadingState,
   ScopedVars,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { forkJoin, Observable, of } from 'rxjs';
-import { DataSourceWithBackend } from '@grafarg/runtime';
+import { DataSourceWithBackend } from '@grafana/runtime';
 import InsightsAnalyticsDatasource from './insights_analytics/insights_analytics_datasource';
 import { migrateMetricsDimensionFilters } from './query_ctrl';
 import { map } from 'rxjs/operators';

@@ -1,4 +1,4 @@
-import { GrafargTheme } from '@grafarg/data';
+import { GrafargTheme } from '@grafana/data';
 
 export interface Themeable {
   theme: GrafargTheme;

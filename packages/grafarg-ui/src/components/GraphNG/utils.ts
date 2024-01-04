@@ -13,7 +13,7 @@ import {
   outerJoinDataFrames,
   TimeRange,
   TimeZone,
-} from '@grafarg/data';
+} from '@grafana/data';
 import { UPlotConfigBuilder } from '../uPlot/config/UPlotConfigBuilder';
 import { FIXED_UNIT } from './GraphNG';
 import {

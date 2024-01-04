@@ -4,7 +4,7 @@ import { VizLegendSeriesIcon } from './VizLegendSeriesIcon';
 import { VizLegendItem, SeriesColorChangeHandler } from './types';
 import { useStyles } from '../../themes/ThemeContext';
 import { styleMixins } from '../../themes';
-import { GrafargTheme, formattedValueToString } from '@grafarg/data';
+import { GrafargTheme, formattedValueToString } from '@grafana/data';
 
 export interface Props {
   key?: React.Key;

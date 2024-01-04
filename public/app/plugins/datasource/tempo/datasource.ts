@@ -6,8 +6,8 @@ import {
   DataSourceInstanceSettings,
   FieldType,
   MutableDataFrame,
-} from '@grafarg/data';
-import { DataSourceWithBackend } from '@grafarg/runtime';
+} from '@grafana/data';
+import { DataSourceWithBackend } from '@grafana/runtime';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { UserDTO, UserSession } from 'app/types';
-import { LoadingPlaceholder, Button, Icon } from '@grafarg/ui';
+import { LoadingPlaceholder, Button, Icon } from '@grafana/ui';
 
 export interface Props {
   user: UserDTO;

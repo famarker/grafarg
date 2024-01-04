@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { MetricFindValue } from '@grafarg/data';
+import { MetricFindValue } from '@grafana/data';
 
 interface TableResponse extends Record<string, any> {
   type: string;

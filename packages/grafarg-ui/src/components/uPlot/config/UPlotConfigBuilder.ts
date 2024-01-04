@@ -5,7 +5,7 @@ import { AxisProps, UPlotAxisBuilder } from './UPlotAxisBuilder';
 import { AxisPlacement } from '../config';
 import uPlot, { Cursor, Band, Hooks, BBox } from 'uplot';
 import { defaultsDeep } from 'lodash';
-import { DefaultTimeZone, getTimeZoneInfo } from '@grafarg/data';
+import { DefaultTimeZone, getTimeZoneInfo } from '@grafana/data';
 
 type valueof<T> = T[keyof T];
 

@@ -6,7 +6,7 @@ import {
   AngularComponent,
   AngularLoader as AngularLoaderInterface,
   setAngularLoader as setAngularLoaderInterface,
-} from '@grafarg/runtime';
+} from '@grafana/runtime';
 import { GrafargRootScope } from 'app/routes/GrafargCtrl';
 
 export class AngularLoader implements AngularLoaderInterface {
